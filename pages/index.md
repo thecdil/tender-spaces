@@ -1,5 +1,5 @@
 ---
-layout: home-infographic
+layout: braided-essay
 title: Home
 permalink: /
 ---

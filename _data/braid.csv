@@ -1,0 +1,11 @@
+step,col1-style,col1-content,col2-style,col2-content,col3-style,col3-content
+step1,col-md-2,,col-md-8,sec1,col-md-2,coll025
+step2,col-md-2,,col-md-8,sec2,col-md-2,coll017
+step3,col-md-1,,col-md-4,sec3,col-md-6,coll023
+step4,col-md-2,,col-md-8,sec4,col-md-2,coll018
+step5,col-md-2,,col-md-8,sec5,col-md-2,coll020
+step6,d-none,,col-12 bg-dark text-white,sec6,d-none,
+step7,col-md-4,,col-md-6,sec7,col-md-2,coll022
+step8,col-md-2,,col-md-6,sec8,col-md-4,coll019
+step9,col-md-2,,col-md-8,sec9,col-md-2,coll024
+step10,,,col-md-6,sec10,col-md-6,coll021

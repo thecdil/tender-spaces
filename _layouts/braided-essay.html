@@ -1,0 +1,20 @@
+---
+# Braided essay layout with three main columns expanding and contracting throughout descent
+layout: page
+custom-foot: js/braid-js.html;<script src="https://unpkg.com/scrollama"></script>
+
+---
+
+{% for s in site.data.braid %}
+<div class="row" id="{{s.step}}">
+    <div class="{{s.col1-style}}" id="col1">
+       {% if s.col1-content %}{% include feature/video.html objectid=s.col1-content %}{% endif %}
+    </div>
+    <div class="{{s.col2-style}}" id="col2">
+        {% if s.col2-content %}{% assign section = site.essay | where:"objectid", s.col2-content %}{{ section[0] | markdownify }}{% endif %}
+    </div>
+    <div class="{{s.col3-style}}" id="col2">
+        {% if s.col3-content %}{% include feature/image.html objectid=s.col3-content %}{% endif %}
+    </div>
+</div>
+{% endfor %}

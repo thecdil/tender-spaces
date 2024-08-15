@@ -1,0 +1,33 @@
+---
+title: Section 7
+objectid: sec7
+---
+In her essay “Venus in Two Acts,” theorist Saidiya Hartman writes about the ways in which the archives of the American slave trade are populated by stories written by captors. Narratives written by captive Africans are few and far between, and not one known narrative of a captive African woman has survived to this point. Hartman explores the appeal as well as the danger of reconstructing those lost narratives. She writes: “The loss of stories sharpens the hunger for them. So it is tempting to fill in the gaps and to provide closure where there is none. To create a space for mourning where it is prohibited. To fabricate a witness to a death not much noticed” (8). Hartman asks how such a story might be reconstructed while still recognizing that those details are lost to history.  Her questions parallel the questions I want to ask, about the erasure of queer experiences. I count myself as lucky to have my cousin’s direct account of her life, but I am keenly aware of her age, her fallible memory, and the number of similar stories that have been lost. 
+
+Hartmann writes: “And what do stories afford anyway? A way of living in the world in the aftermath of catastrophe and devastation? A home in the world for the mutilated and violated self? For whom—for us or for them?” (3) I continuously ask myself what my own motivations are in piecing my research together. Many people have asked me how I connect to this story, and I don’t yet have an answer. I recognize my bias; I am looking for a narrative that confirms my understanding of the injustices that queer people have been dealt.  On the surface, Gaëtane’s story is clear, but the deeper I dig, the more complex it becomes. Whose version of events is the most reliable?  Do I need to find official confirmation of her story?  Is it possible to define something by its absence, by the histories that are never written down?
+
+In his essay “Gesture, Ephemera, and Queer Feeling”,_ _José Esteban Muñoz explores the relationship between queerness and the rigid frameworks of heterosexuality. Queer identities and culture, Muñoz argues, have long been documented, not in hard-bound historical documents, but in ephemera. This ephemera – rumor, gesture, implication – asks us to look for it, to read the world through a queer lens. This is not to minimize the truth in queer identities, but to understand that there is no objectivity in sexuality in the first place. While expressions of queer identity had to be coded and creatively approached for the safety of any queer person, this practice also highlights the inevitable fluidity of human experience. Muñoz writes:
+
+
+    Queerness has an especially vexed relationship to evidence. Historically, evidence of queerness has been used to penalize and discipline queer desires, connections, and acts. When the historian of queer experience attempts to document a queer past, there is often a gatekeeper, representing a straight present, who will labor to invalidate the historical fact of queer lives present, past, and future. Queerness is rarely complemented by evidence, or at least by traditional understandings of the term (65).
+
+
+While I can trust my cousin to be the expert of her own experience, in the archives her treatment is only alluded to, as is the case for many people in her circumstance. Her queerness is one that has been recorded only in her experience, in her daily life, which, as Muñoz explains, is impossible to prove unless one trusts that it is there.
+
+In his essay “Bad Archives,” Paul Soulellis explores the ways that marginalized communities must keep and manage documentation of their own histories. Often, archives necessarily arise outside of official spaces, and are compiled and managed by members of those marginalized communities themselves. Soulellis names these “bad archives” - collections that give members of these groups the authority to tell their own stories, away from the intrusions or dismissals of mainstream society.  Soulellis writes:
+
+
+    These “bad archives” take form lovingly and messily in private homes, in basements, in closets, in storerooms, and during protest, resulting in dead-end hand-coded web pages, unorganized folders and boxes, YouTube playlists, and other media collections that live beyond the sanitized logic of the institution. These are sometimes unsearchable archives that are cared for by stewards who personally invest time and energy in the survival of queer life, desperately protecting their collections under precarious conditions while maintaining access for the communities they serve (Soulellis, 181-182).
+
+In this sense, Gaëtane’s own version of events will differ from the official records. While she is engaging with her history from the perspective of a queer person who survived institutional violence, the hospital records, were they found, would document a young woman whose mind was in some ways maladaptive, and in need of correction.
+
+**~**
+
+        	Of course, queer people and psychiatrists are not mutually exclusive. Many psychiatrists were instrumental in moving the social needle towards broader acceptance of homosexuality as a natural reality, as well as in advocating to remove homosexuality itself as a pathology listed in the DSM. One such activist was a psychiatrist named Emery Hetrick. Hetrick, a gay man himself, formed an organization called the Institute for the Protection of Lesbian and Gay Youth in 1979, after learning of an incident where a gay teenager had been punished and removed from his housing after being the victim, not the perpetrator, of a gang-rape (American Psychiatry, 183). In her profile of Hetrick in _American Psychiatry and Homosexuality,_ Joyce Hunter writes:
+
+
+    At that time, despite some social progress, many religious groups and people who had political influence continued to view homosexuality with fear and hatred. Still an issue today, society’s negative attitudes towards homosexuality create special problems for LGBT youth, including shame and alienation, disruption of family ties, and isolation from peers. We knew there were many LGBT youth experiencing physical abuse, who were running away and who were homeless. Some were surviving through involvement in sex work. Unware of any possible available social services–and often afraid of the consequences of disclosure–many young LGBT adolescents were discouraged from seeking the help they needed (American Psychiatry, 184).
+
+I wonder what would have been different, if Gaëtane and Ruth Simkin had been adolescents ten, fifteen years later than they were.  If these resources had been available, if one doctor told them that nothing about them was broken.
+
+~
