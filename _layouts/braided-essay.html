@@ -1,10 +1,7 @@
 ---
 # Braided essay layout with three main columns expanding and contracting throughout descent
 layout: page
-custom-foot: js/braid-js.html;<script src="https://unpkg.com/scrollama"></script>
-
 ---
-
 {% for s in site.data.braid %}
 <div class="row" id="{{s.step}}">
     <div class="{{s.col1-style}}" id="col1">

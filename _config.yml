@@ -76,4 +76,12 @@ sass:
 
 
 collections:
-  - essay
+  essay:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "essay"
+    values:
+      layout: "page-narrow"
