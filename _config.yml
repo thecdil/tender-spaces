@@ -84,4 +84,4 @@ defaults:
       path: ""
       type: "essay"
     values:
-      layout: "page-narrow"
+      layout: "essay-section"

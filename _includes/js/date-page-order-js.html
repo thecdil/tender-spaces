@@ -1,0 +1,85 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Fetch the sitemap JSON
+        fetch('/sitemap.json')
+            .then(response => response.json())
+            .then(data => {
+                // Get the list of pages from the JSON
+                const pages = Object.keys(data);
+    
+                // Generate a seed based on the current date
+                const date = new Date();
+                const seed = date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+    
+                // Shuffle the pages using a seeded random function
+                const shuffledPages = shuffleArray(pages, seed);
+    
+                // Get the current page URL
+                const currentPage = window.location.pathname;
+    
+                // Find the index of the current page in the shuffled list
+                const currentIndex = shuffledPages.indexOf(currentPage);
+    
+                // Calculate the next and previous page indices (loop around)
+                const nextIndex = (currentIndex + 1) % shuffledPages.length;
+                const previousIndex = (currentIndex - 1 + shuffledPages.length) % shuffledPages.length;
+    
+                // Get the next and previous page URLs
+                const nextPage = shuffledPages[nextIndex];
+                const previousPage = shuffledPages[previousIndex];
+    
+                // Create and insert navigation buttons
+                const navContainer = document.createElement("div");
+                navContainer.className = "page-navigation";
+    
+                const prevButton = document.createElement("a");
+                prevButton.className ="previous btn btn-lg btn-dark"
+                prevButton.href = previousPage;
+                prevButton.innerText = "«";
+                navContainer.appendChild(prevButton);
+    
+                const nextButton = document.createElement("a");
+                nextButton.className ="next btn btn-lg btn-dark"
+                nextButton.href = nextPage;
+                nextButton.innerText = "»";
+                navContainer.appendChild(nextButton);
+    
+                document.body.appendChild(navContainer);
+                // Add keyboard navigation for left and right arrow keys
+            document.addEventListener("keydown", function(event) {
+                if (event.key === "ArrowRight") {
+                    // Right arrow key: Go to the next page
+                    document.querySelector(".next").click();
+                } else if (event.key === "ArrowLeft") {
+                    // Left arrow key: Go to the previous page
+                    document.querySelector(".previous").click();
+                }
+            });
+            
+            });
+    
+        // Function to shuffle the array based on a seed
+        function shuffleArray(array, seed) {
+            let m = array.length, t, i;
+    
+            // Seeded random number generator
+            function random() {
+                const x = Math.sin(seed++) * 10000;
+                return x - Math.floor(x);
+            }
+    
+            // While there remain elements to shuffle…
+            while (m) {
+                // Pick a remaining element…
+                i = Math.floor(random() * m--);
+    
+                // And swap it with the current element.
+                t = array[m];
+                array[m] = array[i];
+                array[i] = t;
+            }
+    
+            return array;
+        }
+    });
+    </script>
