@@ -1,17 +1,31 @@
-
+---
+title: All
+objectid: sec1
+---
 Mas Lombard faces the city of Nîmes on one side, faces a potato field on the other, although neither can be seen from the property; a line of poplar trees stands to the East, clusters of fruit trees hide the city to the West. An old stone wall is hidden under madeira ivy and passion flower vines. They creep up the sides of the house, lacing through the iron grilles of the upstairs windows. In the summer, meals are taken in the courtyard, and a dense Bourbon rose is trained above the tables, extending the shade of the house.
 
+{% include feature/video.html objectid="coll072" %}
+
 Gaëtane and Hélène had been together for three years when they bought the Mas. The roof needed to be replaced, and the windows, and the plaster siding had crumbled in patches, exposing the stone structure underneath. The barn, which had been appropriated by the French Army to house Laotian workers during World War I, was badly in need of repair. A map of Laos was still faintly visible, painted up to the roofbeams on the South wall.
+
+{% include feature/video.html objectid="coll072" width="50" %}
+
 
 I am in town for five days, on my way to a writing workshop, and I am using the trip to Europe to visit my French cousin and her wife for the first time in my adult life. They collect me at the train station, and we take a harrowing drive through the narrow streets of Nîmes before suddenly hinging onto a gravel road and pulling up to their gate. Gaëtane is eager to walk me around the property. She shows me the fruit trees - plum, apricot, apple, pear, fig, olive - and her little garden, tutting in disappointment at her blighted potatoes. Their dog, Témis, bounds alongside us, a manic Doberman puppy, already stronger than each of his elderly owners.
 
 Inside their kitchen, a pot of what looks to be apricot jam cools on the stove - it will remain there for the duration of my visit. A cluster of uncorked bottles of wine sits on the counter. That night, Hélène will sniff each one cautiously, unsure which had been opened the night before, and which had been there for weeks. Through to the living room, a baby grand barely clears the doorframe. On top of it, a carved jade ship, maybe a meter long and half as high, gathers dust next to a pile of mail and keys and dog treats. Gaëtane’s paintings hang on every wall.
 
+{% include feature/video.html objectid="coll077" width="25" %}
+
+
 My only other visit here had been when I was thirteen years old, and there was so much catching up to do. As a teenager, I was hungry for examples of queerness in the world. During that first visit, I wanted to watch Gaëtane and Hélène just exist in their home, as remarkable or mundane as it was at any moment. I wanted to see them hold hands, to watch them interact with shopkeepers, to meet the friends they had over for Sunday lunch. But our stay was brief, and I could not yet articulate what it was that drew me to them.
+
+{% include feature/video.html objectid="coll077" width="75" subtitles=true %}
+
 
 A few days after I arrive, we are drinking coffee in the courtyard.  It is unceremonious, the way Gaëtane tells me about Chestnut Lodge. _I was sent to a psychiatric hospital for ten months when I was eighteen, for being a lesbian,_ she told me. _Mais je faisais toutes sortes de bêtises. _I must look shocked. This is a part of her history I had never known, that my mother never mentioned. What kind of _bêtises, _what kind of antics would merit almost a year in a psychiatric facility?
 
-~
+{% include feature/video-side-transcript.html objectid="coll077" width="75" subtitles=true %}
 
 I grew up in a world that was opening up to queerness. Gay marriage was legalized in Canada the year I graduated high school, but my mother, a minister, had been performing the ceremonies for years.  As a teenager, I felt at once safe enough to be queer, and aware of the obstacles that queer people faced in the world. I learned about Oscar Wilde, imprisoned for indecency, about Harvey Milk’s assassination. I remember the death of Matthew Shepherd, watched Boys Don’t Cry and learned about the murder of Brandon Teena. There was a kind of absolute violence - the indisputable kind mapped by prison sentences and gunshot wounds - that I understood to be part of my world.
 

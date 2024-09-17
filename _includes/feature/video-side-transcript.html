@@ -41,7 +41,8 @@
 {%- else -%}
     {% assign video_src = raw_src | relative_url %}
 {%- endif -%}
-<div class="text-center my-4">
+<div class="text-center my-4 row">
+    <div class="col-9">
     <figure class="mx-auto{% if include.width %} feature-w-{{ include.width }}{% endif %}">
         <div class="ratio ratio-{{ include.ratio | default: '16x9' }}">
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
@@ -50,14 +51,7 @@
             <video width="320" height="240" controls>
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
-                {% if include.subtitles %}
-                <track
-                label="English"
-                kind="subtitles"
-                srclang="en"
-                src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}"
-                default />
-                {% endif %}
+                
             </video>
             {%- endif -%}
         </div>
@@ -67,4 +61,13 @@
         </figcaption>
         {% endunless %}
     </figure>
+</div>
+<div class="col-3" stlye="height:auto">
+    {% if include.subtitles %}
+    {% capture subtitles%}{% include captions/{{include.objectid}}.md %}{% endcapture %}
+    <h3 style="overflow-y:scroll;">
+        {{ subtitles | markdownify }}
+    </h3>
+    {% endif %}
+</div>
 </div>
