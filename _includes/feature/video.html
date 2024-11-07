@@ -47,11 +47,11 @@
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
             <iframe title="video embed {{ video_caption | escape }}" src="{{ video_src }}" allowfullscreen></iframe>
             {% else %}
-            <video width="320" height="240" controls>
+            <video width="320" height="240" controls preload="metadata">
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
                 {% if include.subtitles %}
-                <track label="{%if include.srclang == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{include.srclang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}" default />{% endif %}
+                <track label="{%if include.srclang == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{include.srclang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}" />{% endif %}
                 {% if include.translation %}
                 <track label="English" kind="subtitles" srclang="{{include.translang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' }}" default />{% endif %}
             </video>
