@@ -51,13 +51,9 @@
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
                 {% if include.subtitles %}
-                <track
-                label="English"
-                kind="subtitles"
-                srclang="en"
-                src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}"
-                default />
-                {% endif %}
+                <track label="{%if include.srclang == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{include.srclang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}" default />{% endif %}
+                {% if include.translation %}
+                <track label="English" kind="subtitles" srclang="{{include.translang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' }}" default />{% endif %}
             </video>
             {%- endif -%}
         </div>

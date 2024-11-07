@@ -3,6 +3,7 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 .page-navigation {
+    display: none;
     a { 
         position: absolute;
         top:500px;

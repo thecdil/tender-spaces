@@ -2,14 +2,18 @@
 title: Section 3
 objectid: sec3
 ---
-While religious moral conventions had condemned homosexuality as sinful since the first millennium AD, the idea of deeming homosexuality to be a pathological condition was advanced by Richard von Krafft-Ebbing in the late 1800's. Krafft-Ebbing, a Darwinian psychiatrist, considered homosexuality to be a form of psychopathology, a disease that worked against the interests of reproduction. In his essay "Queer Diagnoses Revisited," Jack Drescher writes:
 
-> The now-discredited degeneracy theory that informed Krafft-Ebing's approach was nevertheless influential in disseminating among medical and scientific communities both the term 'homosexual' as well as the conceptualization of homosexuality as a psychiatric disorder. In an ironic twist of the modern 'born gay' theory, Krafft-Ebing believed that although one might be born with a homosexual predisposition, such inclinations should be considered a congenital disease (Queer Diagnoses, 386).
 
-While many psychiatrists in the century that followed had differing views on why humans exhibited a range of sexual interests, the notion of homo- or bisexuality as a pathology to be cured had gained a foothold in psychiatric discourse. Aside from the notable exception of Sigmund Freud, who wrote: "Homosexuality is assuredly no advantage, but it is nothing to be ashamed of, no vice, no degradation; it cannot be classified as an illness; we consider it to be a variation of the sexual function, produced by a certain arrest of sexual development" (Freud), homosexuality in the 19th and early 20th century was characterized as a mental illness and a medical aberration.
+{:.fs-4 .fst-italic .mb-5}
+*Oh, Mother thinks its artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  
+    *– Little Edie*  
 
-In this formative era of psychiatric practice, much effort was put into uncovering the root cause of homosexuality. This, of course, was informed by the central idea of homosexuality as an identifiable error in the human composition. Havelock Ellis and John Raymond Symmons published a book called "Sexual Inversion," which forwarded the notion that homosexuality was a congenital condition rooted in evolutionary variance.
+The first time I saw Fiona’s house, I was thirteen. She insisted on meeting us at the gate. When my mother asked to see inside, she refused. The house is a mess, I think she said, or, we’re in a hurry.  
 
-> Specifically, he argued that sexual inversion could be compared to color blindness… and to instinctive criminality…Humans had been born with a congenital, naturally varying physiological response to sensory input… For the sexual invert, the person was born with a tumescent response to the sights, sounds, and smells normally reserved for the other sex (Alaniz, 19).
+Fiona’s house reminds me of my grandmother’s, though it is 450 years older, and on the other side of the Atlantic Ocean. Both sisters have since died – Fiona outlived my grandmother by five years – and both left behind houses full of dust, old magazines, broken things and cat shit.  
 
-This line of thought set the psychiatric field up for a grim era of experimentation. Testing the alteration of hormones and the physical body itself, practitioners and theorists attempted to trace the evolutionary characteristics that determined a person's sexual orientation, with the goal of reversing this supposed defect.
+At my grandmother’s house, the basement was always full of cat shit. They started going down there once their litter boxes were full, and their litter boxes stayed full for quite some time. The junk room was piled up to the windows with boxes of jam, which had stopped selling long before the business folded, but would keep for years to come. Every morning when the Gazette arrived, my grandmother would cut out the crossword and file it into a shoebox for later. These boxes lined the dining room walls; she finished only two a week, with my uncle’s help.  
+
+When my grandmother was still driving, she used to sway between highway lanes, always taking the shortest path around the curves to save gas. She wrote down gas prices on a flip pad that she stored in the console of her minivan, always recording how much she had spent, at what cost per liter. She ate food long after it went bad \- my mother speculated that her taste buds had stopped working before I was born. We did all we could to avoid her cooking. She would serve moldy casserole, stale bread, frostbitten vegetables, limp greens. I once saw her drop an egg on the floor, bend over, and scoop it back into the shell before dropping it into her frying pan. 
+
+Dot, her mother, had been a millionaire.  

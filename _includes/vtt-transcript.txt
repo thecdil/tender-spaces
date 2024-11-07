@@ -1,0 +1,5 @@
+{% for line in site.data.trans[page.data] %}
+{{forloop.index}}
+{{line.start-time}}0 --> {{line.end-time}}0
+{{speaker-name | upcase}}: {{ line.text }}
+{% endfor %}

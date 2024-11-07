@@ -1,5 +1,5 @@
 ---
-layout: braided-essay
+layout: home
 title: Home
 permalink: /
 ---
