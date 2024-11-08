@@ -1,5 +1,0 @@
----
-data: coll029
----
-WEBVTT 
-{% include vtt-transcript.txt %}

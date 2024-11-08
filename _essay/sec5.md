@@ -8,7 +8,7 @@ My mother just calls it St. Margaret’s Home. The word *incurable* had long bee
 
 It had fallen out of common use, too absolute to contain hope for the future of anyone saddled with such a bleak diagnosis. The word was replaced by more specific language denoting chronic illness and palliative care, accounting for an increasingly precise medical landscape.  
 
-{% include feature/image.html objectid="coll094" %}
+{% include feature/image.html objectid="gae094" %}
 
 The facility, which was by Dot’s era a home for women alone, was administered by the Sisterhood of Saint Margaret, and Dot was the president of the board.  In her position, she introduced a medical advisor for the residents, as well as a regular physician, Dr. Bayne, who was a pioneer of geriatric medicine in Canada.  She modernized the building, arranged for the installation of an elevator, the construction of a proper kitchen and dining room.   
 

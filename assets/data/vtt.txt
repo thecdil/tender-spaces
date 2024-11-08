@@ -1,0 +1,12 @@
+---
+title: VTTs
+---
+{% for s in site.data[site.metadata]%}{% if s.display_template == "video" %}
+data: {{s.objectid}}
+---
+
+WEBVTT 
+{% raw %}{% include vtt-transcript.txt %}
+
+## Next{% endraw %}
+{% endif %}{% endfor %}
