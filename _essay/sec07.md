@@ -1,6 +1,10 @@
 ---
-title: Section 7
-objectid: sec7
+content-width: 6
+content-indent:
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
 There is a painting in the family of Dot’s oldest three children, in winter coats, toques and mittens, in the snow.  They look serene, my grandmother’s arms are around her sister and brother, looking every bit the attentive eldest.  If we can assume love in a family, I see it there, in that painting, perhaps even in the fact of that painting, which my great-grandmother commissioned, as something to mark this moment in her children’s lives, something concrete that she could offer them, in place of a tenderness that challenged, maybe evaded her. They look like ghost children, the three of them, emerging in soft colors, an indistinct forest in the background.  
 

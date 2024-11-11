@@ -1,6 +1,10 @@
 ---
-title: Section 5
-objectid: sec5
+content-width:
+content-indent:
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
 
 My mother just calls it St. Margaret’s Home. The word *incurable* had long been removed from the name.<span class="aside">“What is meant by Incurable? A disease called incurable in one generation, is curable in the next. A disease incurable by one man, is curable by another. A disease called curable, ends in a painful death; a disease called incurable, is borne with little suffering through a long life, and after all is not the cause of death”.<br><br>

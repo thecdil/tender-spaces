@@ -1,8 +1,11 @@
 ---
-title: Section 3
-objectid: sec3b
+content-width:
+content-indent:
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
-
 
 The first time I saw Fiona’s house, I was thirteen. She insisted on meeting us at the gate. When my mother asked to see inside, she refused. The house is a mess, I think she said, or, we’re in a hurry.  
 

@@ -1,6 +1,10 @@
 ---
-title: Section 4
-objectid: sec4s
+content-width:
+content-indent:
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
 
 I can’t write about Gaëtane without writing about our family, and I can’t write about our family without thinking about Grey Gardens. In some ways, it’s an unfair comparison, although perhaps if Little Edie had had children, they would have been grounded and capable, as both my mother and Gaëtane grew up to be. But there is no question that ours is a family that has subsisted on delusions of grandeur.  

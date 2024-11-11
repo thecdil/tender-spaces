@@ -1,6 +1,10 @@
 ---
-title: Section 3
-objectid: sec3
+content-width:
+content-indent:
+background-color:
+text-color: 2
+text-size:
+additional-content-styles:
 ---
 
 *Oh, Mother thinks its artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  

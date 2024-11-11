@@ -1,6 +1,10 @@
 ---
-title: Section 9
-objectid: sec9
+content-width: 8
+content-indent:
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
 
 *But you see in dealing with me, the relatives didn't know that they were dealing with a staunch character and I tell you if there's anything worse than dealing with a staunch woman... S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.*  

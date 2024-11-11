@@ -1,6 +1,10 @@
 ---
-title: Section 2
-objectid: sec2
+content-width: 5
+content-indent: 3
+background-color:
+text-color:
+text-size:
+additional-content-styles:
 ---
 
 Everything is hidden between hills and olive trees, behind the chipped stones of a railway trestle, behind the rusted iron of a gate. The mas sprawls, it has become part of the landscape, despite the spear-pointed fence, or the crumbling mouth of an outdoor bread oven. Gaëtane asks us to watch for snails as we cross through the yard. Our eyes focus \- they are three to a blade of grass, little gray shells dotting the brambles under our feet. We tiptoe through the weeds.   

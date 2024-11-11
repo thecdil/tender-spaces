@@ -1,0 +1,19 @@
+---
+layout: braided-essay-frontmatter
+title: Gay Gardens
+author: Alicia Gladman
+permalink: /essay/frontmatter.html
+collectionid: essay
+---
+
+{% for s in site[page.collectionid] %}
+<div class="row step" id="step{{forloop.index0}}" >
+   
+    <div class="{% if s.content-width %}col-md-{{s.content-width}} {% else %}essay-main {% endif %}{% if s.content-indent %}offset-md-{{s.content-indent}} {% endif %}{% if s.text-size %}fs-{{s.text-size}} {% endif %}{{s.additional-content-styles }}">
+        {% if s.objectid %}{% assign item = site.data[site.metadata] | where: 'objectid', s.objectid | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}{% include {{displayfeature}} objectid=item.objectid %}{% else %}
+        {% if s.header %}<h2>{{ s.header }}</h2>{% endif %}
+        {{ s.content | markdownify }}{% endif %}
+    </div>
+    
+</div>
+{% endfor %}
