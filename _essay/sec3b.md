@@ -1,12 +1,8 @@
 ---
 title: Section 3
-objectid: sec3
+objectid: sec3b
 ---
 
-
-{:.fs-4 .fst-italic .mb-5}
-*Oh, Mother thinks its artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  
-    *– Little Edie*  
 
 The first time I saw Fiona’s house, I was thirteen. She insisted on meeting us at the gate. When my mother asked to see inside, she refused. The house is a mess, I think she said, or, we’re in a hurry.  
 

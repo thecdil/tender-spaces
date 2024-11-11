@@ -1,11 +1,14 @@
-step,bg-color,text-color,colmain-style,colmain-content,colside-style,colside-content
-0,,,essay-main fs-4,sec1,col-md-2,coll025
-1,,,offset-md-3 col-md-5,sec2,col-md-2,coll017
-2,,,,sec3,col-md-6,coll023
-3,,,,sec4,col-md-2,coll018
-4,,,col-md-8,sec5,col-md-2,coll020
-5,#212529,,col-12 bg-dark text-white,sec6,d-none,
-6,white,,col-md-6,sec7,col-md-2,coll022
-7,,,col-md-6,sec8,col-md-4,coll019
-8,,,col-md-8,sec9,col-md-2,coll024
-9,,,col-md-6,sec10,col-md-6,coll021
+main-content,content-width,content-indent,background-color,text-color,text-size,additional-content-styles
+sec1,,,,,4,
+sec2,5,3,,,,
+gae010,8,2,#195a82,white,,
+sec3a,,,,,2,
+sec3b,,,,,,
+sec4,,,,,,
+sec5,,,,,,
+sec6,12,,#212529,white,,
+sec7,6,,,,,
+sec8,6,,,,,
+sec9,8,,,,,
+gae079,12,,#212529,white,,
+sec10,6,,,,,
