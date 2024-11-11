@@ -50,10 +50,10 @@
             <video width="320" height="240" controls preload="metadata">
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
-                {% if include.subtitles %}
-                <track label="{%if include.srclang == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{include.srclang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}" />{% endif %}
-                {% if include.translation %}
-                <track label="English" kind="subtitles" srclang="{{include.translang }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' }}" default />{% endif %}
+                {% if item.transcript %}
+                <track label="{%if item.transcript == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{item.transcript }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' }}" />{% endif %}
+                {% if item.translation %}
+                <track label="English" kind="subtitles" srclang="{{ item.translation }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' }}" default />{% endif %}
             </video>
             {%- endif -%}
         </div>

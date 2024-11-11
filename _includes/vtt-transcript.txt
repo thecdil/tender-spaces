@@ -1,5 +1,5 @@
 {% for line in site.data.trans[page.data] %}
 {{forloop.index}}
 {{line.start-time}}0 --> {{line.end-time}}0
-{%if line.speaker-name%}<em>{{line.speaker-name }}</em>: {% endif %}{{ line.translation }}
+{%if line.speaker-name%}<em>{{line.speaker-name }}</em>: {% endif %}{{ line.text }}
 {% endfor %}
