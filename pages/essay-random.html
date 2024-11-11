@@ -1,0 +1,16 @@
+---
+layout: braided-essay-random
+title: Gay Gardens
+author: Alicia Gladman
+permalink: /essay/random.html
+---
+
+
+{% for s in site.data.braid-random %}
+<div class="row step" id="step{{forloop.index0}}" >
+   
+        {% if s.main-content contains "gae"%}{% assign item = site.data[site.metadata] | where: 'objectid', s.main-content | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}{% include {{displayfeature}} objectid=item.objectid %}{% else %}{% assign section = site.essay | where:"objectid", s.main-content %}{{ section[0] | markdownify }}{% endif %}
+   
+    
+</div>
+{% endfor %}
