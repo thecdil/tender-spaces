@@ -1,0 +1,2 @@
+<div class="row step {% if include.text-size %}fs-{{include.text-size}}{% endif %}" data-id="step" {% if include.background-color %}data-background-color="{{ include.background-color }}" {% endif %}style="{% if include.text-color %}color:{{ include.text-color }}{% endif %};" >
+<div class="{{include.style | default: 'essay-main' }}" markdown="1">

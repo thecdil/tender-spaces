@@ -1,0 +1,4 @@
+<div class="{% if content-width %}col-md-{{content-width}} {% else %}essay-main {% endif %}{% if content-indent %}offset-md-{{content-indent}} {% endif %}{% if text-size %}fs-{{text-size}} {% endif %}{{additional-content-styles }}">
+{% if header %}<h2 class="my-3">{{ header }}</h2>{% endif %}
+{% if objectid %}{% assign item = site.data[site.metadata] | where: 'objectid', objectid | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}
+{% include {{displayfeature}} objectid=item.objectid %}{% endif %}

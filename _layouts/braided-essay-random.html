@@ -55,18 +55,20 @@ layout: page
         if (stepIndex == 0) {
             document.body.style.backgroundColor = "white";
             response.element.style.color = "black";
-    } {% for s in site.data.braid %} else if (stepIndex == {{forloop.index0}}) {
-        var randomColumnNumber = Math.floor(Math.random() * (12 - 3 + 1)) + 3;
+    } {% for s in site.data.braid-random %} else if (stepIndex == {{forloop.index0}}) {
+       
+        var randomColumnNumber = Math.floor(Math.random() * (10 - 3 + 1)) + 3;
 
-                // Get a random color and its corresponding text color
-                const { color, textColor } = getRandomColorWithText();
+        // Get a random color and its corresponding text color
+        const { color, textColor } = getRandomColorWithText();
 
-                // Apply the background color and text color
-                document.body.style.backgroundColor = color;
-                response.element.style.color = textColor;
+        // Apply the background color and text color
+        document.body.style.backgroundColor = color;
+        response.element.style.color = textColor;
+        response.element.classList.remove("essay-main");
 
-                response.element.classList.add("col-md-" + randomColumnNumber);
-                console.log("Random column number:", randomColumnNumber);
+        response.element.classList.add("col-md-" + randomColumnNumber);
+        console.log("Random column number:", randomColumnNumber);
 
     }{% endfor %} else {
         
@@ -86,10 +88,11 @@ layout: page
     
     // Initialize scrollama and set up event listeners
     function init() {
-        /*step.forEach(function(step) {
+        step.forEach(function(step) {
+            step.dat
             var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
             step.style.padding = v + "px 0px";
-        });*/
+        });
     
         scroller
             .setup({

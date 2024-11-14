@@ -4,9 +4,12 @@ layout: page
 ---
 <h1 class="mt-5 essay-main">{{page.title}}</h1>
 {% if page.author %}<p class="fs-4 mt-3 ps-5 essay-main fst-italic">by {{page.author}}</p>{% endif %}
-    
 {{content}}
-</div></div>
+<div class="row step d-none" data-id="step" >
+    <div class="{{include.style | default: 'essay-main' }}" markdown="1">
+        <p>This is the end. </p>
+    </div>
+</div>
 <script>
 // Get all divs with data-id="step"
 const steps = document.querySelectorAll('div[data-id="step"]');
@@ -64,6 +67,16 @@ steps.forEach((element, index) => {
         // Add fade-in effect to the current step
         response.element.classList.add("fade-in");
 
+        // Check if the element has the data-background-color attribute
+        const bgColor = response.element.getAttribute("data-background-color");
+        if (bgColor) {
+            // If it exists, change the body background color
+            document.body.style.backgroundColor = bgColor;
+            console.log('colorchange');
+        } else {
+            document.body.style.backgroundColor = "white";
+        }
+
         // Apply specific styles for even steps
         if (stepIndex == 0) {
             document.body.style.backgroundColor = "white";
@@ -84,10 +97,18 @@ steps.forEach((element, index) => {
     
     // Initialize scrollama and set up event listeners
     function init() {
-        /*step.forEach(function(step) {
+        step.forEach(function(step) {
             var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
             step.style.padding = v + "px 0px";
-        });*/
+            var bgColor = step.getAttribute("data-background-color");
+           
+           if (bgColor) {
+               // If it exists, change the body background color
+               document.body.style.backgroundColor = bgColor;
+           } else 
+           { document.body.style.backgroundColor = "white";}
+
+        });
     
         scroller
             .setup({
