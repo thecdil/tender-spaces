@@ -14,7 +14,8 @@ additional-content-styles:
 
 *Dear Mummy, I haven’t written to you for so long because I’ve been absolutely seething about this whole business.  Your last letter is full of the advice that people have been giving and I know that you always need somebody to tell you what to do so I’ll tell you what I think.*
 
-\-Fiona Millar, 1971<span class="aside">"I don't blame them, I don't blame them. Even my mother... I don't, I don't have any... Any bitterness or resentment towards my mother. My mother, she did what she could, within the limits of what she had."</span>
+\-Fiona Millar, 1971
+{% include feature/aside.html text="'I don't blame them, I don't blame them. Even my mother... I don't, I don't have any... Any bitterness or resentment towards my mother. My mother, she did what she could, within the limits of what she had.'" %}
 
 
-{% include feature/video.html objectid="gae079" width="100" subtitles=true translation=true srclang="fr" translang="en" %}
+{% include feature/video.html objectid="demo_010" width="100" subtitles=true translation=true srclang="fr" translang="en" %}

@@ -1,18 +1,21 @@
 ---
-layout: braided-essay-full
+layout: essay-scroll
 title: Tender Spaces  
 author: Alicia Gladman
 permalink: /essay/tender-spaces.html 
+featured-image: gae025
 ---
 <div class="row my-4" >
 <div class="essay-main" markdown="1">
+<p> </p>
+{% include essay/new-section.html %}
 *J'aimais les espaces tendres, les verts anglais d'emeraude et de silence, ton odeur, tu illuminais l'air dont je me défends*  
 *et selon mon oreille reste l'espace de tes doigts finissants, à douter et rougir parfois des confiances pales, si étranges, si tendre et rouge de mon enfance.*  
 \-       “Lettre à mon tuteur”, Gaëtane Buttigieg  
 
 
 
-{% include essay/new-section.html  background-color="rebeccapurple"%}   
+{% include essay/new-section.html %}   
 
 
 Mas Lombard faces the city of Nîmes on one side, faces a potato field on the other, although neither can be seen from the property; a line of poplar trees stands to the East, clusters of fruit trees hide the city to the West.  An old stone wall is hidden under madeira ivy and passion flower vines.  They creep up the sides of the house, lacing through the iron grilles of the upstairs windows.  In the summer, meals are taken in the courtyard, and a dense Bourbon rose is trained above the tables, extending the shade of the house.  
@@ -26,14 +29,21 @@ My parents slept in a trailer under the plum trees.  When I return, twenty-odd y
 When I return, the property is much as I remember it, although everything seems to stand at a different angle, to cast a different shadow.  Things have grown, been built, or begun to rot.  Plantain shoots grow through the cracked cement around the pool.  The chickens are now sequestered under the walnut tree, although they strain their heads through the net enclosure, their necks bald from the effort.
 
 
-{% include essay/new-section.html %}  
+{% include essay/new-section.html content-width="4" content-indent="3" background-color="rebeccapurple" text-color="white" font-size="4" additional-content-styles="fst-italic" header="SECTION HEADER"%}  
+
+## Section Header
 
 I am in town for five days, on my way to a writing workshop, and I use the trip to Europe to visit my French cousins for the first time in my adult life.  They collect me at the train station, and we take a harrowing drive through the narrow streets of Nîmes before suddenly hinging onto a gravel road and pulling up to their gate.  Gaëtane is eager to walk me around the property.  She shows me the fruit trees \- plum, apricot, apple, pear, fig, olive \- and her little garden, tutting in disappointment at her blighted potatoes.  Their dog, Temis, bounds alongside us, a manic Doberman puppy, already stronger than each of his elderly owners. 
 
+{% include essay/new-section.html objectid="gae041"%}  
+
 Inside their kitchen, a pot of what looks to be apricot jam cools on the stove \- it will remain there for the duration of my visit.  A cluster of uncorked bottles of wine sits on the counter.  That night, Hélène will sniff each one cautiously, unsure which had been opened the night before, and which had been there for weeks.  Through to the living room, a baby grand barely clears the doorframe.  On top of it, a carved jade ship, maybe a meter long and half as high, gathers dust next to a pile of mail and keys and dog treats.  Gaëtane’s paintings hang on every wall.
 
+ 
 
-{% include essay/new-section.html %}  
+
+
+{% include essay/new-section.html objectid="gae023" %}  
 
 People in my community talk about queer family.   It is what we call our cherished friends, who see us, celebrate us, love us in the way that family should, sometimes a supplement to our own families, sometimes the only one we are left with.  Queerness is not a thing we inherit, and as such, queer families are pieced together, through proximity and shared experience.  Some of my friends have fraught relationships with their blood families, some in the slow process of repair, some severed forever \- for them, a chosen family is a lifeline.  
 
@@ -74,7 +84,7 @@ I find a letter from Chestnut Lodge to Nell.  *She has been doing some shopping 
 
 Gaëtane and Hélène take me to the Mediterranean.  We set up folding chairs on the beach and wade into the water.  Their bathing suits contrast, Hélène’s dark against her white hair, Gaëtane’s light against a dark mop flecked with gray.  I take our picture, and Hélène makes a joke about their old bodies.  Water bombers practice above us, dipping into the ocean one after another and then releasing their contents way out at sea.  Gaëtane paddles out, drifting West with the current, while I stay in the warm shallows, surprised at how salty the water is.  We dry off in the sun, Gaëtane and Hélène holding each other's arms as they dress.  They move together without discussion, anticipating each others’ needs after years of practice.  I see that they are both wearing necklaces that Gaëtane made, wires twisted around green stones. 
 
-{% include essay/new-section.html text-size="3"%}  
+{% include essay/new-section.html font-size="3"%}  
 
 
 I find a letter from her husband to my great-grandmother:  *I would like to dispel any worries you have over the disappearance of Gaëtane.  She will remain with me in hiding until our marriage takes place.  At that time I will become her legal guardian and it is not my intention to permit her to return to Chestnut Lodge.  Regretfully, I cannot sign my name until we feel free from pursuit.*  Then, in a different hand, a curt proof of her presence:  *But I’ll sign mine.  Gaëtane.*

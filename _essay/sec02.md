@@ -3,7 +3,7 @@ content-width: 5
 content-indent: 3
 background-color:
 text-color:
-text-size:
+font-size:
 additional-content-styles:
 ---
 

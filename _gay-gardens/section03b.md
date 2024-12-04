@@ -1,5 +1,5 @@
 ---
-header: Going to Fiona's house
+section-title: Going to Fiona's house
 content-width:
 content-indent:
 background-color:

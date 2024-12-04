@@ -2,8 +2,8 @@
 content-width:
 content-indent:
 background-color:
-text-color: 2
-font-size:
+text-color:
+font-size: 3
 additional-content-styles:
 ---
 

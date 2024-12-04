@@ -1,0 +1,17 @@
+---
+layout: default
+custom-foot: essay/essay-scroll-js.html
+---
+<h1 class="mt-5 essay-main">{{page.title}}</h1>
+{% if page.author %}<p class="fs-4 mt-3 ps-5 essay-main fst-italic">by {{page.author}}</p>{% endif %}
+<div id="scrolly" class="container my-4">
+    <article>
+{{content}}
+<div class="row step d-none" data-id="step" >
+    <div class="{{include.style | default: 'essay-main' }}" markdown="1">
+        <p>This is the end. </p>
+    </div>
+</div>
+    </article>
+</div>
+

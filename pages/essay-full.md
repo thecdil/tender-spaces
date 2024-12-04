@@ -21,7 +21,7 @@ Everything is hidden between hills and olive trees, behind the chipped stones of
 
 Inside the heavy wooden door, light trickles through tall, narrow windows. The walls are laced with spiderwebs and dust. Extension cords hang from the ceiling, coming together through hooks, fanning back out into the light fixtures. The steps are each worn into smooth valleys from five hundred years of footfalls – Gaëtane’s small feet, her mother’s. I imagine Michael, who I never met, climbing the stairs to his crowded bedroom, or higher, to the dovecote, now taken over by wasps, their nests lining the eaves, their hum filling the air.<span class="aside">[A8: Oct 7 ‘71 Fiona to Gran]({{'/objects/18_Jan_17_72_Fiona_to_Gran.pdf' | relative_url }}){:target='blank'}: I have had a very nasty summer and much trouble with Michael who can’t seem to decide what he wants to do. He went off to London two weeks ago to get a job; he wears his hair long and looks like a hippie and of course nobody is going to give him a job… He drives me frantic with his guitar-playing, but I think that his brain is a little altered from taking L.S.D. and it’s bad for him to be alone in London.</span> Up there, pigeonholes look out over the hills, over the highway to Aramon.  
 
-{% include essay/new-section.html background-color="#212529" text-color="blue" text-size="4" style="fst-italic"%}   
+{% include essay/new-section.html background-color="#212529" text-color="blue" font-size="4" style="fst-italic"%}   
 
 *Oh, Mother thinks its artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  
     *– Little Edie*  
