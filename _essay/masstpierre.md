@@ -10,6 +10,15 @@ additional-content-styles:
 custom-foot: essay/essay-scroll-js.html
 ---
 
+
+<div class="row my-4" >
+<div class="" markdown="1">
+
+	
+{% include feature/mini-map.html latitude="43.89958638623873" longitude="4.690182982368774" basemap="Stadia_StamenToner" map-zoom="9"%}
+
+{% include essay/new-section.html %} 
+
 {% include feature/aside.html objectid="gae009"%}
 
 *It’s not fair, Mummy, to buy her a farm at this stage; she won’t be able to live on it all by herself and she’ll be almost forced to stay with that Rosie, who may or may not take drugs but seems to be in a chronically abnormal state.*  

@@ -13,6 +13,18 @@ custom-foot: essay/essay-scroll-js.html
 <div class="row my-4" >
 <div class="essay-main" markdown="1">
 
+{% include feature/mini-map.html latitude="39.08404664373349" longitude="-77.16340878304702" basemap="Stadia_StamenToner" map-zoom="9"%}
+
+
+{% include essay/new-section.html content-width="8" additional-content-styles="text-justify" %}
+
+
+Dear Alicia—
+
+Unfortunately, we believe no records survived from Chestnut Lodge, at least we have never heard of anyone who was able to discover them. When the facility closed, the records either left with the Bullards or were destroyed at that time. Alternately, if for some reason they remained in the building, they would also have been destroyed by the fire.
+
+- Sarah Helund, Archivist/Librarian, Montgomery History 
+
 In turn, this essay is an exploration of the ways that queerness has been pathologized, and a condemnation of a kind of care that is contingent on profit, on status. At moments, it is a reproach of my family, who trusted these doctors to care for my cousin, still a child, in an institution that interfered with something fundamental about who she was. 
 
 There can be violence cloaked in the rhetoric of care. As a teenager, I attended church youth groups that made it clear they would not welcome an openly gay member. Their messages were bound up in the language of benevolence: we want you to be well, we want you to be saved. I was lucky enough to find communities that would embrace me. Others I knew were faced with the choice to stay with their families, to attend therapy with dubiously-trained counselors who undermined their sense of self, or to lose their communities, their housing, their support networks.  
@@ -127,14 +139,7 @@ When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m
 
 - [“Community in shock over fire that destroyed Chestnut Lodge”](https://www.somdnews.com/archives/community-in-shock-over-fire-that-destroyed-chestnut-lodge/article_0fb1df2a-b6dc-5116-a6aa-cf0c04081672.html)
 
-{% include essay/new-section.html content-width="8" additional-content-styles="text-justify" %}
 
-
-Dear Alicia—
-
-Unfortunately, we believe no records survived from Chestnut Lodge, at least we have never heard of anyone who was able to discover them. When the facility closed, the records either left with the Bullards or were destroyed at that time. Alternately, if for some reason they remained in the building, they would also have been destroyed by the fire.
-
-- Sarah Helund, Archivist/Librarian, Montgomery History 
 
 
 {% include essay/new-section.html %}
