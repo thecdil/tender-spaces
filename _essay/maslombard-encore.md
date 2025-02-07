@@ -7,7 +7,10 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
+custom-foot: essay/essay-scroll-js.html
 ---
+<div class="row my-4" >
+<div class="" markdown="1">
 
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 

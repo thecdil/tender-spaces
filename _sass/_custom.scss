@@ -11,3 +11,12 @@ p{
 }
 
 .text-justify  { text-align: justify !important; }
+
+
+video::cue {
+    font-family: "Libre Bodoni ", serif;
+    font-size: 1.04em;
+    line-height: 1.2;
+    padding: 0 0.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
