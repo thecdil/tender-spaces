@@ -18,7 +18,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Gaëtane
+title: Tender Spaces
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: 
 # description appears in meta tags and other locations
@@ -74,14 +74,28 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 sass:
   style: compressed
 
-
 collections:
   essay:
+    sort_by: order
+    output: true
+  gay-gardens:
+    sort_by: order
     output: true
 
 defaults:
-  - scope:
-      path: ""
+  - 
+    scope: 
+      path: "" 
       type: "essay"
     values:
-      layout: "essay-section"
+      layout: "essay-content"
+      permalink: /essay/:slug:output_ext
+  - 
+    scope: 
+      path: "" 
+      type: "gay-gardens"
+    values:
+      layout: "essay-content"
+      permalink: /essay/:slug:output_ext
+
+      

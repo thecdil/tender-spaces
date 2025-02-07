@@ -4,7 +4,22 @@ layout: page
 ---
 <h1 class="mt-5 essay-main">{{page.title}}</h1>
 {% if page.author %}<p class="fs-4 mt-3 ps-5 essay-main fst-italic">by {{page.author}}</p>{% endif %}
-{{content}}
+
+{{ content }}
+
+{% for s in site[page.essay-collection] %}
+<div class="row step" id="step{{forloop.index0}}" >
+   
+    <div class="{% if s.content-width %}col-md-{{s.content-width}} {% else %}essay-main {% endif %}{% if s.content-indent %}offset-md-{{s.content-indent}} {% endif %}{% if s.text-size %}fs-{{s.text-size}} {% endif %}{{s.additional-content-styles }}">
+        {% if s.objectid %}{% assign item = site.data[site.metadata] | where: 'objectid', s.objectid | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}
+        {% if s.header %}<h2 class="my-3">{{ s.header }}</h2>{% endif %}
+        {% include {{displayfeature}} objectid=item.objectid %}{% else %}
+        {% if s.header %}<h2 class="my-3">{{ s.header }}</h2>{% endif %}
+        {{ s.content | markdownify }}{% endif %}
+    </div>
+    
+</div>
+{% endfor %}
 
 <script>
     var scrolly = document.querySelector("#scrolly");
@@ -25,7 +40,7 @@ layout: page
         // Apply specific styles for even steps
         if (stepIndex == 0) {
             
-        } {% for s in site[page.collectionid] %} else if (stepIndex == {{forloop.index0}}) {
+        } {% for s in site[page.essay-collection] %} else if (stepIndex == {{forloop.index0}}) {
             
             {% if s.background-color %}document.body.style.backgroundColor = "{{s.background-color}}";{% else %}
            document.body.style.backgroundColor = "white";{% endif %} 
@@ -54,10 +69,10 @@ layout: page
     
     // Initialize scrollama and set up event listeners
     function init() {
-        /*step.forEach(function(step) {
+        step.forEach(function(step) {
             var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
             step.style.padding = v + "px 0px";
-        });*/
+        });
     
         scroller
             .setup({
@@ -72,4 +87,4 @@ layout: page
     // Kick things off
     init();
     
-    </script>
+</script>

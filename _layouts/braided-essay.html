@@ -5,6 +5,19 @@ layout: page
 <h1 class="mt-5 essay-main">{{page.title}}</h1>
 {% if page.author %}<p class="fs-4 mt-3 ps-5 essay-main fst-italic">by {{page.author}}</p>{% endif %}
 {{content}}
+{% for s in site.data[page.essay-csv] %}
+{% assign item-objectids = site.data[site.metadata] | map: 'objectid' %}
+<div class="row step" id="step{{forloop.index0}}" >
+   
+    <div class="{% if s.content-width %}col-md-{{s.content-width}} {% else %}essay-main {% endif %}{% if s.content-indent %}offset-md-{{s.content-indent}} {% endif %}{% if s.text-size %}fs-{{s.text-size}} {% endif %}{{s.additional-content-styles }}">
+        {% if item-objectids contains s.content %}{% assign item = site.data[site.metadata] | where: 'objectid', s.content | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}{{item.title}}
+        {% if s.header %}<h2 class="my-3">{{ s.header }}</h2>{% endif %}
+        {% include {{displayfeature}} objectid=item.objectid %}{% else %}
+        {% assign path = s.content | prepend: '_essay/' | append: '.md' %}{% assign section = site.essay | where_exp:"item", "item.path == path" %}{{ section[0] | markdownify }}{% endif %}
+    </div>
+    
+</div>
+{% endfor %}
 
 <script>
     var scrolly = document.querySelector("#scrolly");
@@ -25,7 +38,7 @@ layout: page
         // Apply specific styles for even steps
         if (stepIndex == 0) {
             
-        } {% for s in site.data.braid %} else if (stepIndex == {{forloop.index0}}) {
+        } {% for s in site.data[page.essay-csv] %} else if (stepIndex == {{forloop.index0}}) {
             
             {% if s.background-color %}document.body.style.backgroundColor = "{{s.background-color}}";{% else %}
            document.body.style.backgroundColor = "white";{% endif %} 
@@ -54,10 +67,10 @@ layout: page
     
     // Initialize scrollama and set up event listeners
     function init() {
-        /*step.forEach(function(step) {
+        step.forEach(function(step) {
             var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
             step.style.padding = v + "px 0px";
-        });*/
+        });
     
         scroller
             .setup({

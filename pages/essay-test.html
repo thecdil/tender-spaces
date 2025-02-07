@@ -3,14 +3,6 @@ layout: braided-essay
 title: Gay Gardens
 author: Alicia Gladman
 permalink: /essay/test.html
+essay-csv: braid
 ---
 
-{% for s in site.data.braid %}
-<div class="row step" id="step{{forloop.index0}}" >
-   
-    <div class="{% if s.content-width %}col-md-{{s.content-width}} {% else %}essay-main {% endif %}{% if s.content-indent %}offset-md-{{s.content-indent}} {% endif %}{% if s.text-size %}fs-{{s.text-size}} {% endif %}{{s.additional-content-styles }}">
-        {% if s.main-content contains "gae"%}{% assign item = site.data[site.metadata] | where: 'objectid', s.main-content | first %}{% capture displayfeature %}feature/{{item.display_template}}.html{% endcapture %}{% include {{displayfeature}} objectid=item.objectid %}{% else %}{% assign path = s.main-content | prepend: '_essay/' | append: '.md' %}{% assign section = site.essay | where_exp:"item", "item.path == path" %}{{ section[0] | markdownify }}{% endif %}
-    </div>
-    
-</div>
-{% endfor %}

@@ -1,0 +1,75 @@
+---
+# Braided essay layout with three main columns expanding and contracting throughout descent
+layout: page
+---
+<h1 class="mt-5 essay-main">{{page.title}}</h1>
+{% if page.author %}<p class="fs-4 mt-3 ps-5 essay-main fst-italic">by {{page.author}}</p>{% endif %}
+{{content}}
+
+<script>
+    var scrolly = document.querySelector("#scrolly");
+            var article = scrolly.querySelector("article");
+            var step = article.querySelectorAll(".step");
+    
+            // initialize the scrollama
+            var scroller = scrollama();
+    
+        // scrollama event handlers
+    // scrollama event handlers
+    function handleStepEnter(response) {
+        var stepIndex = response.index;
+    
+        // Add fade-in effect to the current step
+        response.element.classList.add("fade-in");
+    
+        // Apply specific styles for even steps
+        if (stepIndex == 0) {
+            
+        } {% for s in site.data.essay-csv %} else if (stepIndex == {{forloop.index0}}) {
+            
+            {% if s.background-color %}document.body.style.backgroundColor = "{{s.background-color}}";{% else %}
+           document.body.style.backgroundColor = "white";{% endif %} 
+
+            {% if s.text-color %}document.body.style.color = "{{s.text-color}}";{% else %}
+            document.body.style.color = "black";{% endif %} 
+
+
+        }{% endfor %}  else {
+    
+    
+            
+        }
+    
+        // Remove fade-out class if it exists
+        response.element.classList.remove("fade-out");
+    }
+    
+    function handleStepExit(response) {
+        // Add fade-out effect to the previous step
+        response.element.classList.add("fade-out");
+        
+        // Remove fade-in class when the step is exited
+        response.element.classList.remove("fade-in");
+    }
+    
+    // Initialize scrollama and set up event listeners
+    function init() {
+        /*step.forEach(function(step) {
+            var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
+            step.style.padding = v + "px 0px";
+        });*/
+    
+        scroller
+            .setup({
+                step: "#scrolly article .step",
+                debug: false,
+                offset: 0.24
+            })
+            .onStepEnter(handleStepEnter)
+            .onStepExit(handleStepExit);
+    }
+    
+    // Kick things off
+    init();
+    
+    </script>

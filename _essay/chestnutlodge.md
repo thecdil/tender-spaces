@@ -1,0 +1,161 @@
+---
+section-title: Chestnut Lodge
+order: 5
+content-width:  
+content-indent: 
+background-color: 
+text-color: 
+font-size:
+additional-content-styles:
+custom-foot: essay/essay-scroll-js.html
+---
+
+<div class="row my-4" >
+<div class="essay-main" markdown="1">
+
+In turn, this essay is an exploration of the ways that queerness has been pathologized, and a condemnation of a kind of care that is contingent on profit, on status. At moments, it is a reproach of my family, who trusted these doctors to care for my cousin, still a child, in an institution that interfered with something fundamental about who she was. 
+
+There can be violence cloaked in the rhetoric of care. As a teenager, I attended church youth groups that made it clear they would not welcome an openly gay member. Their messages were bound up in the language of benevolence: we want you to be well, we want you to be saved. I was lucky enough to find communities that would embrace me. Others I knew were faced with the choice to stay with their families, to attend therapy with dubiously-trained counselors who undermined their sense of self, or to lose their communities, their housing, their support networks.  
+
+I remember the fine line we walked as teenagers. It was a pivotal moment of self-definition – I started shaving my head with Bic razors, I wore crinolines and suspenders to school, I got high in City Park and snuck through the basement window of my girlfriend’s parents house. More than anything, I needed to rewrite myself, over and over again, to find who I was.   
+
+Years later, I worked for an outreach team supporting queer youth. Our clients had mostly lost their families, one way or another, often because of a stubborn divide between who they were, and who their families hoped they would become. They suffered for it, deeply, sometimes fatally. To treat an adolescent like a child is as much a violation as to treat them like an adult. We can no more expedite their growth than we can suppress it.
+
+{% include essay/new-section.html content-width="12" %}
+
+{% include feature/video.html objectid="gae064" subtitles=true translation=true srclang="fr" translang="en" %}
+
+*J'ai fait un rêve, que ma maison était vide. Et qu'il y avait des sortes de choses qui chuchoter. Et je sais maintenant que ma maison, c'était moi, quoi. Il m'avait pris tout ce que j'étais, tout ce que j'avais.[^12]*
+
+- Gaëtane 
+
+
+{% include essay/new-section.html content-width="10" additional-content-styles="text-justify" %}
+
+The subject building, facing north on West Montgomery Avenue, is the original structure and the main building of an 88-acre medical complex. Built as a summer resort hotel, the original site was approximately eight acres. The building is screened by approximately three acres of front lawn landscaped with shrubbery and mature trees, including some of remarkable size.  
+
+​​Chestnut Lodge shows traits common to high-style Second Empire structures: symmetry, central facade towers, mansard roof, wrought iron cresting, windows and doors emphasized by pedimented and architraved entablatures, as well as the pattern variations in its slate roofing and brickwork, turned columns, and incised decoration shared with Eastlake-influenced Queen Anne structures of the time. {% include feature/aside.html objectid="gae107" %}
+
+- Montgomery County Archives 
+
+{% include essay/new-section.html content-width="12" %}
+
+{% include feature/video.html objectid="gae053" subtitles=true translation=true srclang="fr" translang="en" %}
+
+
+*Ils m'ont expliqué que j'étais une adolescente qui faisait un peu n'importe quoi, et qu'il finirait par se faire beaucoup de mal si ça continuait et qu’il fallait me garder et s'occuper de moi jusqu'à ce que cette période soit finie, quoi. J’ai fait une discussion avec l'une des psychiatres. Elle m'a dit Toi, tu n'es pas malade. Parce que moi, j'étais très joyeuse comme personne. Les malades, ils ne vivent pas et survivent. Toi, tu es un peu trop exubérante.*
+
+- Gaëtane, “Trop exuberante” 
+
+{% include essay/new-section.html %}
+*I knew about the so-called 72 hour rule. It’s common knowledge. When you enter the inside of a mental institution you’re in a rather closed society. The inmates cope with it… It was common knowledge. You give them 72 hours, and sometime during that 72 hours they bring in two outside psychiatrists, and then convert the voluntary to the involuntary.*  
+\-[Ray Osheroff](https://rayosheroff.org/people/) 
+
+{% include essay/new-section.html content-width="12" %}
+
+*Gaetane and I were communicating by mail maybe once a month or something, and Gaetane was okay there, she was comfortable enough, and when she was 18 she would leave and come back to the coast.*   
+
+*But she had access to a phone and the patients there couldn't make long-distance calls but she could call me collect, and she called me collect one evening. The hospital had told her that if she tried to discharge herself they’d commit her. That she wasn’t cured, she wasn’t ready for release.*
+
+- Peter Pratchett, Interview (2: 17:15-18:02) {% include feature/aside.html objectid="gae110" %}
+
+
+{% include essay/new-section.html %}
+
+Ruth Simkin, a young patient at Chestnut Lodge who went on to become a doctor, wrote a memoir, many years after her treatment. Simkin had been placed at the facility for epilepsy, at the time considered a mental illness. During her first appointment with a therapist, she was diagnosed as “anti-social,” and denied the privilege of eating meals with the rest of the patients. She was reminded that she had to cooperate with her therapist, that he could have her locked up for life.  
+
+After some months in Chestnut Lodge, she told her therapist that she was a lesbian, which he denied. In her treatment at the facility, she experienced a kind of compounded medical gaslighting. The message she received was that her epilepsy, her queerness, and her anti-social behavior were problems of the mind that could be fixed, through talk therapy and willpower (Simkin, 100). Any lack of success was considered a personal failure. 
+
+At the end of her memoir, Simkin writes: “For all the decades that I was a physician, I never forgot my past. I love medicine and I love being a doctor, but being a physician meant one important thing to me in particular: it meant that I now had the power. I had the power and no one, no one, was ever going to lock me up again” (214).
+
+{% include essay/new-section.html %}
+
+In 1952, the first Diagnostic and Statistical Manual of Mental Disorders (DSM) was released by the American Psychiatric Association (Queer Diagnoses, 389). This was intended to be a comprehensive listing of psychiatric diagnoses, and in this original issue, homosexuality was listed as a sociopathic personality disturbance and sexual deviation. At this point, treatments for homosexuality had been incorporated into many psychiatric hospitals and treatment regimens. Grouped together with broader personality disorders, homosexuality was subjected to the larger “corrective” moral frameworks in the postwar years. In her book *Private Practices*, Naoko Wake writes:   
+
+*Psychologists, sociologists and anthropologists shared an urgent sense of responsibility– that scientists must help the nation to use victory in the war to reestablish social order and create promises of a better future. In their discussion, the dissociation of families, changing gender relationships, and “immature” personalities were of central concern* (195).
+
+{% include essay/new-section.html %}
+
+
+*Dr. Fort, our Clinical Director, states that the Lodge would be willing to have her back but we understand that she does not want to come back and this might make the situation quite difficult if she is, in fact, legally married. We would imagine a court procedure would be required. Whether or not her husband would cooperate would be a major issue unless, of course, the conditions were such that an annulment of the marriage could also be arranged.* {% include feature/aside.html objectid="gae014" %}
+
+
+- Excerpt from a letter to Dot from Chestnut Lodge, Nov 8, 1971 
+
+{% include essay/new-section.html %}
+
+*Common forms of malpractice include failure to obtain informed consent, breach of confidentiality, abandonment, improper or negligent diagnosis, negligent use of somatic therapy, physical contact and sexual relations with patients, and negligent supervision or referral.*  {% include feature/aside.html objectid="gae111" %}
+
+\-Malpractice Arising From Negligent Psychotherapy: Ethical, Legal, and Clinical Implications of Osheroff v. Chestnut Lodge 
+
+{% include essay/new-section.html font-size="3"%}
+
+
+*Pendant les premières 24 h, il y avait quelqu'un qui était avec vous tout le temps \- même aux toilettes \- partout, qui était là. Et donc ça a été assez terrible. Et l'autre chose terrible, c'est que... C'est là qu'on m'a fait mon premier examen gynéco. Je ne sais pas pourquoi, si c'était une humiliation ou pourquoi le docteur de l'époque faisait un examen gynéco aux femmes qui rentrait alors qu'elle ne m'a pas ausculté les poumons, elle ne m'a pas ausculté le cœur. Et moi ça m'apparenté presque un viol quoi. C'était...C'était vraiment quelque chose de terrible.[^13]*
+
+- Gaëtane
+
+{% include essay/new-section.html %}
+
+
+Dr. Ray Osheroff was treated for depression at Chestnut Lodge for a year, before being transferred to another facility that supported the use of antidepressants, the use of which marked a distinct improvement in Osheroff’s mental health.  
+
+In an article for *The Guardian*, Rachel Aviv describes his circumstances: “After half a year, Ray’s mother visited him at the Lodge and was alarmed by his deterioration. His hair had grown to his shoulders. He was using the belt of his bathrobe to hold up his trousers, because he had lost 18kg (almost three stone). Ray had once been a prodigious reader, but he had completely stopped. He was also a musician, and, although he had packed sheets of music in the suitcase he brought to the Lodge, he almost never looked at the pages. When a nurse called him Dr Osheroff, he corrected her: “*Mr* Osheroff.”  
+
+Many years later, Osheroff sued (and settled with) Chestnut Lodge for negligence and malpractice. His argument was that the Lodge denied him known medical treatments for depression, opting instead to teach patients that their happiness was a matter of willpower and responsibility. Osheroff had been emboldened by the writing of Gerald Klerman. Aviv writes: “Klerman had written disparagingly of what he called “pharmacological Calvinism” – the belief that “if a drug makes you feel good, it’s either somehow morally wrong, or you’re going to pay for it with dependence, liver damage, chromosomal change, or some other form of secular theological retribution”.  
+
+During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might get out. His doctor responded: "When you stop using your shirt for a napkin, or when you run out of money.” (Biometrics youtube link.)
+
+
+{% include essay/new-section.html font-size="4" %}
+
+*The adolescent units were deliberately constructed at a remove from the “adult hospital.” Liat’s description of the “ghoulish moans” coming from the sickest adult patients made me more aware of how terrifying it must have been for the adolescents at the Lodge, worried they might end up as chronic inpatients.*
+
+- Chestnut Lodge: An Unreal Place 
+
+{% include essay/new-section.html font-size="3"%}
+
+
+*On m'avait dit “Bon, tu seras là peut-être pour un an.” Et pour un an, je pouvais peut-être l'accepter. Et puis les autres, ils m'ont dit non, ça dure dix ans, une psychanalyse. Donc c'était prévu que je sois là pour dix ans. C'est-à-dire tous les autres plans que j'avais pour ma vie, il s'arrêtait là. Et je me suis dit bon, jusqu'à maintenant, j'ai été une personne digne de confiance, mais je le saurai plus. Plus personne ne pourra avoir confiance en moi. Et je ferai tout pour m'échapper le plus vite possible.[^14]*
+
+- Gaëtane
+
+{% include essay/new-section.html content-width="10" additional-content-styles="text-justify" %}
+
+
+When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m., he saw a "huge pillar of dark black smoke" rising above the trees one block away from his Rockville home. Chestnut Lodge, at 500 W. Montgomery Ave., was burning. Fromberg, who lives on Laird Street, which intersects with West Montgomery right at the Chestnut Lodge site, said he was surprised that no firefighters were on the scene…When authorities arrived at the scene around 3 a.m., the six-story building was fully engulfed in flames, said Kenneth I. Korenblatt, battalion chief for the Montgomery County Fire and Explosive Investigations Bomb Squad. It took at least four hours and approximately 95 firefighters to extinguish the two-alarm fire, Korenblatt said. The roof collapsed into the basement about a half hour into putting out the blaze. Pete Piringer, a spokesman for the Montgomery County Department of Fire and Rescue, said investigators have been able to dig into the charred rubble and "make progress" in determining the cause of the blaze. He stopped short of calling it arson, but said investigators have officially ruled the fire suspicious since there were no utilities going into the building…. Patricia Woodward, a Rockville resident who served as a head nurse at Chestnut Lodge for 15 years, called the loss "absolutely tragic." She said she can remember working on the campus and has fond memories of her time there. "It was a good time in my nursing career," she said. "I learned a lot and saw a lot of people recover." Like many residents she has visited the site several times since the fire, including Tuesday afternoon. "I had a little cry, it meant a lot," she said of the building. "It's like losing someone, it's gone. Even though it can be made to look like it was, it won't be the same."
+
+- [“Community in shock over fire that destroyed Chestnut Lodge”](https://www.somdnews.com/archives/community-in-shock-over-fire-that-destroyed-chestnut-lodge/article_0fb1df2a-b6dc-5116-a6aa-cf0c04081672.html)
+
+{% include essay/new-section.html content-width="8" additional-content-styles="text-justify" %}
+
+
+Dear Alicia—
+
+Unfortunately, we believe no records survived from Chestnut Lodge, at least we have never heard of anyone who was able to discover them. When the facility closed, the records either left with the Bullards or were destroyed at that time. Alternately, if for some reason they remained in the building, they would also have been destroyed by the fire.
+
+- Sarah Helund, Archivist/Librarian, Montgomery History 
+
+
+{% include essay/new-section.html %}
+
+If this essay is a reproach of my family, it’s a confession of my own, too, an effort to trace what I have inherited. For some years, I worked at a drop-in center for at-risk youth.  Our clients were unhoused, mostly, and rightly suspicious of me.  But every once in a while I would work with someone who immediately opened up to me.  They would tell me horror stories from their lives, tell me about the people at the shelters where they lived, about what they did for money, about the last time they spoke to their families.   
+
+I found it more uncomfortable when they opened up to me than I did when they iced me out, because I knew that I would be gone soon.  My shifts were irregular, I had other jobs.  I couldn’t offer them real safety – not a place to leave their boots, or take a bath, not a weekday curfew or someone to gripe about to their friends.   
+
+I think about Gaëtane’s *bêtises,* and that violence disguised as care. I have been a messy teenager, but I have been a social worker, too.  I am as much of Dot as I am Gaëtane.
+
+{% include feature/video.html objectid="gae074" subtitles=true translation=true srclang="fr" translang="en" %}
+
+*J'avais fait ce rêve que j'étais comme une rivière. Tu vois ? Et quelqu'un avait mis une grosse pierre sur le lit de ma rivière pour arrêter l'eau. Et que l'eau s'était arrêtée. Il fallait lever la pierre. Il fallait faire quelque chose pour que ça se remette à couler.[^15]*
+
+- Gaëtane, “River Dream” 
+
+
+[^12]:  I had a dream, that my house was empty. And there were some kind of things whispering. And I know now that my house was me, you know. He had taken everything I was, everything I had.
+
+[^13]:  For the first 24 hours, there was someone who was with you all the time \- even in the toilets \- everywhere, who was there. And so it was pretty terrible. And the other terrible thing is that... That's where I had my first gynecological exam. I don't know why, if it was a humiliation or why the doctor at the time did a gynecological exam on women who came in when she didn't examine my lungs, she didn't examine my heart. And to me it almost seemed like rape. It was... It was really something terrible.
+
+[^14]:  They told me, “Well, you’ll be there for maybe a year.” And for a year, I could maybe accept it. And then the others, they told me no, it lasts ten years, a psychoanalysis. So it was planned that I would be there for ten years. That is to say, all the other plans that I had for my life, it stopped there. And I said to myself, well, up until now, I have been a trustworthy person, but I won’t know it anymore. No one will be able to trust me anymore. And I will do everything to escape as quickly as possible.
+
+[^15]:  I had this dream that I was like a river. You see? And someone had put a big rock on the bed of my river to stop the water. And the water had stopped. You had to lift the rock. You had to do something to get it flowing again.
