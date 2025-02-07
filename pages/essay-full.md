@@ -13,7 +13,7 @@ permalink: /essay/full.html
 
 *The cat's going to the bathroom right right in back of my portrait. I’m glad he is. I’m glad somebody’s doing something they want to do.*  
 
-*\-* Edith Bouvier Beale, *Grey Gardens*  
+*\-* Edith Bouvier Beale, *Grey Gardens*   
 
 {% include essay/new-section.html %}   
 

@@ -10,4 +10,4 @@
     - "align" = text alignment (center, right, left)
 
 {%- endcomment -%}
-<span class="aside">{% if include.objectid %}{% assign item = site.data[site.metadata] | where: 'objectid', include.objectid | first %}{% if item.display_template == "video" %}{% include feature/video.html objectid=include.objectid %}<br>{% else %}[![{{item.description | default: item.title }}]({{item.image_thumb}}){:.img-fluid text-center style='max-width:20vw'}]({{ item.objectid | prepend: '/items/' | append: '.html ' | relative_url}})<br>{% endif %}{% endif %}{{ include.text }}</span>
+<span class="aside">{% if include.objectid %}{% assign item = site.data[site.metadata] | where: 'objectid', include.objectid | first %}{% if item.display_template == "video" %}{% include feature/video.html objectid=include.objectid %}<br>{% else %}[![{{item.description | default: item.title }}]({{item.image_thumb}}){:.img-fluid text-center style='max-width:20vw;max-height:205px'}]({{ item.objectid | prepend: '/items/' | append: '.html ' | relative_url}})<br>{% endif %}{% endif %}{{ include.text }}</span>

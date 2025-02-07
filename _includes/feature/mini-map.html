@@ -18,9 +18,9 @@
 {% capture map_id %}mini-map_{{ include.latitude | slugify }}{% endcapture %}
 {% assign map-item = site.data[site.metadata] | where: "objectid", include.objectid | first %}
 <style>
-#{{ map_id }} { height: {{ include.height | default: '400px' }}; z-index: 98; }
+#{{ map_id }} { height: {{ include.height | default: '600px' }}; z-index: 98; }
 </style>
-<div id="{{ map_id }}"></div>
+<div id="{{ map_id }}" class="my-5"></div>
 {% if include.map-link == true %}
 <a href="{{ '/map.html' | relative_url }}?location={{ map-item.latitude | default: include.latitude }},{{ map-item.longitude | default: include.longitude }}{%if include.objectid %}&marker={{ include.objectid }}{% endif %}" class="btn btn-outline-primary my-3">View on Full Map</a>{% endif %}
 <!-- load leaflet dependencies -->
@@ -47,11 +47,25 @@
     var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
+    var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+    });
+    var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+    });
     /* add base map switcher */
     var baseMaps = {
         "Esri World StreetMap": Esri_WorldStreetMap,
         "Esri National Geo": Esri_NatGeoWorldMap,
-        "Esri Imagery": Esri_WorldImagery
+        "Esri Imagery": Esri_WorldImagery,
+        "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
+        "Stadia Stamen Toner": Stadia_StamenToner
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
