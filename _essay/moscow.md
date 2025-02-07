@@ -10,16 +10,19 @@ additional-content-styles:
 custom-foot: essay/essay-scroll-js.html
 ---
 <div class="row my-4" >
-<div class="essay-main" markdown="1">
+<div class="" markdown="1">
 
 
 {% include feature/mini-map.html latitude="46.725562" longitude="-117.009633" basemap="Stadia_StamenToner" map-zoom="9"%}
 
+{% include essay/new-section.html %} 
+
+
 My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
 
-Dot’s work was a footnote, a wormhole I had gone down while writing this larger essay. I came across the word “incurable” in the name of the home where she worked. I got stuck on it, this permanent diagnosis, a term that may or may not have affected her philosophy of care. But this wasn’t the primary focus of my essay. I had begun to worry that adding another voice to the cacophony of narratives I had collected would only obscure the story I was trying to tell.
+Dot’s work was a footnote, a wormhole I had gone down while writing this larger essay. I came across the word “incurable” in the name of the home where she worked. {% include feature/aside.html objectid="gae094" %} I got stuck on it, this permanent diagnosis, a term that may or may not have affected her philosophy of care. But this wasn’t the primary focus of my essay. I had begun to worry that adding another voice to the cacophony of narratives I had collected would only obscure the story I was trying to tell.
 
-{% include feature/image.html objectid="gae094" %}
+
 
 As I drove through the hills, the man’s voice cut in and out over the phone. I gathered that he had met Dot, only a few times, but that he had some respect for our family. His research focused on medical facilities in Montreal’s history, and he spoke about the home that Dot had worked at for some time.
 
@@ -51,6 +54,9 @@ Of course, I am trying to understand Gaëtane, and what happened, as a way to un
 
 In an effort to understand Carson McCullers' complex, by all accounts romantic relationship with her therapist Mary Mercer, Shapland writes about coming across an archive of letters between the two women. Reluctant to read them, she writes: *“What if they somehow destroyed what I was working on? What if, in my desire to offer a version of Carson that I understood, in an effort to feel my own experience validated, I had manufactured the whole love story?” (224)* 
 
+{% include essay/new-section.html %} 
+
+
 I once had a dream that my grandmother called me, and I put down the phone and forgot her, left her waiting on the call for hours, and when I returned, she was parched, exhausted, held hostage by the receiver and my own carelessness. Maybe I felt like I was letting her down somehow, or maybe I had seen a phone and an elderly woman in a TV show the day before. In life, she was never this sentimental and was far more likely to hang up on me than to wait an irrationally long time for the chance of a chat. 
 
 But this essay could become that kind of careless betrayal. I may hand Gaëtane my final product, and she may reject it. I worry that my cousin, now in her seventies, who invited me into her home and told me, in great pain, the pieces of this story that she could bear to revisit, will not recognize herself in my writing. That I will have been too hard on our family, or too easy on them, that I will have failed her in my translation of these events. Or that I will have, somewhere along the way, manufactured my own, incomprehensible version of the truth.
@@ -59,12 +65,10 @@ Shapland writes: *“The stories of women are paved over by others’ narratives
 
 {% include essay/new-section.html %} 
 
-A few weeks after I spoke to the historian, I was back on route 95, this time headed North, away from home. It was foggy, and dark out, and there was snow on the hills. I was  
-talking to my parents on the phone – one on each receiver at their home on the coast.  My mother brought up the essay, I think. There is a segment where I describe my grandmother. It was funny, she told me, but she couldn’t stop thinking about one thing. I recount a memory of  
-her dropping an egg on the floor, then scooping it up and frying it anyway. It feels like it crosses the line into making fun of her, she tells me. I don’t like it.  
+A few weeks after I spoke to the historian, I was back on route 95, this time headed North, away from home. It was foggy, and dark out, and there was snow on the hills. I was talking to my parents on the phone – one on each receiver at their home on the coast.  My mother brought up the essay, I think. There is a segment where I describe my grandmother. It was funny, she told me, but she couldn’t stop thinking about one thing. I recount a memory of her dropping an egg on the floor, then scooping it up and frying it anyway. It feels like it crosses the line into making fun of her, she tells me. I don’t like it.  
+
 I was always proud of my grandmother's idiosyncrasies. They came as a part of my pride in the whole family – we were a bit deluded, a bit resourceful. Half-aristocrat, half-MacGyver. It was that or the time she fed us boiled shark with peanut butter, I thought. I asked my mother to read the whole essay, when it was done, and see if it felt different. I told her I would consider removing it, but I couldn’t tell, yet, if I meant it.  
  
-
 {% include essay/new-section.html %} 
 
 When I found Dot’s shoebox full of letters, most of the pages had been written by others to her. Dot’s personality, reflected in her meticulous collection of correspondence, was otherwise difficult for me to parse. One letter, however, included a draft of her response. Gaëtane, then 18, had written: “I would like to know what your expectations of me are, and what you are going to do to me if I don’t live up to them.” Dot replied: “You are no longer a child and must work out for yourself what you most want your future life to be. Whatever you decide will not make me love you any less.”

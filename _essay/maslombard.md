@@ -7,12 +7,16 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
+custom-foot: essay/essay-scroll-js.html
 ---
+<div class="row my-4" >
+<div class="" markdown="1">
 
 	
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 
-   
+{% include essay/new-section.html %} 
+
 *J'aimais les espaces tendres, les verts anglais d'emeraude et de silence, ton odeur, tu illuminais l'air dont je me défends*  
 *et selon mon oreille reste l'espace de tes doigts finissants, à douter et rougir parfois des confiances pales, si étranges, si tendre et rouge de mon enfance.[^1]*  
 
@@ -28,6 +32,11 @@ Gaëtane and Hélène had been together for three years when they bought the Mas
 
 {% include feature/image.html objectid="gae095;gae096;gae097;gae098;gae099" %}
 
+
+
+{% include feature/video.html objectid="gae029" subtitles=true translation=true srclang="fr" translang="en" %}
+
+
 *Hélène: On s’est rencontré à l'école de poterie des Beaux-Arts de Nîmes, pour travailler la terre. Donc, toi tu es très vite arrivée d'ailleurs, je ne t'ais même pas repérée. J'étais préoccupée par ma boule de terre et moi, je suis arrivée à tourner peut être plus vite et je tournais des pots que tu rendais des œuvres d'art.*  
 
 *Gaetane: Alors je... Ça fait longtemps que je voulais faire de la poterie parce que j'en avais fait un peu à l'école en Angleterre et je sentais que c'était presque ma vocation. Je suis allée aux Beaux-Arts, alors à l'occasion d'une rencontre avec un jeune homme qui était l'ami intime de mon amie Christine, qui étudiait la médecine avec moi. Et on est allé tous les deux. Là, je me suis vite séparée de lui. Je me suis intégrée parmi ceux du beaux arts, des beaux arts. J'ai connu Hélène parce que je suis rentrée un petit peu tard, un soir et Hélène m'a dit “Je te raccompagne chez toi.” Je crois qu'il y avait la prof aussi. Tu as accompagné aussi la prof, sois le train, sois...*  
@@ -42,8 +51,8 @@ Gaëtane and Hélène had been together for three years when they bought the Mas
 
 - Interview, “Pottery Class”
 
-{% include feature/video.html objectid="gae029" subtitles=true translation=true srclang="fr" translang="en" %}
 
+{% include essay/new-section.html %} 
 
 The first time I visited, I was thirteen years old. I slept in the attic \- I remember reading Terry Pratchett books underneath the low ceiling, and climbing up and down the spiral staircase that had only recently been rebuilt. Then, as now, the house was a work in progress – there were chickens, but no coop, and the birds ran free around the property. I spent hours in the pool, shaded by date palms and a walnut tree, splashing around with a neighbor girl named Martine, who was blunt and poised; around her, I stammered, and felt clumsy.  
 
