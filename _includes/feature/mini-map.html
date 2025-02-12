@@ -34,7 +34,8 @@
     var mapCenter = [{{ map-item.latitude | default: include.latitude }}, {{ map-item.longitude | default: include.longitude }}];
     var mapZoom = {{ include.map-zoom | default: 10 }};
     /* init map, set center and zoom */
-    var map = L.map('{{ map_id }}').setView(mapCenter, mapZoom);
+    var map = L.map('{{ map_id }}', {
+        scrollWheelZoom: false}).setView(mapCenter, mapZoom);
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
