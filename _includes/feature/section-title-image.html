@@ -1,0 +1,131 @@
+{% if page.header-image %}
+<style>
+   .header-image {
+        background-image: url('{{ page.header-image | relative_url }}');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: {{ page.header-text-color | default: 'white' }};
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: relative;
+        transition: all .5s ease-out;
+    }
+
+    .header-image h1 {
+        position: relative;
+        padding: 15px 30px;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .header-image h1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+
+    .header-image.collapsed {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        height: ;
+        width: 150px;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .header-image .menu-label {
+        display: none;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.875rem;
+        color: #333;
+        text-shadow: none;
+    }
+
+    .header-image.collapsed h1 {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .header-image.collapsed .menu-label {
+        display: block;
+    }
+
+    /* Placeholder div to prevent content jump */
+    .header-placeholder {
+        height: 50vh;
+        display: none;
+    }
+
+    .header-placeholder.active {
+        display: block;
+    }
+</style>
+
+<!-- Header Image -->
+<div class="header-image" id="headerImage">
+    <h1 class="display-4">{{ page.section-title }}</h1>
+    <span class="menu-label">Menu</span>
+</div>
+
+<!-- Placeholder div -->
+<div class="header-placeholder" id="headerPlaceholder"></div>
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content  bg-dark">
+           
+            <div class="modal-body">
+                
+                    {% include feature/modal-menu-content.html %}
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headerImage = document.getElementById('headerImage');
+    const headerPlaceholder = document.getElementById('headerPlaceholder');
+    const modal = new bootstrap.Modal(document.getElementById('menuModal'));
+    
+    // Calculate when to trigger the transform
+    const triggerPoint = headerImage.offsetTop + (headerImage.offsetHeight / 2);
+    
+    // Handle scroll events
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > triggerPoint) {
+            headerImage.classList.add('collapsed');
+            headerPlaceholder.classList.add('active');
+        } else {
+            headerImage.classList.remove('collapsed');
+            headerPlaceholder.classList.remove('active');
+        }
+    });
+    
+    // Add click handler for the collapsed header
+    headerImage.addEventListener('click', function() {
+        if (headerImage.classList.contains('collapsed')) {
+            modal.show();
+        }
+    });
+});
+</script>
+{% else %}
+    <h1 class="display-4">{{ page.section-title }}</h1>
+{% endif %}

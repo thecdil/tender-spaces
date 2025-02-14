@@ -1,0 +1,18 @@
+<div class="d-flex flex-wrap gap-4">
+    {% for e in site.essay %}
+    <a href="{{ e.url | relative_url }}" class="text-decoration-none">
+        <div class="card border-0" style="width: 150px;">
+            <div class="card-img-top position-relative" style="height: 150px;">
+                <img src="{{ e.header-image | relative_url }}" 
+                     class="w-100 h-100 object-fit-cover rounded">
+                <div class="position-absolute bottom-0 start-0 end-0 p-2">
+                    <div class="bg-dark bg-opacity-75 text-white p-2 rounded">
+                        <h6 class="card-title mb-0 small">{{e.section-title}}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+    
+</div>

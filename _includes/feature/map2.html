@@ -1,0 +1,123 @@
+
+
+<!-- load leaflet dependencies -->
+<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.fullscreen.css' | relative_url }}">
+<script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/Leaflet.fullscreen.min.js' | relative_url }}"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .map-container {
+        position: relative;
+        height: 1200px;
+        width: 100%;
+    }
+    #map {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 1200px;
+        z-index: 1;
+    }
+    .final-image {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 1200px;
+        opacity: 0;
+        z-index: 2;
+        background-image: url('/assets/img/image004.png');
+        background-size: cover;
+        background-position: center;
+        transition: opacity 0.5s ease;
+    }
+    .step {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scroll-container {
+        position: relative;
+        padding-bottom: 1px;
+    }
+</style>
+<div class="map-container">
+    <div id="map"></div>
+    <div class="final-image"></div>
+</div>
+
+<!-- Scroll steps container -->
+<div class="scroll-container">
+    <div class="step" data-step="1"></div>
+    <div class="step" data-step="2"></div>
+    <div class="step" data-step="3"></div>
+</div>
+
+<script>
+    // Initialize the map
+    const map = L.map('map', {
+        center: [51.505, -0.09], // Set your desired starting coordinates
+        zoom: 12,
+        zoomControl: false,
+        scrollWheelZoom: false,
+        dragging: false
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Initialize scrollama
+    const scroller = scrollama();
+    const finalImage = document.querySelector('.final-image');
+    
+    // Calculate total steps for smooth zoom
+    const startZoom = 12;
+    const endZoom = 18;
+    const zoomRange = endZoom - startZoom;
+    const steps = document.querySelectorAll('.step').length;
+    
+    // Set up scrollama
+    scroller
+        .setup({
+            step: '.step',
+            offset: 0.5,
+            debug: false
+        })
+        .onStepEnter(response => {
+            const { index, direction } = response;
+            
+            // Calculate zoom based on fewer steps for faster progression
+            const progress = (index + 1) / steps;
+            const currentZoom = startZoom + (zoomRange * progress);
+            
+            // Handle the fade transition
+            if (index === steps - 1) {
+                // Last step - fade in the image
+                map.setZoom(endZoom);
+                finalImage.style.opacity = '1';
+            } else {
+                map.setZoom(currentZoom);
+                finalImage.style.opacity = '0';
+            }
+        })
+        .onStepExit(response => {
+            const { index, direction } = response;
+            // If exiting the last step going up, fade out the image
+            if (index === steps - 1 && direction === 'up') {
+                finalImage.style.opacity = '0';
+            }
+        });
+
+    // Handle window resize
+    window.addEventListener('resize', scroller.resize);
+</script>

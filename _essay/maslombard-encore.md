@@ -7,6 +7,8 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
+header-image: /assets/img/image001.jpg
+header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---
 <div class="row my-4" >
