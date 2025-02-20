@@ -24,15 +24,26 @@ custom-foot: essay/essay-scroll-js.html
 
 \-[“Lettre à mon tuteur”, Gaëtane Buttigieg]({{'/items/gae108.html' | relative_url }})  
     
+{% include essay/new-section.html background-color="black" %} 
 
-{% include feature/video.html objectid="gae109" width="75" %}
+{% include feature/video.html objectid="gae109" width="100" %}
+
+{% include essay/new-section.html background-color="white" %} 
 
 
 Mas Lombard faces the city of Nîmes on one side, faces a potato field on the other, although neither can be seen from the property; a line of poplar trees stands to the East, clusters of fruit trees hide the city to the West. An old stone wall is hidden under madeira ivy and passion flower vines. They creep up the sides of the house, lacing through the iron grilles of the upstairs windows. In the summer, meals are taken in the courtyard, and a dense Bourbon rose is trained above the tables, extending the shade of the house.  
 
 Gaëtane and Hélène had been together for three years when they bought the Mas. The roof needed to be replaced, and the windows, and the plaster siding had crumbled in patches, exposing the stone structure underneath. The barn, which had been appropriated by the French Army to house Laotian workers during World War I, was badly in need of repair. A map of Laos was still faintly visible, painted up to the roofbeams on the South wall.
 
-{% include feature/image.html objectid="gae095;gae096;gae097;gae098;gae099" %}
+{% include essay/new-section.html %} 
+
+{% include feature/image.html objectid="gae095" %}
+{% include feature/image.html objectid="gae096" %}
+{% include feature/image.html objectid="gae097" %}
+{% include feature/image.html objectid="gae098" %}
+{% include feature/image.html objectid="gae099" %}
+
+{% include essay/new-section.html%} 
 
 
 

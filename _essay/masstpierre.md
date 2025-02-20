@@ -31,18 +31,29 @@ custom-foot: essay/essay-scroll-js.html
 *The cat's going to the bathroom right in back of my portrait. I’m glad he is. I’m glad somebody’s doing something they want to do.*  
 *\-* Edith Bouvier Beale, *Grey Gardens*
 
+
+{% include essay/new-section.html  %} 
+
+
 Everything is hidden between hills and olive trees, behind the chipped stones of a railway trestle, behind the rusted iron of a gate. The mas sprawls, it has become part of the landscape, despite the spear-pointed fence, or the crumbling mouth of an outdoor bread oven. Gaëtane asks us to watch for snails as we cross through the yard. Our eyes focus \- they are three to a blade of grass, little gray shells dotting the brambles under our feet. We tiptoe through the weeds.   
 
 Inside the heavy wooden door, light trickles through tall, narrow windows. The walls are laced with spiderwebs and dust. Extension cords hang from the ceiling, coming together through hooks, fanning back out into the light fixtures. The steps are each worn into smooth valleys from five hundred years of footfalls – Gaëtane’s small feet, her mother’s. I imagine Michael, who I never met, climbing the stairs to his crowded bedroom, or higher, to the dovecote, now taken over by hornets, their nests lining the eaves, their hum filling the air. Up there, pigeonholes look out over the hills, over the highway to Aramon.  
+
+{% include essay/new-section.html  %} 
+
 \~  
 *Oh, Mother thinks it's artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  
 *\-* Edith Bouvier Beale, *Grey Gardens*
+
 
 *I have some very urgent things to have done at the mas…a hot water heater… I wish you could have seen me after the fall struggling up to the bathroom with kettles of boiling water so that I could have a good soak…A gate and bars for the windows and locks etc… a ditch behind the house so that the water doesn’t seep in when it rains… All these are things that I could attend to now, curtains to help keep the wind out. All the pipes repaired \- there are buckets everywhere for the drips\!*  
 \- Fiona Millar, 1971  
 
 
 \~  
+
+{% include essay/new-section.html  %} 
+
 
 The first time I saw Fiona’s house, I was thirteen. She insisted on meeting us at the gate. When my mother asked to see inside, she refused. The house is a mess, I think she said, or, we’re in a hurry.  
 

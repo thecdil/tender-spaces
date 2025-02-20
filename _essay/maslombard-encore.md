@@ -16,7 +16,11 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 
+
+{% include essay/new-section.html %} 
+
 It is off handed, the way Gaëtane tells me about Chestnut Lodge. *I was sent to a psychiatric hospital for ten months when I was eighteen, for being a lesbian,* she tells me. *Mais je faisais toutes sortes de bêtises.* I must look shocked. What kind of *bêtises,* what kind of antics would merit almost a year in a psychiatric facility?   
+
 *Ask your mother,* she then said, and while my translation often missed nuance, I heard the bitterness there. My mother, who had sung me lullabies that celebrated queerness. She was five years older than Gaëtane, 23 at the time, a teaching student at SFU, an environmental activist too. I wonder how Gaëtane sees my mother’s culpability, if she sees her as complicit in her exile. At 23, did my mother know what it meant to be gay? Did they talk about Gaëtane over family dinner, or was it vaguely phrased, some kind of infirmity, or hysteria?
 
 Chestnut Lodge was famous, infamous in some eyes, for its pioneering psychological treatments. A towering brick building with sweeping lawns and chestnut groves, it was a place where people of a certain means could send their family members for discreet treatment. It was, Gaëtane told me, how you would imagine a psychiatric hospital to be at the time. White-coated orderlies walked around the grounds with jangling rings of keys. Access to the wider grounds had to be earned through good behavior. *It broke my mind*, Gaëtane tells me.  

@@ -13,6 +13,8 @@ additional-content-styles:
 
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 
+{% include essay/new-section.html %} 
+
 Gaëtane and Hélène take me to the Mediterranean. We set up folding chairs on the beach and wade into the water. Their bathing suits contrast, Hélène’s dark against her white hair, Gaëtane’s light against a dark mop flecked with gray. {% include feature/aside.html objectid="gae023" %} I take our picture, and Hélène makes a joke about their old bodies. Water bombers practice above us, dipping into the ocean one after another and then releasing their contents way out at sea. Gaëtane paddles out, drifting West with the current, while I stay in the warm shallows, surprised at how salty the water is. We dry off in the sun, Gaëtane and Hélène holding each other's arms as they dress. They move together without discussion, anticipating each others’ needs after years of practice. I see that they are both wearing necklaces that Gaëtane made – she could not stop making things – wires twisted around green stones. 
 
 {% include feature/video.html objectid="gae038" subtitles=true translation=true srclang="fr" translang="en" %}
