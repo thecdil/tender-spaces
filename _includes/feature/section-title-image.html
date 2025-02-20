@@ -1,6 +1,6 @@
 {% if page.header-image %}
 <style>
-   .header-image {
+    .header-image {
         background-image: url('{{ page.header-image | relative_url }}');
         background-size: cover;
         background-position: center;
@@ -9,17 +9,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: {{ page.header-text-color | default: 'white' }};
+        color: {% if page.header-text-color %}{{ page.header-text-color }}{% else %}white{% endif %};
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         position: relative;
-        transition: all .5s ease-out;
+        transition: all 0.3s ease-out;
     }
 
     .header-image h1 {
         position: relative;
         padding: 15px 30px;
         z-index: 2;
-        width: 100%;
     }
 
     .header-image h1::before {
@@ -31,17 +30,7 @@
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.5);
         z-index: -1;
-    }
-
-    .header-image.collapsed {
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        height: ;
-        width: 150px;
-        border-radius: 8px;
-        cursor: pointer;
-        z-index: 1000;
+        border-radius: 4px;
     }
 
     .header-image .menu-label {
@@ -53,6 +42,17 @@
         font-size: 0.875rem;
         color: #333;
         text-shadow: none;
+    }
+
+    .header-image.collapsed {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        
+        width: 120px;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 1000;
     }
 
     .header-image.collapsed h1 {
@@ -73,6 +73,83 @@
     .header-placeholder.active {
         display: block;
     }
+
+    /* Side Menu Styles */
+    .side-menu {
+        position: fixed;
+        top: 0;
+        left: -300px; /* Start off-screen */
+        width: 150PX;
+        height: 100vh;
+        background-color: white;
+        box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease-out;
+        z-index: 999;
+        overflow-y: auto;
+        padding: 20px;
+    }
+
+    .side-menu.active {
+        left: 0;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-out;
+        z-index: 998;
+    }
+
+    .menu-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .menu-item {
+        margin-bottom: 20px;
+        transition: transform 0.2s;
+    }
+
+    .menu-item:hover {
+        transform: translateX(5px);
+    }
+
+    .menu-item img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .menu-item-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        font-size: 0.875rem;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
 </style>
 
 <!-- Header Image -->
@@ -84,28 +161,36 @@
 <!-- Placeholder div -->
 <div class="header-placeholder" id="headerPlaceholder"></div>
 
-<!-- Bootstrap Modal -->
-<div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content  bg-dark">
-           
-            <div class="modal-body">
-                
-                    {% include feature/modal-menu-content.html %}
-             
+<!-- Side Menu -->
+<div class="side-menu" id="sideMenu">
+    <button class="menu-close" id="menuClose">&times;</button>
+    <div class="d-flex flex-column mt-4">
+        <h5>Contents</h5>
+        {% for e in site.essay %}
+        <a href="{{ e.url | relative_url }}" class="text-decoration-none menu-item">
+            <div class="position-relative">
+                <img src="{{ e.header-image | relative_url }}" alt="{{ e.section-title }}">
+                <div class="menu-item-title">{{e.section-title}}</div>
             </div>
-        </div>
+        </a>
+        {% endfor %}
     </div>
 </div>
+
+<!-- Overlay -->
+<div class="menu-overlay" id="menuOverlay"></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const headerImage = document.getElementById('headerImage');
     const headerPlaceholder = document.getElementById('headerPlaceholder');
-    const modal = new bootstrap.Modal(document.getElementById('menuModal'));
+    const sideMenu = document.getElementById('sideMenu');
+    const menuOverlay = document.getElementById('menuOverlay');
+    const menuClose = document.getElementById('menuClose');
     
-    // Calculate when to trigger the transform
-    const triggerPoint = headerImage.offsetTop + (headerImage.offsetHeight / 2);
+    // Calculate when to trigger the transform, accounting for the map
+    const mapHeight = 600; // Height of the map in pixels
+    const triggerPoint = headerImage.offsetTop + headerImage.offsetHeight + (mapHeight / 2);
     
     // Handle scroll events
     window.addEventListener('scroll', function() {
@@ -118,11 +203,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Add click handler for the collapsed header
+    // Toggle menu
+    function toggleMenu(show) {
+        if (show) {
+            sideMenu.classList.add('active');
+            menuOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            headerImage.classList.add('d-none'); // Optional: Add a blur effect to the header image
+             // Prevent background scrolling
+        } else {
+            sideMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+            headerImage.classList.remove('d-none');
+        }
+    }
+    
+    // Add click handlers
     headerImage.addEventListener('click', function() {
         if (headerImage.classList.contains('collapsed')) {
-            modal.show();
+            toggleMenu(true);
         }
+    });
+    
+    menuClose.addEventListener('click', function() {
+        toggleMenu(false);
+    });
+    
+    menuOverlay.addEventListener('click', function() {
+        toggleMenu(false);
     });
 });
 </script>

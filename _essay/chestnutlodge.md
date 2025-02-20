@@ -11,14 +11,16 @@ header-image: /assets/img/image003.jpg
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---
-
 <div class="row my-4" >
-<div class="essay-main" markdown="1">
+<div class="" markdown="1">
 
 {% include feature/mini-map.html latitude="39.08404664373349" longitude="-77.16340878304702" basemap="Stadia_StamenToner" map-zoom="9"%}
 
 
-{% include essay/new-section.html content-width="8" additional-content-styles="text-justify" %}
+
+
+{% include essay/new-section.html additional-content-styles="text-justify" %}
+
 
 
 Dear Alicia—
@@ -27,7 +29,10 @@ Unfortunately, we believe no records survived from Chestnut Lodge, at least we h
 
 - Sarah Helund, Archivist/Librarian, Montgomery History 
 
-In turn, this essay is an exploration of the ways that queerness has been pathologized, and a condemnation of a kind of care that is contingent on profit, on status. At moments, it is a reproach of my family, who trusted these doctors to care for my cousin, still a child, in an institution that interfered with something fundamental about who she was. 
+
+{% include essay/new-section.html %} 
+
+This essay is an exploration of the ways that queerness has been pathologized, and a condemnation of a kind of care that is contingent on profit, on status. At moments, it is a reproach of my family, who trusted these doctors to care for my cousin, still a child, in an institution that interfered with something fundamental about who she was. 
 
 There can be violence cloaked in the rhetoric of care. As a teenager, I attended church youth groups that made it clear they would not welcome an openly gay member. Their messages were bound up in the language of benevolence: we want you to be well, we want you to be saved. I was lucky enough to find communities that would embrace me. Others I knew were faced with the choice to stay with their families, to attend therapy with dubiously-trained counselors who undermined their sense of self, or to lose their communities, their housing, their support networks.  
 
@@ -35,7 +40,7 @@ I remember the fine line we walked as teenagers. It was a pivotal moment of self
 
 Years later, I worked for an outreach team supporting queer youth. Our clients had mostly lost their families, one way or another, often because of a stubborn divide between who they were, and who their families hoped they would become. They suffered for it, deeply, sometimes fatally. To treat an adolescent like a child is as much a violation as to treat them like an adult. We can no more expedite their growth than we can suppress it.
 
-{% include essay/new-section.html content-width="12" %}
+{% include essay/new-section.html  %}
 
 {% include feature/video.html objectid="gae064" subtitles=true translation=true srclang="fr" translang="en" %}
 
@@ -44,7 +49,7 @@ Years later, I worked for an outreach team supporting queer youth. Our clients h
 - Gaëtane 
 
 
-{% include essay/new-section.html content-width="10" additional-content-styles="text-justify" %}
+{% include essay/new-section.html  additional-content-styles="text-justify" %}
 
 The subject building, facing north on West Montgomery Avenue, is the original structure and the main building of an 88-acre medical complex. Built as a summer resort hotel, the original site was approximately eight acres. The building is screened by approximately three acres of front lawn landscaped with shrubbery and mature trees, including some of remarkable size.  
 
@@ -52,7 +57,7 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 
 - Montgomery County Archives 
 
-{% include essay/new-section.html content-width="12" %}
+{% include essay/new-section.html %}
 
 {% include feature/video.html objectid="gae053" subtitles=true translation=true srclang="fr" translang="en" %}
 
@@ -65,7 +70,7 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 *I knew about the so-called 72 hour rule. It’s common knowledge. When you enter the inside of a mental institution you’re in a rather closed society. The inmates cope with it… It was common knowledge. You give them 72 hours, and sometime during that 72 hours they bring in two outside psychiatrists, and then convert the voluntary to the involuntary.*  
 \-[Ray Osheroff](https://rayosheroff.org/people/) 
 
-{% include essay/new-section.html content-width="12" %}
+{% include essay/new-section.html  %}
 
 *Gaetane and I were communicating by mail maybe once a month or something, and Gaetane was okay there, she was comfortable enough, and when she was 18 she would leave and come back to the coast.*   
 
@@ -134,7 +139,7 @@ During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might g
 
 - Gaëtane
 
-{% include essay/new-section.html content-width="10" additional-content-styles="text-justify" %}
+{% include essay/new-section.html additional-content-styles="text-justify" %}
 
 
 When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m., he saw a "huge pillar of dark black smoke" rising above the trees one block away from his Rockville home. Chestnut Lodge, at 500 W. Montgomery Ave., was burning. Fromberg, who lives on Laird Street, which intersects with West Montgomery right at the Chestnut Lodge site, said he was surprised that no firefighters were on the scene…When authorities arrived at the scene around 3 a.m., the six-story building was fully engulfed in flames, said Kenneth I. Korenblatt, battalion chief for the Montgomery County Fire and Explosive Investigations Bomb Squad. It took at least four hours and approximately 95 firefighters to extinguish the two-alarm fire, Korenblatt said. The roof collapsed into the basement about a half hour into putting out the blaze. Pete Piringer, a spokesman for the Montgomery County Department of Fire and Rescue, said investigators have been able to dig into the charred rubble and "make progress" in determining the cause of the blaze. He stopped short of calling it arson, but said investigators have officially ruled the fire suspicious since there were no utilities going into the building…. Patricia Woodward, a Rockville resident who served as a head nurse at Chestnut Lodge for 15 years, called the loss "absolutely tragic." She said she can remember working on the campus and has fond memories of her time there. "It was a good time in my nursing career," she said. "I learned a lot and saw a lot of people recover." Like many residents she has visited the site several times since the fire, including Tuesday afternoon. "I had a little cry, it meant a lot," she said of the building. "It's like losing someone, it's gone. Even though it can be made to look like it was, it won't be the same."
