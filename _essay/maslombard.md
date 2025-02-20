@@ -35,13 +35,14 @@ Mas Lombard faces the city of Nîmes on one side, faces a potato field on the ot
 
 Gaëtane and Hélène had been together for three years when they bought the Mas. The roof needed to be replaced, and the windows, and the plaster siding had crumbled in patches, exposing the stone structure underneath. The barn, which had been appropriated by the French Army to house Laotian workers during World War I, was badly in need of repair. A map of Laos was still faintly visible, painted up to the roofbeams on the South wall.
 
+{% include feature/image.html objectid="gae095" %}
+
+
 {% include essay/new-section.html %} 
 
-{% include feature/image.html objectid="gae095" %}
-{% include feature/image.html objectid="gae096" %}
-{% include feature/image.html objectid="gae097" %}
-{% include feature/image.html objectid="gae098" %}
-{% include feature/image.html objectid="gae099" %}
+
+{% include feature/image.html objectid="gae096;gae097" %}
+{% include feature/image.html objectid="gae098;gae099" %}
 
 {% include essay/new-section.html%} 
 
