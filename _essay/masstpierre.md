@@ -85,6 +85,8 @@ While she didn’t need to work, Dot spent her life studying, earning a bachelor
 
 - Jason Szabo, *Incurable and Intolerable*
 
+{% include feature/modal-mini-map.html latitude="45.481921" longitude="-73.589447" location="St. Margaret's Home" %}
+
 My mother just calls it St. Margaret’s Home. The word *incurable* had long been removed from the name. It had fallen out of common use, too absolute to contain hope for the future of anyone saddled with such a bleak diagnosis. The word was replaced by more specific language denoting chronic illness and palliative care, accounting for an increasingly precise medical landscape. The term *incurable,* I learn, had at a time been conflated with a sense of morality. An incurable was at once medically and morally so. 
 
 The facility, which by Dot’s era was a home for women alone, was administered by the Sisterhood of Saint Margaret, and Dot was the president of the board. In her position, she introduced a medical advisor for the residents, as well as a regular physician. She modernized the building, arranged for the installation of an elevator, the construction of a proper kitchen and dining room.   
@@ -148,7 +150,7 @@ By all accounts, Fiona was a chaotic woman \- intelligent, fearless, a little lo
 
 “*Homosexuality was not accepted by any member of the family,*” Hélène tells me. I wonder \- did it start with Fiona? Did she learn it from Dot, or from the world? Was the subject simply a soft target, a button that she knew she could push? In a letter to Dot, Gaëtane asks, *Have you heard from mother? Since she wrote me that perfectly horrible letter, I haven’t heard from her. Maybe she needs somebody to feel hostile towards. I wish she’d pick somebody else.*  {% include feature/aside.html objectid="gae016" %}
 
-In Western Canada, Gaëtane was enrolled in the Saturna Island Free School. The product of an education reform movement of the era, the school was attended by students who had struggled with traditional school structures. A 1968 article describes it: “At Saturna Island Free School, children choose for themselves what they want to do. In this way they discover their own potentialities and explore a variety of possibilities while seeking out their own directions. We believe it is, by nature, the function of the child to learn from all he experiences.” Gaëtane, by then a staunch environmentalist, an animal-lover, and a determined adventurer, found a place she could be herself.  
+In Western Canada, Gaëtane was enrolled in the Saturna Island Free School.  The product of an education reform movement of the era, the school was attended by students who had struggled with traditional school structures. A 1968 article describes it: “At Saturna Island Free School, children choose for themselves what they want to do. In this way they discover their own potentialities and explore a variety of possibilities while seeking out their own directions. {% include feature/modal-mini-map.html latitude="48.77955572753823" longitude="-123.165017" location="Saturna Island Free School" %} We believe it is, by nature, the function of the child to learn from all he experiences.” Gaëtane, by then a staunch environmentalist, an animal-lover, and a determined adventurer, found a place she could be herself. 
 
 While she was there, she fell in love again. 
 
