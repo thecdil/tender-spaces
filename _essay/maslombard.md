@@ -24,7 +24,7 @@ custom-foot: essay/essay-scroll-js.html
 
 \-[“Lettre à mon tuteur”, Gaëtane Buttigieg]({{'/items/gae108.html' | relative_url }})  
     
-{% include essay/new-section.html background-color="black" %} 
+{% include essay/new-section.html %} 
 
 {% include feature/video.html objectid="gae109" width="100" %}
 
@@ -51,19 +51,11 @@ Gaëtane and Hélène had been together for three years when they bought the Mas
 {% include feature/video.html objectid="gae029" subtitles=true translation=true srclang="fr" translang="en" %}
 
 
-*Hélène: On s’est rencontré à l'école de poterie des Beaux-Arts de Nîmes, pour travailler la terre. Donc, toi tu es très vite arrivée d'ailleurs, je ne t'ais même pas repérée. J'étais préoccupée par ma boule de terre et moi, je suis arrivée à tourner peut être plus vite et je tournais des pots que tu rendais des œuvres d'art.*  
+{% include pull-quote-translation.html trans="gae029" lines="2-11" font-size="sm" %}
 
-*Gaetane: Alors je... Ça fait longtemps que je voulais faire de la poterie parce que j'en avais fait un peu à l'école en Angleterre et je sentais que c'était presque ma vocation. Je suis allée aux Beaux-Arts, alors à l'occasion d'une rencontre avec un jeune homme qui était l'ami intime de mon amie Christine, qui étudiait la médecine avec moi. Et on est allé tous les deux. Là, je me suis vite séparée de lui. Je me suis intégrée parmi ceux du beaux arts, des beaux arts. J'ai connu Hélène parce que je suis rentrée un petit peu tard, un soir et Hélène m'a dit “Je te raccompagne chez toi.” Je crois qu'il y avait la prof aussi. Tu as accompagné aussi la prof, sois le train, sois...*  
 
-*Hélène: Taxi. Taxi des Beaux Arts.*  
 
-*Gaëtane: Elle faisait des taxis.*  
 
-*Hélène: Et au stupeur... Elle habitait en face de chez moi. Et on s'était jamais rencontrés.* 
-
-*Gaëtane: On était voisines.[^2]*
-
-- Interview, “Pottery Class”
 
 
 {% include essay/new-section.html %} 
