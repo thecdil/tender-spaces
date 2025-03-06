@@ -17,7 +17,7 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include feature/mini-map.html latitude="46.725562" longitude="-117.009633" basemap="Stadia_StamenToner" map-zoom="9"%}
 
-{% include essay/new-section.html %} 
+{% include essay/new-section.html visible=true %} 
 
 
 My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
