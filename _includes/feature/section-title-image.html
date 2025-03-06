@@ -52,6 +52,13 @@
         border-radius: 8px;
         cursor: pointer;
         z-index: 1000;
+        @media (max-width: 768px) {
+            bottom: 20px;
+            left: 0px;
+            top:auto;
+            width: 50px;
+            height: 100px;
+        }
     }
 
     .header-image.collapsed h1 {
@@ -149,12 +156,110 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
+
+    @media print {
+    .header-image,  .header-image.collapsed {
+        /* Force the image to be visible and render properly */
+        background-image: url('{{ page.header-image | relative_url }}') !important;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: {% if page.header-text-color %}{{ page.header-text-color }}{% else %}white{% endif %};
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+
+    .header-image h1,  .header-image.collapsed h1 {
+        position: relative;
+        padding: 15px 30px;
+        z-index: 2;
+    }
+
+    .header-image h1::before, .header-image.collapsed h1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+        border-radius: 4px;
+    }
+
+    /* Hide elements not needed in print */
+    .menu-label, 
+    .side-menu,
+    .menu-overlay, #familyTreeContainer {
+        display: none !important;
+    }
+
+    /* Ensure the header text is visible */
+    .header-image h1 {
+        position: relative !important;
+        color: black !important;
+        background: white !important;
+        padding: 15px !important;
+        margin: 0 !important;
+    }
+
+    /* Remove the dark overlay */
+    .header-image h1::before {
+        display: none !important;
+    }
+
+    .header-image {
+        position: relative !important;
+        height: auto !important;
+        min-height: 200px !important;
+        width: 100% !important;
+        display: block !important;
+        page-break-inside: avoid !important;
+        background-image: none !important; /* Remove background image */
+    }
+
+    /* Add a print-only image */
+    .header-image::before {
+        content: url('{{ page.header-image | relative_url }}');
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .header-image h1 {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        color: black !important;
+        background: rgba(255, 255, 255, 0.9) !important;
+        padding: 15px !important;
+        margin: 0 !important;
+        border: 1px solid black !important;
+    }
+
+    /* Hide unnecessary elements */
+    .menu-label, 
+    .side-menu,
+    .menu-overlay,
+    #familyTreeContainer,
+    .header-image.collapsed,
+    .header-image h1::before {
+        display: none !important;
+    }
+}
+
 </style>
 
 <!-- Header Image -->
 <div class="header-image" id="headerImage">
-    <h1 class="display-4">{{ page.section-title }}</h1>
     <span class="menu-label">Essay{% include feature/icon.html icon="list" class="ps-1" label="List of essay contents" %}</span>
+    <h1 class="display-4">{{ page.section-title }}</h1>
+    
 </div>
 
 <!-- Placeholder div -->

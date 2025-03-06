@@ -115,6 +115,11 @@
     opacity: 0;
     transition: opacity 0.5s;
 }
+
+.visible-step {
+    opacity: 1 !important;
+}
+
 #step0{
     opacity: 1 !important;
 }
@@ -123,6 +128,8 @@
     opacity: 1;
     transition: opacity 0.75s ease-in;
 }
+
+
 
 .step.fade-out {
     opacity: 0;
@@ -137,10 +144,24 @@
     margin-top:20px;
 }
 
+/* Print styles for steps */
+@media print {
+    .step {
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: block !important;
+        break-inside: avoid;
+    }
+}
+
 .essay-main {
     max-width: 633px;
     width: 60%;
-    margin: 0 12.5% 0;
+    margin: 0 17.5% 0;
+    @media (max-width: 768px) {
+        width: 90%;
+        margin: 0 2%;
+    }
 }
 
 /*Marginal Notes on Desktop*/
@@ -160,7 +181,7 @@ aside, .aside {
     aside, .aside {
     display: block;
     float: none;
-    margin: 5% 10% 5% 10%;
+    margin: 5% 10%;
     width: 80%;
     font-size: 15px;
     font-style: italic;
