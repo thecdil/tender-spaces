@@ -51,7 +51,7 @@ Gaëtane and Hélène had been together for three years when they bought the Mas
 {% include feature/video.html objectid="gae029" subtitles=true translation=true srclang="fr" translang="en" %}
 
 
-{% include pull-quote-translation.html trans="gae029" lines="2-11" font-size="sm" %}
+{% include essay/pull-quote-translation.html trans="gae029" lines="2-11" font-size="sm" %}
 
 
 
