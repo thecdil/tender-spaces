@@ -10,6 +10,8 @@ header-image: /assets/img/image001.jpg
 header-text-color: white
 additional-content-styles:
 ---
+<div class="row my-4" >
+<div class="" markdown="1">
 
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 
