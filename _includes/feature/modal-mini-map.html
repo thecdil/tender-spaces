@@ -109,7 +109,7 @@ L.circleMarker(mapCenter, {
   .bindPopup('{{ map-item.title | escape }}');
 
 
-const myModal = document.getElementById('Modal{{ include.latitude | slugify }}'); 
+var myModal = document.getElementById('Modal{{ include.latitude | slugify }}'); 
 myModal.addEventListener('shown.bs.modal', function() {
   setTimeout(function() {
     map.invalidateSize();
