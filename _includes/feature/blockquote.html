@@ -15,8 +15,8 @@
 
 
 <figure class="pt-3 pb-5 text-{% if include.align %}{{ include.align }}{% else %}left{% endif %} {% if include.class %}{% include.class %}{% endif %}">
-    <blockquote class="blockquote {% if include.size == "lg" %}fs-2{% elsif include.size == "sm" %}fs-5{% elsif include.size == "md" %}fs-4{% else %}fs-3{% endif %}">
+    <blockquote class="blockquote {% if include.size == "xl" %}fs-1{% elsif include.size == "lg" %}fs-2{% elsif include.size == "md" %}fs-4{% elsif include.size == "sm" %}fs-5{% else %}fs-3{% endif %}">
         <div class="mb-0 ">{{ include.quote | markdownify }}</div>
     </blockquote>
-    <figcaption class="blockquote-footer text-end {% if include.size == "lg" %}fs-3{% elsif include.size == "sm" %}fs-6{% elsif include.size == "md" %}fs-5{% else %}fs-4{% endif %}">{% if include.speaker %}{{ speaker }}{% endif %}{% if include.source %}<cite title="Source Title">"{% if include.source-link %}<a href="{{ include.source-link | relative_url }}" target="_blank" rel="noopener">{% endif %}{{ include.source }}{% if include.source-link %}</a>{% endif %}"</cite>{% endif %}</figcaption>
+    {% if include.speaker or include.source %}<figcaption class="blockquote-footer text-end {% if include.size == "xl" %}fs-2{% elsif include.size == "lg" %}fs-3{% elsif include.size == "md" %}fs-5{% elsif include.size == "sm" %}fs-6{% else %}fs-4{% endif %}">{% if include.speaker %}{{ speaker }}{% endif %}{% if include.source %}<cite title="Source Title">"{% if include.source-link %}<a href="{{ include.source-link | relative_url }}" target="_blank" rel="noopener">{% endif %}{{ include.source }}{% if include.source-link %}</a>{% endif %}"</cite>{% endif %}</figcaption>{% endif %}
 </figure>

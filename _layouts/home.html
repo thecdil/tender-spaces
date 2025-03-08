@@ -2,7 +2,17 @@
 layout: home-default
 ---
 
-<div class="row">
+
+<div class="row mt-4">
+        <div class="col-8 text-left px-4 ms-5">
+          {% include feature/blockquote.html quote="*I loved the tender spaces, the English greens of emerald and silence, your smell, you illuminated the air from which I defend myself*" speaker="Gaëtane" size="xl" %}
+        </div>
+        <div class="text-end col-3" id="next-section-button">
+          <a class="fs-2 btn btn-outline-dark next-button m-5" href="{{ '/essay/moscow.html' | relative_url }}">Read &raquo;</a>
+      </div>
+  </div>
+
+<div class="row mt-4 d-none">
     <div class="col">
             {% include feature/image.html link="/essay/moscow.html"  objectid="/assets/img/image001.jpg" %}
      

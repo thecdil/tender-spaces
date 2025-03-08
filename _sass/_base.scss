@@ -4,7 +4,7 @@
     or by editing base variables in cb.scss
 */
 body {
-    @if $base-font-family != "" { font-family: $base-font-family; }
+    @if $base-font-family != "" { font-family: $base-font-family !important; }
     @if $base-font-size != "" { font-size: $base-font-size; }
     @if $text-color != "" { color: $text-color; }
 }

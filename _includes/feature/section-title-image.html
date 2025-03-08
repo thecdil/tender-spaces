@@ -2,7 +2,7 @@
 <style>
     .header-image {
         background-image: url('{{ page.header-image | relative_url }}');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         height: 50vh;
         width: 100%;
@@ -46,6 +46,7 @@
 
     .header-image.collapsed {
         position: fixed;
+        background-size: cover;
         top: 20px;
         left: 20px;
         width: 100px;
