@@ -60,8 +60,8 @@
               {% assign translation = row['translation'] %}
               
               <div class="quote-item mb-3">
-                <div class="quote-text">{% if speaker %}{{ text | prepend: speaker | markdownify }}{% else %}{{ text | markdownify }}{% endif %}</div>
-                <div class="quote-translation d-none">{% if speaker %}{{ translation | prepend: speaker | markdownify }}{% else %}{{ translation | markdownify }}{% endif %}</div>
+                <div class="quote-text">{% if speaker != last_speaker %}{{ text | prepend: speaker | markdownify }}{% else %}{{ text | markdownify }}{% endif %}</div>
+                <div class="quote-translation d-none">{% if speaker != last_speaker %}{{ translation | prepend: speaker | markdownify }}{% else %}{{ translation | markdownify }}{% endif %}</div>
               </div>
               {% assign last_speaker = speaker %}
             {% endif %}
@@ -125,10 +125,11 @@
             // Original text slides right, translation slides in from left
             quoteText.classList.add('slide-right');
             quoteTranslation.classList.remove('d-none');
+            quoteText.classList.add('d-none');
             quoteTranslation.classList.add('slide-from-left');
             
             setTimeout(function() {
-              quoteText.classList.add('d-none');
+              
               quoteText.classList.remove('slide-right');
               quoteTranslation.classList.remove('slide-from-left');
             }, 400); // Match the transition duration
@@ -136,10 +137,10 @@
             // Translation slides left, original text slides in from right
             quoteTranslation.classList.add('slide-left');
             quoteText.classList.remove('d-none');
+            quoteTranslation.classList.add('d-none');
             quoteText.classList.add('slide-from-right');
             
             setTimeout(function() {
-              quoteTranslation.classList.add('d-none');
               quoteTranslation.classList.remove('slide-left');
               quoteText.classList.remove('slide-from-right');
             }, 400); // Match the transition duration

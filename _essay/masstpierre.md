@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: /assets/img/image002.jpg
+header-image: /assets/img/image005.png
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---
@@ -23,13 +23,12 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include feature/aside.html objectid="gae009"%}
 
-*It’s not fair, Mummy, to buy her a farm at this stage; she won’t be able to live on it all by herself and she’ll be almost forced to stay with that Rosie, who may or may not take drugs but seems to be in a chronically abnormal state.*  
-\- Fiona Millar, 1971
+{% include feature/blockquote.html quote="It’s not fair, Mummy, to buy her a farm at this stage; she won’t be able to live on it all by herself and she’ll be almost forced to stay with that Rosie, who may or may not take drugs but seems to be in a chronically abnormal state." speaker="Fiona Millar, 1971" %}
 
 
 
-*The cat's going to the bathroom right in back of my portrait. I’m glad he is. I’m glad somebody’s doing something they want to do.*  
-*\-* Edith Bouvier Beale, *Grey Gardens*
+{% include feature/blockquote.html quote="The cat's going to the bathroom right in back of my portrait. I’m glad he is. I’m glad somebody’s doing something they want to do." speaker="Edith Bouvier Beale" source="Grey Gardens" size="md"%}
+
 
 
 {% include essay/new-section.html  %} 
@@ -42,13 +41,11 @@ Inside the heavy wooden door, light trickles through tall, narrow windows. The w
 {% include essay/new-section.html  %} 
 
 \~  
-*Oh, Mother thinks it's artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.*  
-*\-* Edith Bouvier Beale, *Grey Gardens*
+
+{% include feature/blockquote.html quote="*Oh, Mother thinks it's artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.* " speaker="Edith Bouvier Beale" source="Grey Gardens" size="lg"%}
 
 
-*I have some very urgent things to have done at the mas…a hot water heater… I wish you could have seen me after the fall struggling up to the bathroom with kettles of boiling water so that I could have a good soak…A gate and bars for the windows and locks etc… a ditch behind the house so that the water doesn’t seep in when it rains… All these are things that I could attend to now, curtains to help keep the wind out. All the pipes repaired \- there are buckets everywhere for the drips\!*  
-\- Fiona Millar, 1971  
-
+{% include feature/blockquote.html quote="I have some very urgent things to have done at the mas…a hot water heater… I wish you could have seen me after the fall struggling up to the bathroom with kettles of boiling water so that I could have a good soak…A gate and bars for the windows and locks etc… a ditch behind the house so that the water doesn’t seep in when it rains… All these are things that I could attend to now, curtains to help keep the wind out. All the pipes repaired \- there are buckets everywhere for the drips\!" speaker="Fiona Millar, 1971" size="sm"%}
 
 \~  
 
@@ -65,9 +62,10 @@ When my grandmother was still driving, she used to sway between highway lanes, a
 
 Dot, her mother, had been a millionaire.  
 
-{% include feature/image.html objectid="gae105" %}
+{% include feature/image-gallery.html objectid="gae105" %}
 
-\~  
+{% include essay/new-section.html  %} 
+ 
 
 I can’t write about Gaëtane without writing about our family, and I can’t write about our family without thinking about *Grey Gardens*. In *Grey Gardens,* Little Edie and her mother Edith are captured living in a decaying estate in the Hamptons. They take care of each other as much as they drive each other mad, scolding each other, reading to each other, replaying the events of their past and imagining the lives they could have lived. They are compelling, sharp-tongued and cheeky, at once resourceful and hopelessly naïve.  
 
@@ -79,11 +77,11 @@ The origin of this grandeur is real. A sugar refinery, a real estate empire, a s
 
 While she didn’t need to work, Dot spent her life studying, earning a bachelor’s degree the same year as her eldest daughter, then a master’s in French literature. She audited medical courses at Dartmouth, despite the school not admitting women as medical students until many years later. Once her children left home, she took over the management of St Margaret’s Home for the Incurables, established, in part by her own grandfather, in the late 19th century.  
 
-\~  
+{% include essay/new-section.html  %} 
 
-*Doctors increasingly concurred that some combination of nature and nurture generated a fatal flaw in the chronically ill…By emphasizing that most people brought incurability upon themselves, an increasingly insecure group of elites could insist that a program of individual self-improvement (or selective breeding), rather than the overturn of industrial capitalism, held the key to a brighter, healthier future (9).*
 
-- Jason Szabo, *Incurable and Intolerable*
+{% include feature/blockquote.html quote="Doctors increasingly concurred that some combination of nature and nurture generated a fatal flaw in the chronically ill…By emphasizing that most people brought incurability upon themselves, an increasingly insecure group of elites could insist that a program of individual self-improvement (or selective breeding), rather than the overturn of industrial capitalism, held the key to a brighter, healthier future (9)." speaker="Jason Szabo, *Incurable and Intolerable*" size="sm"%}
+
 
 {% include feature/modal-mini-map.html latitude="45.481921" longitude="-73.589447" location="St. Margaret's Home" %}
 
@@ -93,24 +91,28 @@ The facility, which by Dot’s era was a home for women alone, was administered 
 
 The Sisterhood of Saint Margaret, a nursing order, solicited funds for the home, employed the floor staff, and tended to the residents spiritual needs. Over the years, the nuns faded into the background, until the home was secularized in 1975\. A picture of the interior of the facility from 1933 shows them standing in the corners, heads bowed, faces shielded by their habits. To me, they look sinister, although they are in good company; each resident stares into the camera, unsmiling.
 
-{% include feature/image.html objectid="gae094" %}
+{% include feature/image-gallery.html objectid="gae094" %}
+
+{% include essay/new-section.html  %} 
 
 
 While St Margaret’s Home was more assisted living facility than hospital, so too was it a product of the philosophies of its time, charged with the care of those who were excluded, by reason of poverty or medical need, from other facilities or from the possibility of living independently. Poverty and disability are, even today, too often disparaged as the result of personal failures, of weak-wills and defeatism. I have to imagine that these judgements, too, crept into the ethos of St Margaret’s Home, although to what degree, I can’t say.  
 
 I can see myself casting about for a narrative here. I want a sense of my great-grandmother, of her motivations and beliefs. The Dot my mother remembers was fastidious, scientifically-minded, and emotionally distant. Her grandmother was a doctor, her grandfather, a baptist minister, and the two vocations seemed to have shaped her equally. She had a rigid sense of propriety, clear on the roles of men and women, despite her own, arguably radical medical interests. Her service at St Margaret’s home was informed by a commitment to medical advancements, and a commitment to religious service. I can only speculate from here: Did this idea of the incurable, the morally compromised, shape her scientific curiosity? Did her commitment to science contradict, or complement her religious conviction?  
 
-\~  
+{% include essay/new-section.html  %} 
 
-*Everybody is terribly sensitive. And other people don’t understand how sensitive a human being is. They don’t understand it. So they run roughshod over everybody.*  
-\- Edith Bouvier Beale, *Grey Gardens*
+
+{% include feature/blockquote.html quote="*Everybody is terribly sensitive. And other people don’t understand how sensitive a human being is. They don’t understand it. So they run roughshod over everybody.*" source="Grey Gardens" speaker="Edith Bouvier Beale" %}
 
 {% include feature/aside.html objectid="gae015" %}
 
-*See, I never really did feel loved as a child, not to my memory anyway. I understand mother and father tried hard, but they just didn’t have it in them to take care of me, when they, at least mother, needed parents themselves.*   
-\- Gaëtane Buttigieg, 1971   
+{% include feature/blockquote.html quote="See, I never really did feel loved as a child, not to my memory anyway. I understand mother and father tried hard, but they just didn’t have it in them to take care of me, when they, at least mother, needed parents themselves." speaker="Gaëtane Buttigieg, 1971" %}
 
-\~  
+ 
+
+{% include essay/new-section.html  %} 
+
 
 There is a painting in the family of Dot’s oldest three children, in winter coats, toques and mittens, in the snow. They look serene, my grandmother’s arms are around her sister and brother, looking every bit the attentive eldest. If we can assume love in a family, I see it there, in that painting, perhaps even in the fact of that painting, which my great-grandmother commissioned, as something to mark this moment in her children’s lives. It was something concrete that she could offer them, in place of a tenderness that challenged, maybe evaded her. They look like ghost children, the three of them, emerging in soft colors, an indistinct forest in the background.   
 
@@ -123,26 +125,32 @@ Yet there was something she imparted, a fantasy of our worth, that was not so ea
 
 It feels insensitive to consider the ways that this privilege may have hurt us. By all accounts, it embarrassed Dot, who drove a sensible car while her sister drove a Jaguar. But her shame about money, or maybe a societal precedent that permits the privileged to look away demurely when identified, seemed only to obscure reality for her daughters. who moved through life with the sense that there was an endless source of money somewhere, if only they could find their way to it. Dot herself, while capable in many ways, left the finances to the men in her life, her father, then husband, then, after their divorce, the bankers. Her three daughters, perhaps, learned from her that money was not theirs to understand.
 
-*L'argent. On parlait pas d'argent dans la famille. Je sais pas si tu as vécu ça, mais l'argent c'était quelque chose… C'était un peu comme la sexualité quoi. On l'as parlé pas.[^4]*
+{% include essay/pull-quote-translation.html trans="gae076" lines="6-17" font-size="sm" %}
 
-- Gaëtane, “Money”   
-- 
 
 {% include feature/video.html objectid="gae076" subtitles=true translation=true srclang="fr" translang="en" %}
+
+
+{% include essay/new-section.html  %} 
 
 In the painting, the siblings look more unified than I ever remember. During my lifetime, they all lived thousands of kilometers apart; Dora stayed in Montreal, Huntley moved to Texas, all but cut himself off from the family. Nell moved out West, tended to people’s horses, Fiona moved to France and married an artist. I wonder if they corresponded with one another, or if they kept up through their children. When Nell died, my grandmother didn’t remember ever having known her very well.  
 
 \~  
 
-*Dear Mummy, I haven’t written to you for so long because I’ve been absolutely seething about this whole business. Your last letter is full of the advice that people have been giving and I know that you always need somebody to tell you what to do so I’ll tell you what I think.*  
-\- Fiona Millar, 1971 
+{% include essay/new-section.html  %} 
+
+
+{% include feature/blockquote.html quote="Dear Mummy, I haven’t written to you for so long because I’ve been absolutely seething about this whole business. Your last letter is full of the advice that people have been giving and I know that you always need somebody to tell you what to do so I’ll tell you what I think." speaker="Fiona Millar, 1971" size="sm" %}
+
 
 {% include feature/image.html objectid="gae009" %}
 
-*But you see in dealing with me, the relatives didn't know that they were dealing with a staunch character and I tell you if there's anything worse than dealing with a staunch woman... S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.*  
-\- Edith Bouvier Beale, *Grey Gardens*  
+{% include feature/blockquote.html quote="But you see in dealing with me, the relatives didn't know that they were dealing with a staunch character and I tell you if there's anything worse than dealing with a staunch woman... S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what." speaker="Edith Bouvier Beale" source="Grey Gardens"%}
+
 
 \~  
+
+{% include essay/new-section.html  %} 
 
 Gaëtane does not speak ill of her mother. She tells me about her childhood in a kind of passive voice, that she had gone to this school, then that one, that even while she acted out in hopes of being home again, she ended up here and there, boarded with a woman in Aramon, a Steiner school in England, a lycée in Montpellier, living with Nell in Montreal, then a school in Western Canada.   {% include feature/aside.html objectid="gae107" %}
 
@@ -156,26 +164,27 @@ While she was there, she fell in love again.
 
 {% include feature/video.html objectid="gae044" subtitles=true translation=true srclang="fr" translang="en" %}
 
-*J'étais très furieuse contre moi-même*. *Je me suis dit c'est pas possible, je peux pas continuer comme ça. Alors je me souviens, je m'étais promené sur les falaises. Il y avait des falaises à Saturna où on regardait la mer. Je me disais non, c'est... c'est pas possible. Mais j'ai pas sauté. Et c'est là que je me suis mise à faire des... Tous les soirs, vers 6, 7 h du soir, j'allais exploser. Alors il fallait que je fasse quelque chose. Soit je cassais la chaise, soit je me promenais à poil en chantant la Marseillaise à tue-tête, soit je déroulait du papier toilette dans les escaliers. Tous les soirs. Il fallait que je fasse et ils ont eu la patience de supporter.*  
+{% include essay/pull-quote-translation.html lines="5-10" trans="gae044" font-size="sm" %}
 
-*Je pensais que c'était... C'était quelque chose de terrible que j'avais en moi, d'être attiré par les femmes. Jusqu'à ce qu\[‘une amie\] me disait "Tu sais, être attiré par les femmes ou être attirée par les hommes, ça revient au même." Et ça m'a beaucoup soulagée.[^6]*
+{% include essay/pull-quote-translation.html lines="1" trans="gae066" font-size="sm" %}
 
-- Gaëtane  
+{% include essay/new-section.html  %} 
 
-Between school placements, Gaëtane returned home to France from Canada. She went out to visit a friend and came home to find Fiona in a rage. *Tout de suite, elle a pris un billet d'avion. Elle a dit "C'est pas possible, Ce n'est pas possible que tu restes ici." Et voilà. J'ai compris que j'étais moi aussi chassé de ma maison.[^7]* As she tells me her stories, she seems self-effacing – she laughs at her antics, at the way her childhood was marked by a cycle of exile and return.  
+
+Between school placements, Gaëtane returned home to France from Canada. She went out to visit a friend and came home to find Fiona in a rage. {% include feature/aside.html text="Right away, she bought a plane ticket. She said, 'It’s not possible, it’s not possible that you stay here.' And that was it. I understood that I was also being chased from my home."%} *Tout de suite, elle a pris un billet d'avion. Elle a dit "C'est pas possible, Ce n'est pas possible que tu restes ici." Et voilà. J'ai compris que j'étais moi aussi chassé de ma maison.*  As she tells me her stories, she seems self-effacing – she laughs at her antics, at the way her childhood was marked by a cycle of exile and return.  
 
 {% include feature/video.html objectid="gae070" subtitles=true translation=true srclang="fr" translang="en" %}
 
 \~  
 
-*Je veux dire que je ne le retiens pas rigueur. Je ne leur en veux pas. Même ma mère... Je n'ai pas d'amertume ou de rancœur vis-à-vis de ma mère. Ma mère, elle a fait ce qu'elle a pu, selon les limites de qu'elle avait. Et Nell, c'est pareil.[^8]*
+{% include essay/pull-quote-translation.html trans="gae079" speaker="Gaëtane" source="No Rancor" lines="1-3" %}
 
-- Gaëtane, “No Rancor” 
 
 {% include feature/video.html objectid="gae079" subtitles=true translation=true srclang="fr" translang="en" %}
 
 As we walk through the Mas, Gaëtane points to her small windowless room, at the heart of the house, amid the piles of old books – among them, *A Lost Lady,* a novel about declining fortunes, and a woman who seeks “life on any terms”. We look through a pile of letters.  
-*Elle a laissé beaucoup de papiers, parce qu'elle a collectionné tous ces papiers depuis soixante-dix ans,* Gaëtane tells me of Fiona. *Alors on a bruler beaucoup.[^9]* I think of my grandmother’s crosswords.  
+
+*Elle a laissé beaucoup de papiers, parce qu'elle a collectionné tous ces papiers depuis soixante-dix ans,* Gaëtane tells me of Fiona. *Alors on a bruler beaucoup.* {% include feature/aside.html text="She left a lot of papers, because she collected everything for seventy years. So we burned a lot." %} I think of my grandmother’s crosswords.  
 
 As we leave, Gaëtane rinses our water glasses under the cloudy water from the kitchen faucet, and sets them on the rack to dry. Again, she tiptoes around the snails in the grass, and pulls the heavy iron gate shut, locking it gently.
 
