@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: /assets/img/image001.jpg
+header-image: /assets/img/image002.jpg
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---
@@ -35,14 +35,14 @@ Mas Lombard faces the city of Nîmes on one side, faces a potato field on the ot
 
 Gaëtane and Hélène had been together for three years when they bought the Mas. The roof needed to be replaced, and the windows, and the plaster siding had crumbled in patches, exposing the stone structure underneath. The barn, which had been appropriated by the French Army to house Laotian workers during World War I, was badly in need of repair. A map of Laos was still faintly visible, painted up to the roofbeams on the South wall.
 
-{% include feature/image.html objectid="gae095" %}
+{% include feature/image-gallery.html objectid="gae095" %}
 
 
 {% include essay/new-section.html %} 
 
 
-{% include feature/image.html objectid="gae096;gae097" %}
-{% include feature/image.html objectid="gae098;gae099" %}
+{% include feature/image-gallery.html objectid="gae096;gae097" %}
+{% include feature/image-gallery.html objectid="gae098;gae099" %}
 
 {% include essay/new-section.html%} 
 
@@ -70,7 +70,7 @@ I am in town for five days, on my way to a writing workshop, and I use the trip 
 
 Inside their kitchen, a pot of what looks to be apricot jam cools on the stove \- it will remain there for the duration of my visit. A cluster of uncorked bottles of wine sits on the counter. That night, Hélène will sniff each one cautiously, unsure which had been opened the night before, and which had been there for weeks. Through to the living room, a baby grand barely clears the doorframe. On top of it, a carved jade ship, maybe a meter long and half as high, gathers dust next to a pile of mail and keys and dog treats. Gaëtane’s paintings hang on every wall.
 
-{% include feature/image.html objectid="gae100;gae101;gae102" %}
+{% include feature/image-gallery.html objectid="gae100;gae101;gae102" %}
 
 
 People in my community talk about queer family. It is what we call our cherished friends, who see us, celebrate us, love us in the way that family should, sometimes a supplement to our own families, sometimes the only one we are left with. Queerness is not a thing we inherit, and as such, queer families are pieced together, through proximity and shared experience. Some of my friends have fraught relationships with their blood families, some in the slow process of repair, some severed forever \- for them, a chosen family is a lifeline.  
