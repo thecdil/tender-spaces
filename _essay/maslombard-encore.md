@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: /assets/img/image005.png
+header-image: /assets/img/image002.jpg
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---

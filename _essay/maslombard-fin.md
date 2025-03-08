@@ -6,7 +6,7 @@ content-indent:
 background-color: 
 text-color: 
 font-size:
-header-image: /assets/img/image001.jpg
+header-image: /assets/img/image002.jpg
 header-text-color: white
 additional-content-styles:
 ---
