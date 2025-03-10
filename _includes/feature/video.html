@@ -42,7 +42,7 @@
     {% assign video_src = raw_src | relative_url %}
 {%- endif -%}
 <div class="text-center my-4">
-    <figure class="mx-auto{% if include.width %} feature-w-{{ include.width }}{% endif %}">
+    <figure class="mx-auto{% if include.width %} feature-w-{{ include.width }}{% endif %} lg-video {% if include.class %}{{include.class}}{% endif %}s">
         <div class="ratio ratio-{{ include.ratio | default: '16x9' }}">
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
             <iframe title="video embed {{ video_caption | escape }}" src="{{ video_src }}" allowfullscreen></iframe>
