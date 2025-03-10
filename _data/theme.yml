@@ -4,6 +4,13 @@
 ##########
 
 ##########
+# Essay Defaults
+# Default language settings
+default_language: "en"  # Options: "en" or "fr" currently (but need to adjust so it can be any language)
+
+##########
+
+##########
 # HOME PAGE
 #
 # featured image is used in home page banner and in meta markup to represent the collection

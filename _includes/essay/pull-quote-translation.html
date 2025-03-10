@@ -12,27 +12,40 @@
 {%- endcomment -%}
 
 {% comment %}
-  Check if lines parameter contains a hyphen (range) or commas (specific lines)
+  Check if lines parameter exists and contains a hyphen (range) or commas (specific lines)
 {% endcomment %}
 {% assign trans_data = site.data.trans[include.trans] %}
-{% assign has_range = include.lines | split: "-" | size %}
-{% assign has_specific = include.lines | split: "," | size %}
+{% if include.lines %}
+  {% assign has_range = include.lines | split: "-" | size %}
+  {% assign has_specific = include.lines | split: "," | size %}
+{% endif %}
 {%- assign item = site.data[site.metadata] | where: "objectid", include.trans | first -%}
 
-{% if has_range > 1 %}
-  {% comment %} Handle range of lines like "3-7" {% endcomment %}
-  {% assign lines_range = include.lines | split: "-" %}
-  {% assign start_line = lines_range[0] | minus: 1 | default: 0 %}
-  {% assign end_line = lines_range[1] | minus: 1 | default: start_line %}
-  {% assign line_mode = "range" %}
-{% elsif has_specific > 1 %}
-  {% comment %} Handle specific lines like "3,5,7" {% endcomment %}
-  {% assign line_numbers = include.lines | split: "," %}
-  {% assign line_mode = "specific" %}
+{% comment %}Declare default language settings{% endcomment %}
+{% assign default_lang = site.data.theme.default_language | default: "fr" | downcase %}
+{% assign is_english_default = default_lang == "en" %}
+
+{% if include.lines %}
+  {% if has_range > 1 %}
+    {% comment %} Handle range of lines like "3-7" {% endcomment %}
+    {% assign lines_range = include.lines | split: "-" %}
+    {% assign start_line = lines_range[0] | minus: 1 | default: 0 %}
+    {% assign end_line = lines_range[1] | minus: 1 | default: start_line %}
+    {% assign line_mode = "range" %}
+  {% elsif has_specific > 1 %}
+    {% comment %} Handle specific lines like "3,5,7" {% endcomment %}
+    {% assign line_numbers = include.lines | split: "," %}
+    {% assign line_mode = "specific" %}
+  {% else %}
+    {% comment %} Handle single line {% endcomment %}
+    {% assign start_line = include.lines | minus: 1 | default: 0 %}
+    {% assign end_line = start_line %}
+    {% assign line_mode = "range" %}
+  {% endif %}
 {% else %}
-  {% comment %} Handle single line {% endcomment %}
-  {% assign start_line = include.lines | minus: 1 | default: 0 %}
-  {% assign end_line = start_line %}
+  {% comment %} Handle entire dataset when no lines specified {% endcomment %}
+  {% assign start_line = 0 %}
+  {% assign end_line = trans_data.size | minus: 1 %}
   {% assign line_mode = "range" %}
 {% endif %}
 
@@ -91,8 +104,8 @@
       <div class="toggle-switch-container sticky-top">
         <span class="toggle-label orig-lang">FR</span>
         <label class="toggle-switch" aria-label="Toggle between French and English">
-          <input type="checkbox" class="translation-toggle" aria-label="Switch language" aria-pressed="false">
-          <span class="toggle-slider" role="switch" aria-checked="false"></span>
+          <input type="checkbox" class="translation-toggle" aria-label="Switch language" aria-pressed="false" {% if is_english_default %}checked{% endif %}>
+          <span class="toggle-slider" role="switch" aria-checked="{{ is_english_default }}"></span>
         </label>
         <span class="toggle-label trans-lang">EN</span>
       </div>
@@ -112,6 +125,12 @@
     const translationToggles = document.querySelectorAll('.translation-toggle');
     
     translationToggles.forEach(toggle => {
+      // Trigger initial state based on default language
+      if (toggle.checked) {
+        const event = new Event('change');
+        toggle.dispatchEvent(event);
+      }
+
       toggle.addEventListener('change', function() {
         const blockquote = this.closest('figure').querySelector('blockquote');
         const quoteItems = blockquote.querySelectorAll('.quote-item');
