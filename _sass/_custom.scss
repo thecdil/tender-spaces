@@ -21,6 +21,19 @@ video::cue {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.lg-video{
+    width: 800px !important;
+    height: auto;
+    @media (max-width: 868px) {
+        width: 100% !important;
+    }
+}
+
+
 .mini {
     font-size: .75em;
+}
+
+.blockquote-footer {
+    color: #383A42;
 }
