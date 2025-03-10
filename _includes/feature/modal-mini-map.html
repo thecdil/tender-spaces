@@ -52,67 +52,93 @@
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.fullscreen.css' | relative_url }}">-->
 <script>
-// initial start point
-var mapCenter = [{{ map-item.latitude | default: include.latitude }}, {{ map-item.longitude | default: include.longitude }}];
-var mapZoom = {{ include.map-zoom | default: 10 }};
-/* init map, set center and zoom */
-var map = L.map('{{ map_id }}', {
-    scrollWheelZoom: true}).setView(mapCenter, mapZoom);
+// Make all variables specific to this instance by using an IIFE
+(function() {
+  // initial start point
+  var mapCenter = [{{ map-item.latitude | default: include.latitude }}, {{ map-item.longitude | default: include.longitude }}];
+  var mapZoom = {{ include.map-zoom | default: 10 }};
+  var mapId = '{{ map_id }}';
+  var modalId = 'Modal{{ include.latitude | slugify }}';
+  
+  /* init map, set center and zoom */
+  var map = L.map(mapId, {
+      scrollWheelZoom: true}).setView(mapCenter, mapZoom);
 
-/* add map layer options */
-var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
-});
-var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-    maxZoom: 16
-});
-var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-});
-var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
-minZoom: 0,
-maxZoom: 20,
-attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-ext: 'png'
-});
-var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
-minZoom: 0,
-maxZoom: 20,
-attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-ext: 'png'
-});
-/* add base map switcher */
-var baseMaps = {
-    "Esri World StreetMap": Esri_WorldStreetMap,
-    "Esri National Geo": Esri_NatGeoWorldMap,
-    "Esri Imagery": Esri_WorldImagery,
-    "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
-    "Stadia Stamen Toner": Stadia_StamenToner
-};
-L.control.layers(baseMaps).addTo(map);
-/* load base map */
-{{ include.basemap | default: 'Stadia_StamenToner' }}.addTo(map);
-/* add fullscreen control */ 
-map.addControl(new L.Control.Fullscreen());
+  /* add map layer options */
+  var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+  });
+  var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+      maxZoom: 16
+  });
+  var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+  });
+  var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
+  minZoom: 0,
+  maxZoom: 20,
+  attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  ext: 'png'
+  });
+  var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}', {
+  minZoom: 0,
+  maxZoom: 20,
+  attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  ext: 'png'
+  });
+  /* add base map switcher */
+  var baseMaps = {
+      "Esri World StreetMap": Esri_WorldStreetMap,
+      "Esri National Geo": Esri_NatGeoWorldMap,
+      "Esri Imagery": Esri_WorldImagery,
+      "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
+      "Stadia Stamen Toner": Stadia_StamenToner
+  };
+  L.control.layers(baseMaps).addTo(map);
+  /* load base map */
+  {{ include.basemap | default: 'Stadia_StamenToner' }}.addTo(map);
+  /* add fullscreen control */ 
+  map.addControl(new L.Control.Fullscreen());
 
+  /* add marker as a red circle */
+  L.circleMarker(mapCenter, {
+    radius: 8,
+    fillColor: "#ff0000",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+  }).addTo(map)
+    .bindPopup('{{ map-item.title | escape }}');
 
-/* add marker as a red circle */
-L.circleMarker(mapCenter, {
-  radius: 8,
-  fillColor: "#ff0000",
-  color: "#000",
-  weight: 1,
-  opacity: 1,
-  fillOpacity: 0.8
-}).addTo(map)
-  .bindPopup('{{ map-item.title | escape }}');
+  // Store map reference, center point, and zoom level in a global object so we can access it later
+  if (!window.miniMaps) {
+    window.miniMaps = {};
+  }
+  window.miniMaps[mapId] = {
+    map: map,
+    center: mapCenter,
+    zoom: mapZoom
+  };
 
-
-var myModal = document.getElementById('Modal{{ include.latitude | slugify }}'); 
-myModal.addEventListener('shown.bs.modal', function() {
-  setTimeout(function() {
-    map.invalidateSize();
-  }, 100);
-});
+  // Create a more specific listener for this modal
+  var myModal = document.getElementById(modalId); 
+  myModal.addEventListener('shown.bs.modal', function() {
+    // Get the map data for this modal
+    var mapData = window.miniMaps[mapId];
+    var currentMap = mapData.map;
+    
+    // Reset the map view using this specific map's stored center and zoom
+    setTimeout(function() {
+      currentMap.invalidateSize();
+      currentMap.setView(mapData.center, mapData.zoom);
+    }, 10);
+    
+    // Force a complete redraw with slight delay to ensure proper rendering
+    setTimeout(function() {
+      currentMap.invalidateSize();
+    }, 100);
+  });
+})();
 </script>
