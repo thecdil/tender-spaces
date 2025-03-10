@@ -19,17 +19,15 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include essay/new-section.html %} 
 
-It is off handed, the way Gaëtane tells me about Chestnut Lodge. *I was sent to a psychiatric hospital for ten months when I was eighteen, for being a lesbian,* she tells me. *Mais je faisais toutes sortes de bêtises.* I must look shocked. What kind of *bêtises,* what kind of antics would merit almost a year in a psychiatric facility?   
+It is off handed, the way Gaëtane tells me about Chestnut Lodge. *I was sent to a psychiatric hospital for ten months when I was eighteen, for being a lesbian,* she tells me. *Mais je faisais toutes sortes de bêtises.* {% include feature/aside.html text="But I was doing all sorts of stupid things." %} I must look shocked. What kind of *bêtises,* what kind of antics would merit almost a year in a psychiatric facility?   
 
 *Ask your mother,* she then said, and while my translation often missed nuance, I heard the bitterness there. My mother, who had sung me lullabies that celebrated queerness. She was five years older than Gaëtane, 23 at the time, a teaching student at SFU, an environmental activist too. I wonder how Gaëtane sees my mother’s culpability, if she sees her as complicit in her exile. At 23, did my mother know what it meant to be gay? Did they talk about Gaëtane over family dinner, or was it vaguely phrased, some kind of infirmity, or hysteria?
 
 Chestnut Lodge was famous, infamous in some eyes, for its pioneering psychological treatments. A towering brick building with sweeping lawns and chestnut groves, it was a place where people of a certain means could send their family members for discreet treatment. It was, Gaëtane told me, how you would imagine a psychiatric hospital to be at the time. White-coated orderlies walked around the grounds with jangling rings of keys. Access to the wider grounds had to be earned through good behavior. *It broke my mind*, Gaëtane tells me.  
 
 It was Dot’s idea, it seems, in concert with Fiona and Nell. The Free School, one place where Gaëtane felt seen and accepted, lacked stability and leadership, and quickly closed down. At seventeen, Gaëtane moved in with the parents of her friends in Vancouver. One day, while wandering downtown with her friends, was interrogated by the police, and, not having any apparent legal guardian, was arrested.   
+
 She was held in a juvenile detention facility. The contrast to a life of freedom, of being barefoot on an island, and being the master of her own time, was a shock.
-
-{% include essay/new-section.html %} 
-
 
 {% include feature/video.html objectid="gae050" subtitles=true translation=true srclang="fr" translang="en" size="lg" %}
 

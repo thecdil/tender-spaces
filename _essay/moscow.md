@@ -79,4 +79,3 @@ The exchange stands out to me. It betrays Gaëtane’s uncertainty and Dot’s a
 
 I can’t know, but I continue to reinvent it, each time I read it.  I want to wield it as proof, of both the effort and the discord, which are both worth our consideration.  Maybe I include this excerpt to say to my family: our shortcomings belong in this story – and they will not make me love you any less.
 
-[^1]:  I loved the tender spaces, the English greens of emerald and silence, your smell, you illuminated the air from which I defend myself

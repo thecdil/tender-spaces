@@ -40,14 +40,14 @@ Inside the heavy wooden door, light trickles through tall, narrow windows. The w
 
 {% include essay/new-section.html  %} 
 
-\~  
+ 
 
 {% include feature/blockquote.html quote="*Oh, Mother thinks it's artistic this way, like a Frank Lloyd Wright house. Don’t you love the overgrown Louisiana Bayou look.* " speaker="Edith Bouvier Beale" source="Grey Gardens" size="lg"%}
 
 
 {% include feature/blockquote.html quote="I have some very urgent things to have done at the mas…a hot water heater… I wish you could have seen me after the fall struggling up to the bathroom with kettles of boiling water so that I could have a good soak…A gate and bars for the windows and locks etc… a ditch behind the house so that the water doesn’t seep in when it rains… All these are things that I could attend to now, curtains to help keep the wind out. All the pipes repaired \- there are buckets everywhere for the drips\!" speaker="Fiona Millar, 1971" size="sm"%}
 
-\~  
+ 
 
 {% include essay/new-section.html  %} 
 
@@ -121,7 +121,7 @@ The painting is by Charles de Belle, a Hungarian-Canadian painter who gravitated
 I don’t agree, that it was a fantasy. Maybe our influence was inflated, but often privilege belongs to those who are perceived to have it, and who perceive themselves to deserve it. We had it in spades – we looked the part; we felt the part – regardless of the particulars of our finances. My grandmother sold jams at craft fairs from her minivan, raised chinchillas for fur in her basement, hounded us to buy into her multi-level marketing schemes, her house full of old papers, empty bottles and cat shit. {% include feature/aside.html objectid="gae106" %} 
 Yet there was something she imparted, a fantasy of our worth, that was not so easily spent as Dot’s fortune.  
 
-\~  
+ 
 
 It feels insensitive to consider the ways that this privilege may have hurt us. By all accounts, it embarrassed Dot, who drove a sensible car while her sister drove a Jaguar. But her shame about money, or maybe a societal precedent that permits the privileged to look away demurely when identified, seemed only to obscure reality for her daughters. who moved through life with the sense that there was an endless source of money somewhere, if only they could find their way to it. Dot herself, while capable in many ways, left the finances to the men in her life, her father, then husband, then, after their divorce, the bankers. Her three daughters, perhaps, learned from her that money was not theirs to understand.
 
@@ -135,7 +135,7 @@ It feels insensitive to consider the ways that this privilege may have hurt us. 
 
 In the painting, the siblings look more unified than I ever remember. During my lifetime, they all lived thousands of kilometers apart; Dora stayed in Montreal, Huntley moved to Texas, all but cut himself off from the family. Nell moved out West, tended to people’s horses, Fiona moved to France and married an artist. I wonder if they corresponded with one another, or if they kept up through their children. When Nell died, my grandmother didn’t remember ever having known her very well.  
 
-\~  
+ 
 
 {% include essay/new-section.html  %} 
 
@@ -148,7 +148,7 @@ In the painting, the siblings look more unified than I ever remember. During my 
 {% include feature/blockquote.html quote="But you see in dealing with me, the relatives didn't know that they were dealing with a staunch character and I tell you if there's anything worse than dealing with a staunch woman... S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what." speaker="Edith Bouvier Beale" source="Grey Gardens"%}
 
 
-\~  
+ 
 
 {% include essay/new-section.html  %} 
 
@@ -172,11 +172,13 @@ While she was there, she fell in love again.
 {% include essay/new-section.html  %} 
 
 
-Between school placements, Gaëtane returned home to France from Canada. She went out to visit a friend and came home to find Fiona in a rage. {% include feature/aside.html text="Right away, she bought a plane ticket. She said, 'It’s not possible, it’s not possible that you stay here.' And that was it. I understood that I was also being chased from my home."%} *Tout de suite, elle a pris un billet d'avion. Elle a dit "C'est pas possible, Ce n'est pas possible que tu restes ici." Et voilà. J'ai compris que j'étais moi aussi chassé de ma maison.*  As she tells me her stories, she seems self-effacing – she laughs at her antics, at the way her childhood was marked by a cycle of exile and return.  
+Between school placements, Gaëtane returned home to France from Canada. She went out to visit a friend and came home to find Fiona in a rage. {% include feature/aside.html text="Right away, she bought a plane ticket. She said, 'It’s not possible, it’s not possible that you stay here.' And that was it. I understood that I was also being chased from my home." %} *Tout de suite, elle a pris un billet d'avion. Elle a dit "C'est pas possible, Ce n'est pas possible que tu restes ici." Et voilà. J'ai compris que j'étais moi aussi chassé de ma maison.*  As she tells me her stories, she seems self-effacing – she laughs at her antics, at the way her childhood was marked by a cycle of exile and return.  
 
 {% include feature/video.html objectid="gae070" subtitles=true translation=true srclang="fr" translang="en" %}
 
-\~  
+
+
+{% include essay/new-section.html  %} 
 
 {% include essay/pull-quote-translation.html trans="gae079" speaker="Gaëtane" source="No Rancor" lines="1-3" %}
 
