@@ -9,10 +9,12 @@ font-size:
 header-image: /assets/img/image002.jpg
 header-text-color: white
 additional-content-styles:
+custom-foot: essay/essay-scroll-js.html
 ---
 <div class="row my-4" >
 <div class="" markdown="1">
 
+	
 {% include feature/mini-map.html latitude="43.83904832" longitude="4.404398447" basemap="Stadia_StamenToner" map-zoom="9"%}
 
 {% include essay/new-section.html %} 
@@ -22,15 +24,9 @@ Gaëtane and Hélène take me to the Mediterranean. We set up folding chairs on 
 {% include feature/video.html objectid="gae038" subtitles=true translation=true srclang="fr" translang="en" %}
 
 
+{% include essay/pull-quote-translation.html trans="gae038" lines="1-6"  %}
 
-*Gaëtane: “Elle a été horrifiée par mes tableaux.”*  
 
-*Helene: “Horrifiée ? Peut être pas, mais mon père était aquarelliste. Tu peux voir quelques touches de ses peintures. Donc la peinture à l'huile de Gaëtane était extrêmement violente et ça m'a interpellé. On peut pas dire que ça m'a choqué, mais dans cette peinture, j'ai ressenti quelque chose de douloureux et quelque chose un cri. Moi c'était pas le cri, mais c'était quand même très symbolique. Il y avait une violence de son œuvre. Alors dans ces premières, on peut rencontrer des clous, des boulons, de la terre. Les premières, les premières peintures…”*  
-*Gaëtane: “J'ai fais un paysage crucifié.”*  
-
-*Hélène: “Quand tu te retrouves dans un endroit calme et que tu as subi tout ça, peut être effectivement, tu as besoin de le crier. Puisque tu ne l'as pas crié au moment où c'était.”[^16]*
-
-- Interview, “Violence in Art” 
 
 I find a letter from her husband to my great-grandmother: *I would like to dispel any worries you have over the disappearance of Gaëtane. She will remain with me in hiding until our marriage takes place. At that time I will become her legal guardian and it is not my intention to permit her to return to Chestnut Lodge. Regretfully, I cannot sign my name until we feel free from pursuit.* {% include feature/aside.html objectid="gae002" %} Then, in a different hand, a curt proof of her presence: *But I’ll sign mine. Gaëtane.*
 
@@ -50,17 +46,15 @@ We have to step up and duck through a doorway to get in, and the entryway is cra
 
 Everywhere in her studio, there are paintings of horses. A small horse surveys from the bare drywall above the bathroom sink, horses are painted onto small tiles, pieces of paper, canvas. She tells me about them as she leafs through a stack of horses.
 
-*Un cheval, c'est assez doux, mais c'est très vite effarouchée. Très vite... Ça fait vite peur. Et c'est très mobile. Et j'aime cette mobilité dans la peinture. J'aime représenter le cheval en mouvement. Et tu vois, c'est... En même temps, c'est doux, c'est violent par le mouvement, mais c'est doux par l'expression.[^17]*
 
-- Gaëtane, “Horse Paintings”
+{% include feature/aside.html text="A horse is quite gentle, but it is very quickly frightened. Very quickly... It quickly scares. And it is very mobile. And I like this mobility in painting. I like to represent the horse in movement. And you see, it is... At the same time, it is gentle, it is violent in movement, but it is gentle in expression." %}
+
+{% include feature/blockquote.html quote="*Un cheval, c'est assez doux, mais c'est très vite effarouchée. Très vite... Ça fait vite peur. Et c'est très mobile. Et j'aime cette mobilité dans la peinture. J'aime représenter le cheval en mouvement. Et tu vois, c'est... En même temps, c'est doux, c'est violent par le mouvement, mais c'est doux par l'expression.*" speaker="Gaëtane" source-link="items/gae089.html" source="Horse Paintings" %}
+
 
 Above her stool, a canvas is segmented, a grid of fine print pages, painted over in scrapes of white and red, and roughly retraced in black.
 
-*Il y a en France, il y a un livre des médicaments qui s'appelle le Vidal. Et ça c'est des papiers du Vidal qui des papiers très fins avec toutes les médicaments, à quoi ils servent et tout. Et moi, j'avais envie de peindre là dessus. C'est pour les docteurs, pour dire comment prescrire ce médicament, quelles sont les contre indications, quelles sont les indications, la dose, tout ça.*  
-
-*Eh bien, je trouve que c'est bien de mélanger l'art avec la médecine. Ça m'a. Cette idée là m'a plu. Et d'ailleurs c'est un très bon papier.[^18]*
-
-- Gaëtane, “Art and Medicine”
+{% include essay/pull-quote-translation.html trans="gae080" lines="2-7"  %}
 
 Gaëtane sketched a cat and a unicorn at the top of a letter to my great-grandmother. She wrote: *You see, I want to paint and make and create things. {% include feature/aside.html objectid="gae008" %} The only job that I would get pleasure doing and which is within my means is that.*
 
@@ -70,12 +64,6 @@ Back in the kitchen, Hélène tucks a chocolate wafer into my backpack, and a le
 
 *Put that in your story,* Gaëtane says, about something else, I don’t remember what.  
    
-*Où partent les mots que je n’ai jamais dits, ceux que je ne trouve pour respirer, pour paraître*  
+{% include feature/blockquote.html quote="*Où partent les mots que je n’ai jamais dits, ceux que je ne trouve pour respirer, pour paraître<br><br> de constitution commune, non lentement imbécile, plate sur une terre mangée de cuillères?*" size="md" class="ms-4 mt-5 border-top" %} 
 
-*de constitution commune, non lentement imbécile, plate sur une terre mangée de cuillères?* 
-
-[^16]:  Gaëtane: “She was horrified by my paintings.”
-
-[^17]:  A horse is quite gentle, but it is very quickly frightened. Very quickly... It quickly scares. And it is very mobile. And I like this mobility in painting. I like to represent the horse in movement. And you see, it is... At the same time, it is gentle, it is violent in movement, but it is gentle in expression.
-
-[^18]:  In France, there is a book of medicines called Vidal. And these are Vidal papers, very fine papers with all the medicines, what they are used for and everything. And I wanted to paint on them. It's for doctors, to tell them how to prescribe this medicine, what the contraindications are, what the indications are, the dose, all that. Well, I think it's good to mix art with medicine. I liked that. I liked that idea. And besides, it's a very good paper.
+{% include feature/aside.html text="Where do the words I never said go, those I can't find to breathe, to appear <br>of common constitution, not slowly imbecile, flat on a land eaten by spoons?"%}

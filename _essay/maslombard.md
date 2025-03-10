@@ -19,14 +19,16 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include essay/new-section.html %} 
 
-*J'aimais les espaces tendres, les verts anglais d'emeraude et de silence, ton odeur, tu illuminais l'air dont je me défends*  
-*et selon mon oreille reste l'espace de tes doigts finissants, à douter et rougir parfois des confiances pales, si étranges, si tendre et rouge de mon enfance.[^1]*  
+{% include feature/aside.html text="I loved the tender spaces, the English greens of emerald and silence, your smell, you illuminated the air from which I defend myself<br><br>and according to my ear remains the space of your ending fingers, to doubt and blush sometimes with the pale confidences, so strange, so tender and red of my childhood."%}
 
-\-[“Lettre à mon tuteur”, Gaëtane Buttigieg]({{'/items/gae108.html' | relative_url }})  
+{% include feature/blockquote.html quote="*J'aimais les espaces tendres, les verts anglais d'emeraude et de silence, ton odeur, tu illuminais l'air dont je me défends<br>*  
+*et selon mon oreille reste l'espace de tes doigts finissants, à douter et rougir parfois des confiances pales, si étranges, si tendre et rouge de mon enfance.*" source="Lettre à mon tuteur" speaker="Gaëtane Buttigieg" source-link="/items/gae108.html" %}
+
+
     
 {% include essay/new-section.html %} 
 
-{% include feature/video.html objectid="gae109" width="100" %}
+{% include feature/video.html objectid="gae109" width="100" size="lg" %}
 
 {% include essay/new-section.html background-color="white" %} 
 
@@ -88,9 +90,19 @@ Olivia is frustrated now, defending her right to protest as they discuss the Kin
    
 When Olivia leaves, Gaëtane begins telling me stories about her life. It’s after breakfast, and we’re sitting in the courtyard, under the Bourbon rose. Two round patio tables are pushed together, covered in mismatched plastic tablecloths. The ceramic pot of coffee is still on the table, cool now.  
 
-Gaëtane came to Canada when she was sixteen, stayed with another of her mother’s sisters, my great aunt Nell. *J’étais amoureux d'elle[^3]*, Gaëtane told me. I wonder, for a moment, if I have misunderstood her, and try not to react with my eyes. I remember my childhood visits with Nell. She lived in a camper most of the time, in the dry woods of interior BC. She raised horses, eked out a living taking care of other peoples’ ranches. I remember her pack of salukis, lithe, long-haired sighthounds who stood as tall as I did, and the jeans and the boots that she wore.  
+Gaëtane came to Canada when she was sixteen, stayed with another of her mother’s sisters, my great aunt Nell. *J’étais amoureux d'elle*, {% include feature/aside.html text="I was in love with her." %} Gaëtane told me. I wonder, for a moment, if I have misunderstood her, and try not to react with my eyes. 
 
-Later, I read a poem that Gaëtane wrote about Nell. *Ta voix me touche, j’invente des motifs de te parler. Tout prend des ombres particulières. // Tu me parles de responsabilité, de choses étonnantes et adultes et je voudrai t’entendre. Je ne cherche que le son de tes mots, non le sens et ne sais pas pourquoi.* Your voice touches me, I invent reasons to speak to you, she writes. I look only for the sound in your words, not the sense and know not why.  
+I remember my childhood visits with Nell. She lived in a camper most of the time, in the dry woods of interior BC. She raised horses, eked out a living taking care of other peoples’ ranches. I remember her pack of salukis, lithe, long-haired sighthounds who stood as tall as I did, and the jeans and the boots that she wore.  
+
+Later, I read a poem that Gaëtane wrote about Nell:
+
+{:.ms-4}
+*Ta voix me touche, j’invente des motifs de te parler. Tout prend des ombres particulières.* 
+
+{:.mt-1 .ms-4}
+*Tu me parles de responsabilité, de choses étonnantes et adultes et je voudrai t’entendre. Je ne cherche que le son de tes mots, non le sens et ne sais pas pourquoi.*  
+
+Your voice touches me, I invent reasons to speak to you, she writes. I look only for the sound in your words, not the sense and know not why.  
 
 I think again about the way my sibling and I wanted to be close to Gaëtane and Hélène. Our interest was theoretical, but magnetic. I wondered if Gaëtane’s love for Nell felt like that, like seeing a possible future in someone else. I wondered if Nell could have been queer \- did she consider its possibility, during her solitude in the years that I knew her? \- or if Gaëtane had attached herself to her because she saw that she, too, was some kind of outsider at heart.  
 
@@ -100,7 +112,4 @@ I think again about the way my sibling and I wanted to be close to Gaëtane and 
 
 
 
-[^2]:  Hélène: We met at the Beaux-Arts pottery school in Nîmes, to work with clay. So, you arrived very quickly, I didn't even notice you. I was preoccupied with my ball of clay and I managed to turn maybe faster and I turned pots that you made into works of art.
-
-[^3]:  I was in love with her.
 

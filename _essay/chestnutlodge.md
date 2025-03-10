@@ -22,12 +22,14 @@ custom-foot: essay/essay-scroll-js.html
 {% include essay/new-section.html additional-content-styles="text-justify" %}
 
 
-
+{% capture email %}
 Dear Alicia—
 
 Unfortunately, we believe no records survived from Chestnut Lodge, at least we have never heard of anyone who was able to discover them. When the facility closed, the records either left with the Bullards or were destroyed at that time. Alternately, if for some reason they remained in the building, they would also have been destroyed by the fire.
 
-- Sarah Helund, Archivist/Librarian, Montgomery History 
+{% endcapture %} 
+
+{% include feature/blockquote.html quote=email source="Montgomery History" speaker="Sarah Helund, Archivist/Librarian" source-link="/items/gae113.html" size="md" %}
 
 
 {% include essay/new-section.html %} 
@@ -44,9 +46,7 @@ Years later, I worked for an outreach team supporting queer youth. Our clients h
 
 {% include feature/video.html objectid="gae064" subtitles=true translation=true srclang="fr" translang="en" %}
 
-*J'ai fait un rêve, que ma maison était vide. Et qu'il y avait des sortes de choses qui chuchoter. Et je sais maintenant que ma maison, c'était moi, quoi. Il m'avait pris tout ce que j'étais, tout ce que j'avais.[^12]*
-
-- Gaëtane 
+{% include essay/pull-quote-translation.html trans="gae064" lines="1-4" font-size="sm" %}
 
 
 {% include essay/new-section.html  additional-content-styles="text-justify" %}
@@ -61,22 +61,25 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 
 {% include feature/video.html objectid="gae053" subtitles=true translation=true srclang="fr" translang="en" %}
 
+{% include essay/pull-quote-translation.html trans="gae053" lines="1-5" font-size="sm" %}
 
-*Ils m'ont expliqué que j'étais une adolescente qui faisait un peu n'importe quoi, et qu'il finirait par se faire beaucoup de mal si ça continuait et qu’il fallait me garder et s'occuper de moi jusqu'à ce que cette période soit finie, quoi. J’ai fait une discussion avec l'une des psychiatres. Elle m'a dit Toi, tu n'es pas malade. Parce que moi, j'étais très joyeuse comme personne. Les malades, ils ne vivent pas et survivent. Toi, tu es un peu trop exubérante.*
-
-- Gaëtane, “Trop exuberante” 
 
 {% include essay/new-section.html %}
-*I knew about the so-called 72 hour rule. It’s common knowledge. When you enter the inside of a mental institution you’re in a rather closed society. The inmates cope with it… It was common knowledge. You give them 72 hours, and sometime during that 72 hours they bring in two outside psychiatrists, and then convert the voluntary to the involuntary.*  
-\-[Ray Osheroff](https://rayosheroff.org/people/) 
+
+{% include feature/blockquote.html quote="I knew about the so-called 72 hour rule. It’s common knowledge. When you enter the inside of a mental institution you’re in a rather closed society. The inmates cope with it… It was common knowledge. You give them 72 hours, and sometime during that 72 hours they bring in two outside psychiatrists, and then convert the voluntary to the involuntary." source="rayosheroff.org" speaker="Ray Osheroff" source-link="https://rayosheroff.org/people/" %}
+
+
 
 {% include essay/new-section.html  %}
 
+{% capture pratchett %}
 *Gaetane and I were communicating by mail maybe once a month or something, and Gaetane was okay there, she was comfortable enough, and when she was 18 she would leave and come back to the coast.*   
 
 *But she had access to a phone and the patients there couldn't make long-distance calls but she could call me collect, and she called me collect one evening. The hospital had told her that if she tried to discharge herself they’d commit her. That she wasn’t cured, she wasn’t ready for release.*
+{% endcapture %}
 
-- Peter Pratchett, Interview (2: 17:15-18:02) {% include feature/aside.html objectid="gae110" %}
+{% include feature/blockquote.html quote=pratchett speaker="Peter Pratchett" source="Interview (2: 17:15-18:02)" source-link="/items/gae110" %} 
+
 
 
 {% include essay/new-section.html %}
@@ -96,23 +99,21 @@ In 1952, the first Diagnostic and Statistical Manual of Mental Disorders (DSM) w
 {% include essay/new-section.html %}
 
 
-*Dr. Fort, our Clinical Director, states that the Lodge would be willing to have her back but we understand that she does not want to come back and this might make the situation quite difficult if she is, in fact, legally married. We would imagine a court procedure would be required. Whether or not her husband would cooperate would be a major issue unless, of course, the conditions were such that an annulment of the marriage could also be arranged.* {% include feature/aside.html objectid="gae014" %}
+{% include feature/aside.html objectid="gae014" %}
 
-
-- Excerpt from a letter to Dot from Chestnut Lodge, Nov 8, 1971 
+{% include feature/blockquote.html quote="Dr. Fort, our Clinical Director, states that the Lodge would be willing to have her back but we understand that she does not want to come back and this might make the situation quite difficult if she is, in fact, legally married. We would imagine a court procedure would be required. Whether or not her husband would cooperate would be a major issue unless, of course, the conditions were such that an annulment of the marriage could also be arranged." source="Excerpt from a letter to Dot from Chestnut Lodge, Nov 8, 1971" source-link="/items/gae014" size="sm" %}
 
 {% include essay/new-section.html %}
 
-*Common forms of malpractice include failure to obtain informed consent, breach of confidentiality, abandonment, improper or negligent diagnosis, negligent use of somatic therapy, physical contact and sexual relations with patients, and negligent supervision or referral.*  {% include feature/aside.html objectid="gae111" %}
-
-\-Malpractice Arising From Negligent Psychotherapy: Ethical, Legal, and Clinical Implications of Osheroff v. Chestnut Lodge 
-
-{% include essay/new-section.html font-size="3"%}
+{% include feature/blockquote.html quote="*Common forms of malpractice include failure to obtain informed consent, breach of confidentiality, abandonment, improper or negligent diagnosis, negligent use of somatic therapy, physical contact and sexual relations with patients, and negligent supervision or referral.*" source="Malpractice Arising From Negligent Psychotherapy: Ethical, Legal, and Clinical Implications of Osheroff v. Chestnut Lodge" source-link="/items/gae111" %}
 
 
-*Pendant les premières 24 h, il y avait quelqu'un qui était avec vous tout le temps \- même aux toilettes \- partout, qui était là. Et donc ça a été assez terrible. Et l'autre chose terrible, c'est que... C'est là qu'on m'a fait mon premier examen gynéco. Je ne sais pas pourquoi, si c'était une humiliation ou pourquoi le docteur de l'époque faisait un examen gynéco aux femmes qui rentrait alors qu'elle ne m'a pas ausculté les poumons, elle ne m'a pas ausculté le cœur. Et moi ça m'apparenté presque un viol quoi. C'était...C'était vraiment quelque chose de terrible.[^13]*
 
-- Gaëtane
+{% include essay/new-section.html %}
+
+
+{% include essay/pull-quote-translation.html trans="gae056" lines="1-4" %}
+
 
 {% include essay/new-section.html %}
 
@@ -128,23 +129,47 @@ During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might g
 
 {% include essay/new-section.html font-size="4" %}
 
-*The adolescent units were deliberately constructed at a remove from the “adult hospital.” Liat’s description of the “ghoulish moans” coming from the sickest adult patients made me more aware of how terrifying it must have been for the adolescents at the Lodge, worried they might end up as chronic inpatients.*
+{% include feature/blockquote.html quote="The adolescent units were deliberately constructed at a remove from the “adult hospital.” Liat’s description of the “ghoulish moans” coming from the sickest adult patients made me more aware of how terrifying it must have been for the adolescents at the Lodge, worried they might end up as chronic inpatients." source="Chestnut Lodge: An Unreal Place" source-link="gae112" %}
 
-- Chestnut Lodge: An Unreal Place 
 
 {% include essay/new-section.html font-size="3"%}
 
 
-*On m'avait dit “Bon, tu seras là peut-être pour un an.” Et pour un an, je pouvais peut-être l'accepter. Et puis les autres, ils m'ont dit non, ça dure dix ans, une psychanalyse. Donc c'était prévu que je sois là pour dix ans. C'est-à-dire tous les autres plans que j'avais pour ma vie, il s'arrêtait là. Et je me suis dit bon, jusqu'à maintenant, j'ai été une personne digne de confiance, mais je le saurai plus. Plus personne ne pourra avoir confiance en moi. Et je ferai tout pour m'échapper le plus vite possible.[^14]*
+{% include feature/blockquote.html quote="*On m'avait dit “Bon, tu seras là peut-être pour un an.” Et pour un an, je pouvais peut-être l'accepter. Et puis les autres, ils m'ont dit non, ça dure dix ans, une psychanalyse. Donc c'était prévu que je sois là pour dix ans. C'est-à-dire tous les autres plans que j'avais pour ma vie, il s'arrêtait là. Et je me suis dit bon, jusqu'à maintenant, j'ai été une personne digne de confiance, mais je le saurai plus. Plus personne ne pourra avoir confiance en moi. Et je ferai tout pour m'échapper le plus vite possible.*" speaker="Gaëtane" source="10 years" source-link="/items/gae057.html"%} 
 
-- Gaëtane
+{% include feature/aside.html text="They told me, “Well, you’ll be there for maybe a year.” And for a year, I could maybe accept it. And then the others, they told me no, it lasts ten years, a psychoanalysis. So it was planned that I would be there for ten years. That is to say, all the other plans that I had for my life, it stopped there. And I said to myself, well, up until now, I have been a trustworthy person, but I won’t know it anymore. No one will be able to trust me anymore. And I will do everything to escape as quickly as possible." %}
 
-{% include essay/new-section.html additional-content-styles="text-justify" %}
+{% include essay/new-section.html  %}
+
+{% capture news-article %}
+*... Southern Maryland News, June 15, 2012 ...*
+
+When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m., he saw a "huge pillar of dark black smoke" rising above the trees one block away from his Rockville home. 
+
+Chestnut Lodge, at 500 W. Montgomery Ave., was burning. 
+
+Fromberg, who lives on Laird Street, which intersects with West Montgomery right at the Chestnut Lodge site, said he was surprised that no firefighters were on the scene ... 
+
+When authorities arrived at the scene around 3 a.m., the six-story building was fully engulfed in flames, said Kenneth I. Korenblatt, battalion chief for the Montgomery County Fire and Explosive Investigations Bomb Squad. 
+
+It took at least four hours and approximately 95 firefighters to extinguish the two-alarm fire, Korenblatt said. 
+
+The roof collapsed into the basement about a half hour into putting out the blaze. Pete Piringer, a spokesman for the Montgomery County Department of Fire and Rescue, said investigators have been able to dig into the charred rubble and "make progress" in determining the cause of the blaze. 
+
+He stopped short of calling it arson, but said investigators have officially ruled the fire suspicious since there were no utilities going into the building…. 
+
+Patricia Woodward, a Rockville resident who served as a head nurse at Chestnut Lodge for 15 years, called the loss "absolutely tragic." She said she can remember working on the campus and has fond memories of her time there. 
+
+"It was a good time in my nursing career," she said. "I learned a lot and saw a lot of people recover." 
+
+Like many residents she has visited the site several times since the fire, including Tuesday afternoon. 
+
+"I had a little cry, it meant a lot," she said of the building. "It's like losing someone, it's gone. Even though it can be made to look like it was, it won't be the same."
+
+{% endcapture %}
 
 
-When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m., he saw a "huge pillar of dark black smoke" rising above the trees one block away from his Rockville home. Chestnut Lodge, at 500 W. Montgomery Ave., was burning. Fromberg, who lives on Laird Street, which intersects with West Montgomery right at the Chestnut Lodge site, said he was surprised that no firefighters were on the scene…When authorities arrived at the scene around 3 a.m., the six-story building was fully engulfed in flames, said Kenneth I. Korenblatt, battalion chief for the Montgomery County Fire and Explosive Investigations Bomb Squad. It took at least four hours and approximately 95 firefighters to extinguish the two-alarm fire, Korenblatt said. The roof collapsed into the basement about a half hour into putting out the blaze. Pete Piringer, a spokesman for the Montgomery County Department of Fire and Rescue, said investigators have been able to dig into the charred rubble and "make progress" in determining the cause of the blaze. He stopped short of calling it arson, but said investigators have officially ruled the fire suspicious since there were no utilities going into the building…. Patricia Woodward, a Rockville resident who served as a head nurse at Chestnut Lodge for 15 years, called the loss "absolutely tragic." She said she can remember working on the campus and has fond memories of her time there. "It was a good time in my nursing career," she said. "I learned a lot and saw a lot of people recover." Like many residents she has visited the site several times since the fire, including Tuesday afternoon. "I had a little cry, it meant a lot," she said of the building. "It's like losing someone, it's gone. Even though it can be made to look like it was, it won't be the same."
-
-- [“Community in shock over fire that destroyed Chestnut Lodge”](https://www.somdnews.com/archives/community-in-shock-over-fire-that-destroyed-chestnut-lodge/article_0fb1df2a-b6dc-5116-a6aa-cf0c04081672.html)
+{% include feature/blockquote.html size="sm" class="text-justify px-3" quote=news-article source="Community in shock over fire that destroyed Chestnut Lodge" source-link="https://www.somdnews.com/archives/community-in-shock-over-fire-that-destroyed-chestnut-lodge/article_0fb1df2a-b6dc-5116-a6aa-cf0c04081672.html" %}
 
 
 
@@ -159,15 +184,8 @@ I think about Gaëtane’s *bêtises,* and that violence disguised as care. I ha
 
 {% include feature/video.html objectid="gae074" subtitles=true translation=true srclang="fr" translang="en" %}
 
-*J'avais fait ce rêve que j'étais comme une rivière. Tu vois ? Et quelqu'un avait mis une grosse pierre sur le lit de ma rivière pour arrêter l'eau. Et que l'eau s'était arrêtée. Il fallait lever la pierre. Il fallait faire quelque chose pour que ça se remette à couler.[^15]*
-
-- Gaëtane, “River Dream” 
+{% include essay/pull-quote-translation.html trans="gae074" lines="1-4" size="lg"%}
 
 
-[^12]:  I had a dream, that my house was empty. And there were some kind of things whispering. And I know now that my house was me, you know. He had taken everything I was, everything I had.
 
-[^13]:  For the first 24 hours, there was someone who was with you all the time \- even in the toilets \- everywhere, who was there. And so it was pretty terrible. And the other terrible thing is that... That's where I had my first gynecological exam. I don't know why, if it was a humiliation or why the doctor at the time did a gynecological exam on women who came in when she didn't examine my lungs, she didn't examine my heart. And to me it almost seemed like rape. It was... It was really something terrible.
 
-[^14]:  They told me, “Well, you’ll be there for maybe a year.” And for a year, I could maybe accept it. And then the others, they told me no, it lasts ten years, a psychoanalysis. So it was planned that I would be there for ten years. That is to say, all the other plans that I had for my life, it stopped there. And I said to myself, well, up until now, I have been a trustworthy person, but I won’t know it anymore. No one will be able to trust me anymore. And I will do everything to escape as quickly as possible.
-
-[^15]:  I had this dream that I was like a river. You see? And someone had put a big rock on the bed of my river to stop the water. And the water had stopped. You had to lift the rock. You had to do something to get it flowing again.

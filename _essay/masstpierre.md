@@ -152,9 +152,10 @@ In the painting, the siblings look more unified than I ever remember. During my 
 
 {% include essay/new-section.html  %} 
 
-Gaëtane does not speak ill of her mother. She tells me about her childhood in a kind of passive voice, that she had gone to this school, then that one, that even while she acted out in hopes of being home again, she ended up here and there, boarded with a woman in Aramon, a Steiner school in England, a lycée in Montpellier, living with Nell in Montreal, then a school in Western Canada.   {% include feature/aside.html objectid="gae107" %}
+{% include feature/aside.html objectid="gae107" %}
+Gaëtane does not speak ill of her mother. She tells me about her childhood in a kind of passive voice, that she had gone to this school, then that one, that even while she acted out in hopes of being home again, she ended up here and there, boarded with a woman in Aramon, a Steiner school in England, a lycée in Montpellier, living with Nell in Montreal, then a school in Western Canada.   
 
-By all accounts, Fiona was a chaotic woman \- intelligent, fearless, a little lost, maybe. She lived in the Mas for years after her children left, let things deteriorate. Her relationship with her daughter was increasingly tense, unpredictable. In a letter to Dot, Gaëtane’s father writes: *Elles ne resteraient pas huit jours ensemble sans que cela se termine par un drame.[^5] *  {% include feature/aside.html objectid="gae013" %} For a year, inexplicably, Fiona would call Gaëtane at one in the morning to insult her.   
+By all accounts, Fiona was a chaotic woman \- intelligent, fearless, a little lost, maybe. She lived in the Mas for years after her children left, let things deteriorate. Her relationship with her daughter was increasingly tense, unpredictable. In a [letter to Dot]({{ '/items/gae013.html' | relative_url }}), Gaëtane’s father writes: *Elles ne resteraient pas huit jours ensemble sans que cela se termine par un drame.* {% include feature/aside.html text="They won’t stay together for eight days without it ending in tragedy."%}  For a year, inexplicably, Fiona would call Gaëtane at one in the morning to insult her.   
 
 “*Homosexuality was not accepted by any member of the family,*” Hélène tells me. I wonder \- did it start with Fiona? Did she learn it from Dot, or from the world? Was the subject simply a soft target, a button that she knew she could push? In a letter to Dot, Gaëtane asks, *Have you heard from mother? Since she wrote me that perfectly horrible letter, I haven’t heard from her. Maybe she needs somebody to feel hostile towards. I wish she’d pick somebody else.*  {% include feature/aside.html objectid="gae016" %}
 
@@ -162,7 +163,7 @@ In Western Canada, Gaëtane was enrolled in the Saturna Island Free School.  The
 
 While she was there, she fell in love again. 
 
-{% include feature/video.html objectid="gae044" subtitles=true translation=true srclang="fr" translang="en" %}
+{% include feature/video.html objectid="gae044" subtitles=true translation=true srclang="fr" translang="en" size="lg" %}
 
 {% include essay/pull-quote-translation.html lines="5-10" trans="gae044" font-size="sm" %}
 
