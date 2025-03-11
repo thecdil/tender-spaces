@@ -54,14 +54,18 @@
         cursor: pointer;
         z-index: 1000;
         @media (max-width: 768px) {
-            display: none;
-            bottom: 20px;
-            left: 0px;
+            bottom: 25px;
+            left: 20px;
             top:auto;
-            width: 50px;
-            height: 100px;
+            width: 100px;
+            height: 55px;
         }
     }
+    #familyTreeContainer {
+        @media (max-width: 768px) {
+        display: none !important;
+    }
+}
 
     .header-image.collapsed h1 {
         font-size: 1rem;
