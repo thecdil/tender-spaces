@@ -125,12 +125,7 @@
     const translationToggles = document.querySelectorAll('.translation-toggle');
     
     translationToggles.forEach(toggle => {
-      // Trigger initial state based on default language
-      if (toggle.checked) {
-        const event = new Event('change');
-        toggle.dispatchEvent(event);
-      }
-
+      // Add event listener first
       toggle.addEventListener('change', function() {
         const blockquote = this.closest('figure').querySelector('blockquote');
         const quoteItems = blockquote.querySelectorAll('.quote-item');
@@ -148,7 +143,6 @@
             quoteTranslation.classList.add('slide-from-left');
             
             setTimeout(function() {
-              
               quoteText.classList.remove('slide-right');
               quoteTranslation.classList.remove('slide-from-left');
             }, 400); // Match the transition duration
@@ -166,6 +160,10 @@
           }
         });
       });
+
+      // Always trigger the change event to initialize the display based on toggle state
+      const event = new Event('change');
+      toggle.dispatchEvent(event);
     });
   });
 </script>
