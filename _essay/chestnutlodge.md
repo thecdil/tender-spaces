@@ -36,7 +36,9 @@ Unfortunately, we believe no records survived from Chestnut Lodge, at least we h
 
 This essay is an exploration of the ways that queerness has been pathologized, and a condemnation of a kind of care that is contingent on profit, on status. At moments, it is a reproach of my family, who trusted these doctors to care for my cousin, still a child, in an institution that interfered with something fundamental about who she was. 
 
-There can be violence cloaked in the rhetoric of care. As a teenager, I attended church youth groups that made it clear they would not welcome an openly gay member. Their messages were bound up in the language of benevolence: we want you to be well, we want you to be saved. I was lucky enough to find communities that would embrace me. Others I knew were faced with the choice to stay with their families, to attend therapy with dubiously-trained counselors who undermined their sense of self, or to lose their communities, their housing, their support networks.  
+There can be violence cloaked in the rhetoric of care. As a teenager, I attended church youth groups that made it clear they would not welcome an openly gay member. Their messages were bound up in the language of benevolence: we want you to be well, we want you to be saved. 
+
+I was lucky to find communities that would embrace me. Others I knew were faced with the choice to stay with their families, to attend therapy with dubiously-trained counselors who undermined their sense of self, or to lose their communities, their housing, their support networks.  
 
 I remember the fine line we walked as teenagers. It was a pivotal moment of self-definition – I started shaving my head with Bic razors, I wore crinolines and suspenders to school, I got high in City Park and snuck through the basement window of my girlfriend’s parents house. More than anything, I needed to rewrite myself, over and over again, to find who I was.   
 
@@ -86,7 +88,9 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 
 Ruth Simkin, a young patient at Chestnut Lodge who went on to become a doctor, wrote a memoir, many years after her treatment. Simkin had been placed at the facility for epilepsy, at the time considered a mental illness. During her first appointment with a therapist, she was diagnosed as “anti-social,” and denied the privilege of eating meals with the rest of the patients. She was reminded that she had to cooperate with her therapist, that he could have her locked up for life.  
 
-After some months in Chestnut Lodge, she told her therapist that she was a lesbian, which he denied. In her treatment at the facility, she experienced a kind of compounded medical gaslighting. The message she received was that her epilepsy, her queerness, and her anti-social behavior were problems of the mind that could be fixed, through talk therapy and willpower (Simkin, 100). Any lack of success was considered a personal failure. 
+After some months in Chestnut Lodge, she told her therapist that she was a lesbian, which he denied. In her treatment at the facility, she experienced a kind of compounded medical gaslighting. The message she received was that her epilepsy, her queerness, and her anti-social behavior were problems of the mind that could be fixed, through talk therapy and willpower (100).* Any lack of success was considered a personal failure. 
+
+{% include feature/aside.html text="* Simkin, Ruth. [The Jagged Years of Ruthie J.](https://www.goodreads.com/book/show/8432515-the-jagged-years-of-ruthie-j) Ekstasis Editions, 2010."%}
 
 At the end of her memoir, Simkin writes: “For all the decades that I was a physician, I never forgot my past. I love medicine and I love being a doctor, but being a physician meant one important thing to me in particular: it meant that I now had the power. I had the power and no one, no one, was ever going to lock me up again” (214).
 
@@ -113,7 +117,7 @@ In 1952, the first Diagnostic and Statistical Manual of Mental Disorders (DSM) w
 
 
 {% include essay/pull-quote-translation.html trans="gae056" lines="1-4" %}
-
+{% include feature/video.html objectid="gae056" subtitles=true translation=true srclang="fr" translang="en" %}
 
 {% include essay/new-section.html %}
 
@@ -124,7 +128,7 @@ In an article for *The Guardian*, Rachel Aviv describes his circumstances: “Af
 
 Many years later, Osheroff sued (and settled with) Chestnut Lodge for negligence and malpractice. His argument was that the Lodge denied him known medical treatments for depression, opting instead to teach patients that their happiness was a matter of willpower and responsibility. Osheroff had been emboldened by the writing of Gerald Klerman. Aviv writes: “Klerman had written disparagingly of what he called “pharmacological Calvinism” – the belief that “if a drug makes you feel good, it’s either somehow morally wrong, or you’re going to pay for it with dependence, liver damage, chromosomal change, or some other form of secular theological retribution”.  
 
-During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might get out. His doctor responded: "When you stop using your shirt for a napkin, or when you run out of money.” (Biometrics youtube link.)
+During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might get out. His doctor responded: "When you stop using your shirt for a napkin, or when you run out of money.” ([rayosheroff.org](https://rayosheroff.org/))
 
 
 {% include essay/new-section.html font-size="4" %}
@@ -134,15 +138,20 @@ During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might g
 
 {% include essay/new-section.html font-size="3"%}
 
+{% include feature/aside.html text="They told me, “Well, you’ll be there for maybe a year.” And for a year, I could maybe accept it. And then the others, they told me no, it lasts ten years, a psychoanalysis. So it was planned that I would be there for ten years. That is to say, all the other plans that I had for my life, it stopped there. And I said to myself, well, up until now, I have been a trustworthy person, but I won’t know it anymore. No one will be able to trust me anymore. And I will do everything to escape as quickly as possible." %}
 
 {% include feature/blockquote.html quote="*On m'avait dit “Bon, tu seras là peut-être pour un an.” Et pour un an, je pouvais peut-être l'accepter. Et puis les autres, ils m'ont dit non, ça dure dix ans, une psychanalyse. Donc c'était prévu que je sois là pour dix ans. C'est-à-dire tous les autres plans que j'avais pour ma vie, il s'arrêtait là. Et je me suis dit bon, jusqu'à maintenant, j'ai été une personne digne de confiance, mais je le saurai plus. Plus personne ne pourra avoir confiance en moi. Et je ferai tout pour m'échapper le plus vite possible.*" speaker="Gaëtane" source="10 years" source-link="/items/gae057.html"%} 
 
-{% include feature/aside.html text="They told me, “Well, you’ll be there for maybe a year.” And for a year, I could maybe accept it. And then the others, they told me no, it lasts ten years, a psychoanalysis. So it was planned that I would be there for ten years. That is to say, all the other plans that I had for my life, it stopped there. And I said to myself, well, up until now, I have been a trustworthy person, but I won’t know it anymore. No one will be able to trust me anymore. And I will do everything to escape as quickly as possible." %}
+{% include feature/video.html objectid="gae057" subtitles=true translation=true srclang="fr" translang="en" %}
+
+
 
 {% include essay/new-section.html  %}
 
 {% capture news-article %}
 *... Southern Maryland News, June 15, 2012 ...*
+
+Something had Abbott on edge early Sunday morning.  
 
 When Oren Fromberg let the German shorthaired pointer go outside around 2:50 a.m., he saw a "huge pillar of dark black smoke" rising above the trees one block away from his Rockville home. 
 
@@ -157,14 +166,6 @@ It took at least four hours and approximately 95 firefighters to extinguish the 
 The roof collapsed into the basement about a half hour into putting out the blaze. Pete Piringer, a spokesman for the Montgomery County Department of Fire and Rescue, said investigators have been able to dig into the charred rubble and "make progress" in determining the cause of the blaze. 
 
 He stopped short of calling it arson, but said investigators have officially ruled the fire suspicious since there were no utilities going into the building…. 
-
-Patricia Woodward, a Rockville resident who served as a head nurse at Chestnut Lodge for 15 years, called the loss "absolutely tragic." She said she can remember working on the campus and has fond memories of her time there. 
-
-"It was a good time in my nursing career," she said. "I learned a lot and saw a lot of people recover." 
-
-Like many residents she has visited the site several times since the fire, including Tuesday afternoon. 
-
-"I had a little cry, it meant a lot," she said of the building. "It's like losing someone, it's gone. Even though it can be made to look like it was, it won't be the same."
 
 {% endcapture %}
 

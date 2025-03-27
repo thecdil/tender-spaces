@@ -56,7 +56,9 @@ Above her stool, a canvas is segmented, a grid of fine print pages, painted over
 
 {% include essay/pull-quote-translation.html trans="gae080" lines="2-7"  %}
 
-Gaëtane sketched a cat and a unicorn at the top of a letter to my great-grandmother. She wrote: *You see, I want to paint and make and create things. {% include feature/aside.html objectid="gae008" %} The only job that I would get pleasure doing and which is within my means is that.*
+{% include feature/aside.html objectid="gae008" %}
+
+Gaëtane sketched a cat and a unicorn at the top of a letter to my great-grandmother. She wrote: *You see, I want to paint and make and create things. The only job that I would get pleasure doing and which is within my means is that.*
 
 On my last day at the Mas, I skim ants and flies off the surface of the pool. I crouch in the water and scoop up the tiny snails that drift in the shallows. Temis steals my towel from the arm of the cracked lawn chair. Oleander blossoms litter the grass. I am sometimes overwhelmed by the smells of this place; everything is damp and fertile.  
 

@@ -96,9 +96,9 @@ The Sisterhood of Saint Margaret, a nursing order, solicited funds for the home,
 {% include essay/new-section.html  %} 
 
 
-While St Margaret’s Home was more assisted living facility than hospital, so too was it a product of the philosophies of its time, charged with the care of those who were excluded, by reason of poverty or medical need, from other facilities or from the possibility of living independently. Poverty and disability are, even today, too often disparaged as the result of personal failures, of weak-wills and defeatism. I have to imagine that these judgements, too, crept into the ethos of St Margaret’s Home, although to what degree, I can’t say.  
+While St Margaret’s Home was more assisted living facility than hospital, so too was it a product of the philosophies of its time, charged with the care of those who were excluded, by reason of poverty or medical need, from other facilities or from the possibility of living independently. Poverty and disability are, even today, are often disparaged as the result of personal failures, of weak-wills and defeatism. I have to imagine that these judgements, too, crept into the ethos of St Margaret’s Home, although to what degree, I can’t say.  
 
-I can see myself casting about for a narrative here. I want a sense of my great-grandmother, of her motivations and beliefs. The Dot my mother remembers was fastidious, scientifically-minded, and emotionally distant. Her grandmother was a doctor, her grandfather, a baptist minister, and the two vocations seemed to have shaped her equally. She had a rigid sense of propriety, clear on the roles of men and women, despite her own, arguably radical medical interests. Her service at St Margaret’s home was informed by a commitment to medical advancements, and a commitment to religious service. I can only speculate from here: Did this idea of the incurable, the morally compromised, shape her scientific curiosity? Did her commitment to science contradict, or complement her religious conviction?  
+I can see myself casting about for a narrative here. I want a sense of my great-grandmother, of her motivations and beliefs. The Dot my mother remembers was fastidious, scientifically-minded, and emotionally distant. Her grandmother was a doctor, her grandfather, a baptist minister, and the two vocations seem to have shaped her equally. She had a rigid sense of propriety, clear on the roles of men and women, despite her own, arguably radical medical interests. Her service at St Margaret’s home was informed by a commitment to medical advancements, and a commitment to religious service. I can only speculate from here: Did this idea of the incurable, the morally compromised, shape her scientific curiosity? Did her commitment to science contradict, or complement her religious conviction?  
 
 {% include essay/new-section.html  %} 
 
@@ -123,15 +123,13 @@ Yet there was something she imparted, a fantasy of our worth, that was not so ea
 
  
 
-It feels insensitive to consider the ways that this privilege may have hurt us. By all accounts, it embarrassed Dot, who drove a sensible car while her sister drove a Jaguar. But her shame about money, or maybe a societal precedent that permits the privileged to look away demurely when identified, seemed only to obscure reality for her daughters. who moved through life with the sense that there was an endless source of money somewhere, if only they could find their way to it. Dot herself, while capable in many ways, left the finances to the men in her life, her father, then husband, then, after their divorce, the bankers. Her three daughters, perhaps, learned from her that money was not theirs to understand.
+It feels insensitive to consider the ways that this privilege may have hurt us. By all accounts, it embarrassed Dot, who drove a sensible car while her sister drove a Jaguar. But her shame about money, or maybe a societal precedent that permits the privileged to look away demurely when identified, seemed only to obscure reality for her daughters, who moved through life with the sense that there was an endless source of money somewhere, if only they could find their way to it. Dot herself, while capable in many ways, left the finances to the men in her life, her father, then husband, then, after their divorce, the bankers. Her three daughters, perhaps, learned from her that money was not theirs to understand.
 
 {% include essay/pull-quote-translation.html trans="gae076" lines="6-17" font-size="sm" %}
 
 
 {% include feature/video.html objectid="gae076" subtitles=true translation=true srclang="fr" translang="en" %}
 
-
-{% include essay/new-section.html  %} 
 
 In the painting, the siblings look more unified than I ever remember. During my lifetime, they all lived thousands of kilometers apart; Dora stayed in Montreal, Huntley moved to Texas, all but cut himself off from the family. Nell moved out West, tended to people’s horses, Fiona moved to France and married an artist. I wonder if they corresponded with one another, or if they kept up through their children. When Nell died, my grandmother didn’t remember ever having known her very well.  
 
@@ -157,9 +155,15 @@ Gaëtane does not speak ill of her mother. She tells me about her childhood in a
 
 By all accounts, Fiona was a chaotic woman \- intelligent, fearless, a little lost, maybe. She lived in the Mas for years after her children left, let things deteriorate. Her relationship with her daughter was increasingly tense, unpredictable. In a [letter to Dot]({{ '/items/gae013.html' | relative_url }}), Gaëtane’s father writes: *Elles ne resteraient pas huit jours ensemble sans que cela se termine par un drame.* {% include feature/aside.html text="They won’t stay together for eight days without it ending in tragedy."%}  For a year, inexplicably, Fiona would call Gaëtane at one in the morning to insult her.   
 
-“*Homosexuality was not accepted by any member of the family,*” Hélène tells me. I wonder \- did it start with Fiona? Did she learn it from Dot, or from the world? Was the subject simply a soft target, a button that she knew she could push? In a letter to Dot, Gaëtane asks, *Have you heard from mother? Since she wrote me that perfectly horrible letter, I haven’t heard from her. Maybe she needs somebody to feel hostile towards. I wish she’d pick somebody else.*  {% include feature/aside.html objectid="gae016" %}
 
-In Western Canada, Gaëtane was enrolled in the Saturna Island Free School.  The product of an education reform movement of the era, the school was attended by students who had struggled with traditional school structures. A 1968 article describes it: “At Saturna Island Free School, children choose for themselves what they want to do. In this way they discover their own potentialities and explore a variety of possibilities while seeking out their own directions. {% include feature/modal-mini-map.html latitude="48.77955572753823" longitude="-123.165017" location="Saturna Island Free School" %} We believe it is, by nature, the function of the child to learn from all he experiences.” Gaëtane, by then a staunch environmentalist, an animal-lover, and a determined adventurer, found a place she could be herself. 
+{% include feature/aside.html objectid="gae016" %}
+
+“*Homosexuality was not accepted by any member of the family,*” Hélène tells me. I wonder \- did it start with Fiona? Did she learn it from Dot, or from the world? Was the subject simply a soft target, a button that she knew she could push? In a letter to Dot, Gaëtane asks, *Have you heard from mother? Since she wrote me that perfectly horrible letter, I haven’t heard from her. Maybe she needs somebody to feel hostile towards. I wish she’d pick somebody else.*  
+
+
+{% include feature/modal-mini-map.html latitude="48.77955572753823" longitude="-123.165017" location="Saturna Island Free School" %} 
+
+In Western Canada, Gaëtane was enrolled in the Saturna Island Free School.  The product of an education reform movement of the era, the school was attended by students who had struggled with traditional school structures. A 1968 article describes it: “At Saturna Island Free School, children choose for themselves what they want to do. In this way they discover their own potentialities and explore a variety of possibilities while seeking out their own directions.  We believe it is, by nature, the function of the child to learn from all he experiences.” Gaëtane, by then a staunch environmentalist, an animal-lover, and a determined adventurer, found a place she could be herself. 
 
 While she was there, she fell in love again. 
 
