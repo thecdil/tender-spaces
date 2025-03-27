@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: /assets/img/image002.jpg
+header-image: /assets/img/mas-lombard.png
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---

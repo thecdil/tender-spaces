@@ -19,6 +19,9 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include essay/new-section.html visible=true %} 
 
+{% include feature/blockquote.html quote="*And who is to say there is one soul, one story that ought to be immortalized? … As readers, we bring all of our own experiences and assumptions to bear on the author and what she writes. The author is immortalized, then, in a state of ongoing change, continuous retelling. And retelling inevitably brings to the surface some aspect of the teller and her motivations.*" speaker="Jenn Shapland" source="My Autobiography of Carson McCullers" %}
+
+
 
 My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
 
@@ -30,7 +33,7 @@ As I drove through the hills, the man’s voice cut in and out over the phone. I
 
 It was half an hour before he asked me what had led me to his research. I told him I was writing about my cousin Gaëtane, who had been institutionalized as a child. I told him that she was a lesbian, and that she considered that a factor in her institutionalization. I had been wondering, I told him, how this idea of “incurability,” or its echoes in the 60’s, might have shaped Dot’s thinking. How this might have affected Gaëtane, whose condition was too uncomfortable for close scrutiny.
 
-I didn’t know this man, and I made an effort to sound measured in my speculations. While there are no medical records to be found, I trust Gaëtane’s word, and letters from the time prove, at least, that she was a source of uneasiness for her otherwise decisive family. I told him: There is no knowing the labyrinth of emotion, of rationalizations, that would have influenced their choice to institutionalize her. Here was a teenage girl who fell in love with women, who shaved her head and refused to wear shoes, who set animals free from their paddocks and cages. Here was a child that they couldn’t recognize, I told him. Not within the narrow frameworks of the Drummond family name – she wasn’t a dedicated student, or a glib socialite, or a social servant. She was a problem.
+I didn’t know this man, and I made an effort to sound measured in my speculations. While there are no medical records to be found, I trust Gaëtane’s word, and letters from the time prove, at least, that she was a source of uneasiness for her otherwise decisive family. I told him: There is no knowing the labyrinth of emotion, of rationalization, that would have influenced their choice to institutionalize her. Here was a teenage girl who fell in love with women, who shaved her head and refused to wear shoes, who set animals free from their paddocks and cages. Here was a child that they couldn’t recognize, I told him. Not within the narrow frameworks of the Drummond family name – she wasn’t a dedicated student, or a glib socialite, or a public servant. She was a problem.
 
 The man on the phone hemmed and hawed. But this was the late sixties, he told me. Times were changing. He asked: Do you know about Guy Drummond? About James Ross? These men, both gay, were accepted by your family. The Drummond’s wouldn’t do that to a child. He said: they had a moral compass; they wanted to make the world better.
 

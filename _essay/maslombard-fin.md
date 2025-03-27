@@ -6,7 +6,7 @@ content-indent:
 background-color: 
 text-color: 
 font-size:
-header-image: /assets/img/image002.jpg
+header-image: /assets/img/mas-lombard.png
 header-text-color: white
 additional-content-styles:
 custom-foot: essay/essay-scroll-js.html
