@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: /assets/img/moscow.jpg
+header-image: /assets/img/palouse_bw.jpg
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---
