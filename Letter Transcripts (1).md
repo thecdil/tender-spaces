@@ -1,11 +1,13 @@
-**gae002**
+
+## gae002
 
 Dear Mrs. Millar,  
 	I would like to dispel any worries you may have over the disappearance of Gaëtane.  She will remain with me in hiding until our marriage takes place.  At that time I will become her legal guardian and it is not my intention to permit her to return to Chestnut Lodge.  Regretfully, I cannot sign my name until we feel free from pursuit.  
 	**But I’ll sign mine,**  
 			Gaëtane
 
-**gae004**
+
+## gae004
 
 Please send Gaëtane’s passport to ℅ Mrs. Hunt 5858 \- 152 St Surrey BC.
 
@@ -19,7 +21,8 @@ So we are trying to live together off the land as much as we can \- we are movin
 (She really does love you (and everyone) she probably loves you more than anyone else you know) I think we’re going to France soon.)  
 Please write again if there’s anything else you want to know and I’ll try not to lose it this time.  Gaëtane sends her love xxx
 
-**gae005** 
+
+## gae005
 
 Dear Grandmother,
 
@@ -48,7 +51,8 @@ Tel: 228-8326
 	By the way the Royal Trust received from Chestnut Lodge one or two notices or cheques in refund of books you had ordered.  I gave them your address (at the commune) and asked them to send them to you.  Did you receive them?  
 	Nell is taking Lorne to a school in Texas next week & Martin will soon be gone back to England.  Did I tell you that Olivia sent me a very nice photo of herself & a mischievous looking picture of Stephen?
 
-**gae006** 
+
+## gae006
 
 	Please Grandmother, I need a farm to live on and call my home, with some land and a garden and some chickens, and an orchard, a few goats maybe.   
 	I would live there with Peter and my friends Rosamunde and Mary and we would store food for the winter.  We are already canning blueberries and blackberries.  We would can salmon too and hunt in the hunting season so we would be easily self-supportive.  We would get goats milk and eggs too.  We might keep rabbits, they are very good to eat, but I hate to lock animals up in little cages so we wouldn’t unless we have a big pen.  And we’d have a stream on the property, or a spring, and every day we would go fetch water there and swim in it in the morning and our head would just feel so clean.  And we would have a root cellar where to store the produce of our garden and a room full of canned goods that we canned ourselves.  And we would get a whole bunch of wax and make lots of candles because we wouldn’t have power of course.  And in the summer time we would hay and store our hay in the barn which would be waterproof of course so that when the horses came down from Prince George we would have hay (Mary is the horse girl from the free school, you know?).  
@@ -56,7 +60,8 @@ Tel: 228-8326
 	**Please Grandmother, I know it would cost a lot, but buy me a farm.**  
 									Gaëtane
 
-**gae007** 
+
+## gae007
 
 Dear Grandmother,  
 	We have found our land after some search.  136 acres fo 14,500$.  It has 1 cabin and a barn on it, and the land next door can be rented for 160$/year – it has quite a lot of buildings.  
@@ -67,7 +72,8 @@ Dear Grandmother,
 		Love,  
 			Gaëtane
 
-**gae008** 
+
+## gae008
 
 Friday Oct 1st, Surrey  
 Dear Grandmother,  
@@ -83,7 +89,8 @@ Dear Grandmother,
 Much love,  
 	Gaëtane
 
-**gae009**
+
+## gae009
 
 This was written a few days ago & I wanted to retype it but I guess it’s alright as it stands.  
 **Dear Mummy,**  
@@ -140,7 +147,8 @@ We were in complete disaccord on the telephone… I was half asleep and couldn't
 P.s. I hope that you have recovered well from your car accident \- I still can’t sit down (don’t laugh) \- I’m sure something must have cracked\!  
 P.p.s. G said she would not come to the mas as she did not have her passport.
 
-**gae010** 
+
+## gae010
 
 Wed Oct 6th  
 Dear Grandmother,  
@@ -183,7 +191,8 @@ P.s. \- If you want to show this letter to mother, that is fine by me.  She does
 	I think I have told you everything.  From now on, it’s all yours.  
 	Take care of yourself.
 
-**gae011** 
+
+## gae011
 
 Oct 26th ‘71  
 Dear Mrs Millar,  
@@ -203,7 +212,8 @@ P.s. I am sending Gaëtane’s BC medical insurance bill to Mr. Poul(?), she hs 
 P.p.s. I feel rereading this that I am interfering in your family, if you feel the same please try to forgive me, it’s only because I’m gravely concerned about your granddaughter.  
 							I.M.H.
 
-**gae012** 
+
+## gae012
 
 Dear Grandmère \-   
 	I appreciate very much your being concerned over my mental outlook, but I think that we may have somewhat conflicting ideas about what is best for me.  
@@ -220,7 +230,8 @@ Dear Grandmère \-
 	Much love,  
 		Gaëtane
 
-**gae013** 
+
+## gae013
 
 Chère Madame,  
 	Hier, Fiona m’a téléphoné au sujet de Gaëtane.  Ainsi, épisodiquement, soit par Fiona, soit par Gaëtane elle-même, je suis tenu au courant.  A plusieurs reprises j’ai désiré vous écrire et je pense que j’aurai dû le faire plus tôt.  
@@ -231,7 +242,10 @@ Chère Madame,
 	Je vous serai reconnaissante de me répondre pour me dire ce que vous en pensez.  
 	Quoiqu’il en soit, je vous prie d’accepter mes meilleurs sentiments.  
 										Paul  
-**Gae014**
+
+
+## gae014
+
 
 Dear Mrs. Millar:  
 	In response to your letter of November 3, we can appreciate your concern about Gaetane.  She has written letters to staff members here also which would indicate that she is in a very confused situation, to say the least.  Dr. Fort, out Clinical Director, states that the Lodge would be willing to have her back but we understand that she does not want to come back and this might make the situation quite difficult if she is, in fact, legally married.  We would imagine a court procedure would be required.  Whether or not  her husband would cooperate would be a major issue unless, of course, the conditions were such that an annulment of the marriage could also be arranged.    
@@ -260,7 +274,8 @@ Dear Gaëtane
 		Much love, in haste  
 				Grandmère
 
-**gae016**
+
+## gae016
 
 Dear Grandmother,  
 	I wish you a very good Christmas.  I have a present for you, but it will not get to you until your birthday.  It is well worth waiting for.  Things have been in a state of change for me these days.  Sometimes things are good, sometimes not.  My eyes are still not right, so I’m taking vitamins and going to see the eye doctor next week.  
@@ -283,7 +298,8 @@ Much love,
 	Gaëtane  
 P.s. \- I am sorry I am still depending on you.  I guess for the time being I need to.
 
-**gae018**
+
+## gae018
 
 Chère Madame,   
 Je vous remercie pour votre lettre du 12\.  J’ai également reçu une longue lettre de Gaëtane remplie de bonnes résolutions.  Je suis désolé pour le phare plié.  Je m’en suis souvenu à la lecture de votre lettre.  Est-ce le sort des phares pliés de se transformer en bateau?  Je vous envoies mes meilleurs souhaits pour la nouvelle année et j'espère que vous avez passé une bonne fête de Noël.  
@@ -300,7 +316,8 @@ P.s. By the way, did you write to the lawyer in Vancouver about stopping G’s a
 Peter’s address is:  954 West 7th, Vancouver, and to phone him you dial 1.604.738.2610.  I don’t imagine he’ll appreciate too many phone calls because he asked me to pass the message on to his mother that he didn’t want her to interfere in any way.  You could perhaps get Mr. Stead to phone him if anything comes up.  
 	By the way, I got the vitamins from that credit at the drug store and I’ve kept them for me (as a little birthday present).  Is that O.K.?
 
-**gae020**
+
+## gae020
 
 Dear Mr Fetherstonhaugh,  
 	I’m sorry that after the efforts you made towards getting my divorce through as quickly and simply as possible, I will not be able to attend.  
@@ -309,7 +326,8 @@ Dear Mr Fetherstonhaugh,
 Yours truly,  
 	G Pratchett
 
-**gae021**
+
+## gae021
 
 Ms. Gaetane Lesley Buttigieg-Pratchett  
 Mas Roucas de Pont  

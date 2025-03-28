@@ -254,7 +254,8 @@ Sincerely yours,
 Mrs. Helene Mayock  
 Psychiatric Social Worker
 
-**gae015**  
+## gae015
+
 Dear Grandmother,  
 	I have in me a great tension and fear.  Underneath that fear is anger, and still deeper is pain.  Very great pain.  If I can feel that pain, it will stop bothering me, my anger and my fear will go because they are products of the pain.  If I can feel that pain, my other feelings which I have also lost will come crowding back and I will not feel so empty, but I will feel myself and the things around me without symbolism.  If I can feel that pain, I will not necessarily be always happy, but at least I will feel on a deeper level and will not need to fight myself so hard because I will be alright.    
 	I have just written to Art Janov who wrote “The Mind Scream” asking him for information on Primal Therapy.  His theory is that my neurosis has been caused by pain which if felt at the time (very early childhood) would have devastating results.  That pain is caused by the child feeling unloved.  So the child represses it, but the pain is still there, and all his life, the patient lives around the pain, looking for something to fill the void, whether it is smoking, overeating, or whatever.  The person, to feel whole, has to get into that Primal pain, feel it in all its intensity (he has had people scream and roll on the floor in agony) whatever it may be.  When the patient has lived through that pain stored from childhood, he has consistently found himself whole again.  
@@ -286,7 +287,8 @@ Dear Grandmother,
 Much love,  
 	Gaëtane
 
-**gae017**   
+## gae017
+  
 Dear Grandmother,  
 	I have written you an invitation to come around Christmas if you would like.  It wasn’t actually my idea but it is a nice one, and though I doubt you can make it, you would be very welcome.  I must admit it is a little late though.  It will probably be Christmas day when you receive this.  Have a good one\!  
 	With me things are going as best they can.  Sometimes it seems like a hopeless uphill road, sometimes things are good.  You may know I'm having certain visual difficulties.  I’m not sure whether they are due to emotional or physical causes or both but I am doing the best I can under the circumstances.  It may be due to pressure on the optic nerves.  I have repeatedly felt pressure in my head, but vitamins seem to help a lot.  I have sometimes gone 2 days with no source of B vitamins, at which point things got much worse, then they got better in a day or two when I started taking them again.  So I must remember that however odd it seems that they should help so much they do and I shouldn’t spurn them other than that ( and there is not much else in my mind at the present) things are fine.  Though it snowed once, it is not too cold.  
