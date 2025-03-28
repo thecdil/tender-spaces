@@ -1,6 +1,15 @@
 display_name,stub,dropdown_parent
-Browse Collection,/browse.html,
-Subjects,/subjects.html,
+Essay
+Moscow,/essay/moscow.html,Essay
+Mas Lombard,/essay/mas-lombard.html,Essay
+Mas St. Pierre,/essay/mas-st-pierre.html,Essay
+Mas Lombard Encore,/essay/mas-lombard-encore.html,Essay
+Chestnut Lodge,/essay/chestnut-lodge.html,Essay
+Mas Lombard Fin,/essay/mas-lombard-fin.html,Essay
+Browse Collection
+by item,/browse.html,Browse Collection
+by subject,/subjects.html,Browse Collection
+by person,/people.html,Browse Collection
 Map,/map.html,
 Timeline,/timeline.html,
 About,/about.html,
