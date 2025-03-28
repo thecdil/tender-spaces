@@ -21,7 +21,7 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include feature/blockquote.html quote="*And who is to say there is one soul, one story that ought to be immortalized? … As readers, we bring all of our own experiences and assumptions to bear on the author and what she writes. The author is immortalized, then, in a state of ongoing change, continuous retelling. And retelling inevitably brings to the surface some aspect of the teller and her motivations.*" speaker="Jenn Shapland" source="My Autobiography of Carson McCullers" %}
 
-
+{% include essay/new-section.html %}
 
 My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
 
@@ -55,6 +55,7 @@ Early in my research, I read a book called “My Autobiography of Carson McCulle
 
 *It is strange to apply the expectations of discovery and evidence to a person’s life, let alone a person’s love life. As I read and researched Carson, I learned that evidence itself is slippery, and discoveries are never final. They shift as more voices, more sources are added to the mix. They shift according to the mood of the biographer or the critic, and according to my own mood, and according to the weather on the day I’m reading. (40-41)*
 
+{% include feature/aside.html objectid="gae118" caption="My great-great-great-grandfather in a tailcoat" height="400px"%}
 I have to remind myself to hear Gaëtane’s voice above the others \- she is at the heart of this essay, no matter what else I may learn. But then, it’s also my story. As I write it, I hold my family in mind. I consider so many things, from the way my grandmother used to whistle, to a staged photo of my great-great-great-grandfather in a tailcoat, to Gaëtane’s penmanship, to the way my parents reacted when my first girlfriend spent the night at our house. They didn’t like it, they said, and in that I heard them tell me they didn’t like her, and they didn’t like that she was a woman, and in that moment it didn’t matter what was true – maybe they worried that we smoked too much weed, or maybe they didn’t want to buy extra breakfast food, or maybe they just didn’t like her as a person, because she wore ridiculous pants and wrote bad poetry – because what I felt was that my parents did not believe me when I showed them who I was. 
 
 Of course, I am trying to understand Gaëtane, and what happened, as a way to understand myself. The more I try to pin it down, the more it spirals. I have written before that I like a simple machine, a clean story. I want two characters; I want a hard ending. This story has offered me anything but that. 
