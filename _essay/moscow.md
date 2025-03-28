@@ -43,6 +43,8 @@ I was relieved when the call dropped. I had been rolling my eyes, glad to be inv
 
 {% include feature/video.html objectid="gae085" subtitles=true translation=true srclang="fr" translang="en" %}
 
+{% include essay/pull-quote-translation.html trans="gae085" lines="3-5" font-size="sm" %}
+
 But then, I could feel self-doubt in my frustration. When Gaëtane first told me her story, it felt like an uncomplicated injustice. Later that summer, I had happened upon a box of letters from the time, mostly between her and Dot, that had shed light on these troubling family dynamics. I tracked down her ex-husband, whom she had married in order to strip our family of legal control over her. The pieces of this story seemed to be finding me out, rather than the other way around.
 
 {% include feature/aside.html objectid="gae122" %}
