@@ -7,7 +7,7 @@ background-color:
 text-color: 
 font-size:
 additional-content-styles:
-header-image: https://cdil.lib.uidaho.edu/tender-spaces/objects/gae117.png
+header-image: /assets/img/chestnut_lodge_sm.jpg
 header-text-color: white
 custom-foot: essay/essay-scroll-js.html
 ---

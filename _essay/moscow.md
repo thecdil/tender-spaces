@@ -25,7 +25,7 @@ custom-foot: essay/essay-scroll-js.html
 
 My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
 
-Dot’s work was a footnote, a wormhole I had gone down while writing this larger essay. I came across the word “incurable” in the name of the home where she worked. {% include feature/aside.html objectid="gae094" %} I got stuck on it, this permanent diagnosis, a term that may or may not have affected her philosophy of care. But this wasn’t the primary focus of my essay. I had begun to worry that adding another voice to the cacophony of narratives I had collected would only obscure the story I was trying to tell.
+Dot’s work was a footnote, a wormhole I had gone down while writing this larger essay. I came across the word “incurable” in the name of the home where she worked. {% include feature/aside.html objectid="gae114" %} I got stuck on it, this permanent diagnosis, a term that may or may not have affected her philosophy of care. But this wasn’t the primary focus of my essay. I had begun to worry that adding another voice to the cacophony of narratives I had collected would only obscure the story I was trying to tell.
 
 
 
@@ -44,6 +44,8 @@ I was relieved when the call dropped. I had been rolling my eyes, glad to be inv
 {% include feature/video.html objectid="gae085" subtitles=true translation=true srclang="fr" translang="en" %}
 
 But then, I could feel self-doubt in my frustration. When Gaëtane first told me her story, it felt like an uncomplicated injustice. Later that summer, I had happened upon a box of letters from the time, mostly between her and Dot, that had shed light on these troubling family dynamics. I tracked down her ex-husband, whom she had married in order to strip our family of legal control over her. The pieces of this story seemed to be finding me out, rather than the other way around.
+
+{% include feature/aside.html objectid="gae122" %}
 
 With every new voice that I heard, though, the story got messier. There was more to consider: Gaëtane’s mother resented Dot, and their relationship was strained. Gaëtane’s aunt Nell, already a mother of four, was charged with Gaëtane’s care. Gaëtane’s brother Michael struggled increasingly with his own mental health, a concern for everyone who knew him. James Ross, the historian’s proof of our family’s tolerance, was murdered – a lover’s triangle turned violent. Great effort was made by our family to cover up the details to the public, and this would have been fresh in everyone’s memory – it had happened when Gaëtane was thirteen.
 

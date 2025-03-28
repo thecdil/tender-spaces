@@ -38,6 +38,9 @@ Everything is hidden between hills and olive trees, behind the chipped stones of
 
 Inside the heavy wooden door, light trickles through tall, narrow windows. The walls are laced with spiderwebs and dust. Extension cords hang from the ceiling, coming together through hooks, fanning back out into the light fixtures. The steps are each worn into smooth valleys from five hundred years of footfalls – Gaëtane’s small feet, her mother’s. I imagine Michael, who I never met, climbing the stairs to his crowded bedroom, or higher, to the dovecote, now taken over by hornets, their nests lining the eaves, their hum filling the air. Up there, pigeonholes look out over the hills, over the highway to Aramon.  
 
+{% include feature/image-gallery.html objectid="gae119" %}
+
+
 {% include essay/new-section.html  %} 
 
  
