@@ -3,31 +3,39 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="gae123" heading="About" padding="6em" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
 
-## About CollectionBuilder CSV
+## Overview
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+ 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+This is a multimodal essay project on the life of Gaëtane Buttigieg, an artist and acupuncturist who was forcibly institutionalized in 1971\.  This project combines video, photography, and writing to try to examine the pathologization and erasure of queer experiences, the ways that privilege can protect or harm a person, and what happens when family narratives come into conflict with one another.  This essay traces Gaëtane’s childhood in France, her tumultuous school years and the challenges of coming out as a teenager in the late 60’s, and the injuries that she sustained in her institutionalization. 
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+This is an imperfect account; I cannot pretend to know all the parts of this story, which happened long before I was born and is now obscured by trauma and fading memories.  But if anything can be remedied from Gaëtane’s experience, it is by sharing her story.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+ 
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+### Acknowledgements
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+This project would not have been possible without the generous support of the Center for Digital Inquiry and Learning (CDIL), who provided me with the resources and the ongoing support to piece together this narrative into its digital form. 
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+My thanks to Matthew Leingang for his support in filming these interviews.  
+
+And of course, my sincere thanks to Gaëtane, who welcomed me into her home and trusted me with her story.  Family narratives are always ongoing and evolving, and it means everything to me that I am surrounded by family who value one another’s stories, no matter how difficult.
+
+### Credits
+
+**Project Director and Writer:** Alicia Gladman (MFA, English '24)
+
+**Design and Development:** Devin Becker (Co-Director of CDIL)
+
+**Videography:** Matthew Leingang
+
+
+*This project was funded by the University of Idaho Library through the CDIL's Graduate Student Fellowship program.* 
