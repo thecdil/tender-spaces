@@ -25,15 +25,6 @@
                         <li class="nav-item d-none">
                             <a class="nav-link text-light{% if page.url == site.essay[0].url %} active{% endif %}" href="{{ site.essay[0].url | relative_url }}">Read</a>
                         </li>
-                        <li class="nav-item dropdown">  
-                            {%- assign essayStubs = site.essay | map: 'url' -%}
-                            <a class="nav-link text-light dropdown-toggle{% if essayStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Essay</a>
-                            <div class="dropdown-menu dropdown-menu-dark">
-                                {% for e in site.essay %}
-                                <a class="dropdown-item {% if page.url == e.url %}active{% endif %}" href="{{ e.url | relative_url }}">{% if e.chapter %}{{ e.chapter }}. {% endif %}{{ e.title }}</a>
-                                {% endfor %}
-                            </div>
-                        </li>
                         {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
                         {% for nav in navItems %}
                         {% if nav.stub %}
@@ -54,7 +45,7 @@
                         {% endif %}
                         {%- endfor -%}
                     </ul>
-    
+                    <div class="text-center">
                     {% if site.organization-logo-nav %}
                     <div class="mt-5">
                         <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
@@ -62,6 +53,12 @@
                         </a>
                     </div>
                     {% endif %}
+                    <div class="mt-3">
+                        <a href="https://www.lib.uidaho.edu" target="_blank" rel="noopener">
+                            <img id="footer-logo" class="img-fluid sidebar-nav-imag" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png" alt="{{ site.organization-name | escape }} home">
+                        </a>
+                    </div>
+                </div>
                     
                 </div>
             </div>
