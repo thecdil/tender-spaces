@@ -173,6 +173,8 @@ While she was there, she fell in love again.
 
 {% include essay/pull-quote-translation.html lines="1" trans="gae066" font-size="sm" %}
 
+{% include feature/video.html objectid="gae066" subtitles=true translation=true srclang="fr" translang="en" size="lg" %}
+
 {% include essay/new-section.html  %} 
 
 
