@@ -42,25 +42,42 @@
         opacity: 1;
         transform: translate(0, 0) !important;
     }
+    .gradient-fade-out {
+        height: 333px;
+        background-image: linear-gradient(to bottom, #3d7b53, white);
+        position: relative;
+        margin-top: -1px; /* To avoid any gap between sections */
+    }
+    .gradient-fade-in {
+        height: 533px;
+        background-image: linear-gradient(to bottom, white,#3d7b53);
+        position: relative;
+        margin-top: -1px; /* To avoid any gap between sections */
+    }
 </style>
-<div style="background-color: #3d7b53;">
+<div class="bg-english-green">
 <div class="title-container text-white">
     <h1 class="title" style="font-family: 'Libre Bodoni';"><div>Tender</div><div>Spaces</div></h1>
 </div>
-<div class="py-5 my-0" >
+<div class="py-5 my-0 mx-2" >
 
-<h2 class="fst-italic display-4 text-center mb-4 py-3" >by Alicia Gladman</h2>
+<h2 class="fst-italic display-4 text-center mb-4 py-3 text-white" >by Alicia Gladman</h2>
 
-<p class="text-center my-5 fs-5 fst-italic">{{site.description}}
-</p>
+
+    
+
+</div>
+</div>
+<div class="gradient-fade-out">
+    <p class="text-center mb-5 fs-4 fst-italic text-white">{{site.description}}
+    </p>
     <p class="text-center pt-3">
 <a class="text-center p-4 my-5 bg-dark bg-opacity-75" href="https://cdil.lib.uidaho.edu/" title="Center for Digital Inquiry and Learning home" target="_blank" rel="noopener" style="z-index:100">
       <img alt="Center for Digital Inquiry and Learning (CDIL) home" src="https://cdil.lib.uidaho.edu/assets/img/logo.png" style="width:250px;">
   </a>
   </p>
+    </div>
 
-</div>
-</div>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const titleDivs = document.querySelectorAll('.title div');
