@@ -10,11 +10,15 @@
  
       {% include essay/title-sequence.html %}
 
-  <div class="row">
-      {% include feature/homepage-title-image.html header-image="/assets/img/moscow.jpg"%}
-      {% include feature/homepage-title-image.html header-image="/assets/img/mas-lombard.png"%}
-      {% include feature/homepage-title-image.html header-image="/assets/img/mas-st-pierre.png"%}
-      {% include feature/homepage-title-image.html header-image="https://cdil.lib.uidaho.edu/tender-spaces/objects/gae117.png"%}
+  <div class="row my-5 p-3 bg-white">
+
+    <div class="col-md-6">{% include feature/image.html objectid="/assets/img/mas-st-pierre.png"%}
+    </div>
+    <div class="col-md-6">{% include feature/image.html objectid="/assets/img/mas-lombard.png"%}
+</div>
+
+
+
     </div>
       {{ content }}
 
