@@ -6,7 +6,7 @@
   <body class="d-flex flex-column h-100">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
   
-    <main id="maincontent" role="main" class="flex-shrink-0 ">
+    <main id="maincontent" role="main" class="flex-shrink-0">
  
       {% include essay/title-sequence.html %}
 
@@ -14,7 +14,7 @@
       {% include feature/homepage-title-image.html header-image="/assets/img/moscow.jpg"%}
       {% include feature/homepage-title-image.html header-image="/assets/img/mas-lombard.png"%}
       {% include feature/homepage-title-image.html header-image="/assets/img/mas-st-pierre.png"%}
-      {% include feature/homepage-title-image.html header-image="/assets/img/chestnut-lodge.jpg"%}
+      {% include feature/homepage-title-image.html header-image="https://cdil.lib.uidaho.edu/tender-spaces/objects/gae117.png"%}
     </div>
       {{ content }}
 
@@ -22,6 +22,5 @@
     </main>
   
     {% include foot.html %}
-    {% include scroll-to-top.html %}
   </body>
 </html>
