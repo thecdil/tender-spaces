@@ -47,7 +47,7 @@
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
             <iframe title="video embed {{ video_caption | escape }}" src="{{ video_src }}" allowfullscreen></iframe>
             {% else %}
-            <video width="320" height="240" controls preload="metadata">
+            <video width="320" height="240" controls preload="metadata" poster="{{item.image_small}}">
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
                 {% if item.transcript %}
