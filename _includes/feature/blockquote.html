@@ -14,7 +14,7 @@
 {% assign speaker = include.speaker %}
 
 
-<figure class="pt-3 pb-5 text-{% if include.align %}{{ include.align }}{% else %}left{% endif %} {% if include.class %}{{ include.class }}{% endif %}">
+<figure class="{% if include.class %}{{ include.class }} {% endif %}pt-3 {% unless include.bottom %}pb-5{% endunless %} text-{% if include.align %}{{ include.align }}{% else %}left{% endif %}">
     <blockquote class="blockquote {% if include.size == "xl" %}fs-1{% elsif include.size == "lg" %}fs-2{% elsif include.size == "md" %}fs-4{% elsif include.size == "sm" %}fs-5{% else %}fs-3{% endif %}">
         <div class="mb-0 ">{{ include.quote | markdownify }}</div>
     </blockquote>

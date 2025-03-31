@@ -66,8 +66,7 @@ Back in the kitchen, Hélène tucks a chocolate wafer into my backpack, and a le
 
 *Put that in your story,* Gaëtane says, about something else, I don’t remember what.  
    
-{% include feature/blockquote.html quote="*Où partent les mots que je n’ai jamais dits, ceux que je ne trouve pour respirer, pour paraître<br><br> de constitution commune, non lentement imbécile, plate sur une terre mangée de cuillères?*" size="md" class="ms-4 mt-5 border-top" %} 
+{% include feature/blockquote.html quote="*Où partent les mots que je n’ai jamais dits, ceux que je ne trouve pour respirer, pour paraître<br><br> de constitution commune, non lentement imbécile, plate sur une terre mangée de cuillères?*" size="md" class="ms-4 mt-5 border-top pb-0" bottom="no"%} {% include feature/aside.html text="Where do the words I never said go, those I can't find to breathe, to appear <br>of common constitution, not slowly imbecile, flat on a land eaten by spoons?"%}
 
-{% include feature/aside.html text="Where do the words I never said go, those I can't find to breathe, to appear <br>of common constitution, not slowly imbecile, flat on a land eaten by spoons?"%}
-
+<br><br>
 {% include feature/image-gallery.html objectid="gae121" %}
