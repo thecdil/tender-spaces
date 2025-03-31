@@ -37,5 +37,28 @@ And of course, my sincere thanks to Gaëtane, who welcomed me into her home and 
 
 **Videography:** Matthew Leingang
 
+**Illustration:** Corey Oglesby
+
+**Cover Page and Header Images:**
+
+The photograph used for the Chestnut Lodge header is by Jacqueline Quinn LaRocca. More information on Jacqueline and her art can be found [on her website](https://jacquelinelarocca.com/). 
+
+{% include feature/image.html objectid="/assets/img/chestnut_lodge_sm.jpg" width="25"%}
+
+Illustrations for the homepage and the  Mas Lombard and Mas St. Pierre sections are by poet, musician and artist, Corey Oglesby:
+
+{% include feature/image.html objectid="/assets/img/mas-lombard.png;/assets/img/image005.png" width="25"%}
+
+The header image for the Moscow section is a digitally altered version of [this postcard](https://www.lib.uidaho.edu/digital/postcards/items/nwpostcards1557.html).
+
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/postcards/small/pg_9_16_02a_sm.jpg" width="25"%}
+
+
+
+
+
+
+
+### Funding
 
 *This project was funded by the University of Idaho Library through the CDIL's Graduate Student Fellowship program.* 
