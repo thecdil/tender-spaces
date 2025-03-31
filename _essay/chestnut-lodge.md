@@ -61,6 +61,11 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 
 {% include essay/new-section.html %}
 
+{% include feature/image-gallery.html objectid="gae117" %}
+
+
+{% include essay/new-section.html %}
+
 {% include feature/video.html objectid="gae053" subtitles=true translation=true srclang="fr" translang="en" %}
 
 {% include essay/pull-quote-translation.html trans="gae053" lines="1-5" font-size="sm" %}
