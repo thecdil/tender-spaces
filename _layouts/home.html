@@ -1,15 +1,34 @@
 ---
-layout: home-default
+layout: default
 ---
 
-<div class="row mt-4">
-        <div class="col-md-8 text-left px-5 ms-md-5">
-          {% include feature/blockquote.html quote="*I loved the tender spaces, the English greens of emerald and silence, your smell, you illuminated the air from which I defend myself*" speaker="Gaëtane Buttigieg" size="xl" %}
-        </div>
-        <div class="text-end col-md-3" id="next-section-button">
-          <a class="fs-2 btn btn-outline-success next-button  mt-5 text-end" href="{{ '/essay/moscow.html' | relative_url }}">Read &raquo;</a><br><br>
-          <a class="fs-5 btn btn-outline-dark next-button mb-5" href="{{ '/about.html' | relative_url }}">About the project &raquo;</a>
-      </div>
+<div class="container-fluid m-0 p-0">
+
+
+{% include essay/title-sequence.html %}
+
+<div class="row mb-5 pb-3 mx-0 px-0 bg-white">
+
+  <div class="col-md-5 offset-md-1">{% include feature/image.html objectid="/assets/img/mas-st-pierre.png"%}
   </div>
-  <div class="gradient-fade-in"></div>
+  <div class="col-md-6">{% include feature/image.html objectid="/assets/img/mas-lombard.png"%}
+  </div>
+
+
+
+</div>
+
+<div class="row mt-4 mx-0">
+  <div class="col-md-8 ps-md-5 ms-md-5 text-left">
+    {% include feature/blockquote.html quote="*I loved the tender spaces, the English greens of emerald and silence,
+    your smell, you illuminated the air from which I defend myself*" speaker="Gaëtane Buttigieg" size="xl" %}
+  </div>
+  <div class="text-end col-md-3 pe-3">
+    <a class="fs-2 btn btn-outline-success next-button   mt-5 text-end"
+      href="{{ '/essay/moscow.html' | relative_url }}">Read &raquo;</a><br><br>
+    <a class="fs-5 btn btn-outline-dark next-button mb-5" href="{{ '/about.html' | relative_url }}">About the project
+      &raquo;</a>
+  </div>
+</div>
+<div class="gradient-fade-in"></div>
 </div>

@@ -44,3 +44,62 @@ video::cue {
 .bg-success{
     background-color: #3d7b53 !important;
 }
+
+.title-container {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: visible;
+        @media screen and (max-width: 768px) {
+            height: 67vh;
+            
+        }
+    }
+    
+    .title {
+        font-size: 13em;
+        @media screen and (max-width: 1200px) {
+            font-size: 10em; 
+            
+        }
+        @media screen and (max-width: 768px) {
+            font-size: 5.5em; 
+            
+        }
+        @media screen and (max-width: 528px) {
+            font-size: 4.5em; 
+            
+        }
+        opacity: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-style: italic;
+        line-height: .8em;
+    }
+    
+    .letter {
+        display: inline-block;
+        transform: translate(0, 0);
+        opacity: 0;
+        transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .letter.animate {
+        opacity: 1;
+        transform: translate(0, 0) !important;
+    }
+    .gradient-fade-out {
+        height: 333px;
+        background-image: linear-gradient(to bottom, #3d7b53, white);
+        position: relative;
+        margin-top: -1px; /* To avoid any gap between sections */
+    }
+    .gradient-fade-in {
+        height: 133px;
+        background-image: linear-gradient(to bottom, white,#3d7b53);
+        position: relative;
+        margin-top: -1px; /* To avoid any gap between sections */
+    }
