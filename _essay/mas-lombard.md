@@ -28,9 +28,9 @@ custom-foot: essay/essay-scroll-js.html
     
 {% include essay/new-section.html %} 
 
-{% include feature/video.html objectid="gae109" subtitles=true srclang="en" %}
+{% include feature/video.html objectid="gae109" subtitles=true  srclang="en" %}
 
-{% include feature/video.html objectid="gae056" subtitles=true translation=true srclang="fr" translang="en" %}
+
 
 {% include essay/new-section.html background-color="white" %} 
 

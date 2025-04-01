@@ -90,6 +90,6 @@ The exchange stands out to me. It betrays Gaëtane’s uncertainty and Dot’s a
 I can’t know, but I continue to reinvent it, each time I read it.  I want to wield it as proof, of both the effort and the discord, which are both worth our consideration.  Maybe I include this excerpt to say to my family: our shortcomings belong in this story – and they will not make me love you any less.
 
 
-{% include feature/video.html objectid="https://cdil.lib.uidaho.edu/tender-spaces/objects/videos/IntroVidFinal2.mp4"  %}
+{% include feature/video.html objectid="https://cdil.lib.uidaho.edu/tender-spaces/objects/videos/IntroVidFinal2.mp4"  poster="https://cdil.lib.uidaho.edu/tender-spaces/objects/introvid2.jpg"%}
 
 
