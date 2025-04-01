@@ -53,11 +53,12 @@ Years later, I worked for an outreach team supporting queer youth. Our clients h
 
 {% include essay/new-section.html  additional-content-styles="text-justify" %}
 
-The subject building, facing north on West Montgomery Avenue, is the original structure and the main building of an 88-acre medical complex. Built as a summer resort hotel, the original site was approximately eight acres. The building is screened by approximately three acres of front lawn landscaped with shrubbery and mature trees, including some of remarkable size.  
 
-​​Chestnut Lodge shows traits common to high-style Second Empire structures: symmetry, central facade towers, mansard roof, wrought iron cresting, windows and doors emphasized by pedimented and architraved entablatures, as well as the pattern variations in its slate roofing and brickwork, turned columns, and incised decoration shared with Eastlake-influenced Queen Anne structures of the time. {% include feature/aside.html objectid="gae107" %}
+{% include feature/blockquote.html%}
 
-- Montgomery County Archives 
+{% include feature/blockquote.html quote="The subject building, facing north on West Montgomery Avenue, is the original structure and the main building of an 88-acre medical complex. Built as a summer resort hotel, the original site was approximately eight acres. The building is screened by approximately three acres of front lawn landscaped with shrubbery and mature trees, including some of remarkable size.
+<br><br>​​Chestnut Lodge shows traits common to high-style Second Empire structures: symmetry, central facade towers, mansard roof, wrought iron cresting, windows and doors emphasized by pedimented and architraved entablatures, as well as the pattern variations in its slate roofing and brickwork, turned columns, and incised decoration shared with Eastlake-influenced Queen Anne structures of the time. " source="Montgomery County Archives" size="sm" %}
+ 
 
 {% include essay/new-section.html %}
 
@@ -85,7 +86,7 @@ The subject building, facing north on West Montgomery Avenue, is the original st
 *But she had access to a phone and the patients there couldn't make long-distance calls but she could call me collect, and she called me collect one evening. The hospital had told her that if she tried to discharge herself they’d commit her. That she wasn’t cured, she wasn’t ready for release.*
 {% endcapture %}
 
-{% include feature/blockquote.html quote=pratchett speaker="Peter Pratchett" source="Interview (2: 17:15-18:02)" source-link="/items/gae110" %} 
+{% include feature/blockquote.html quote=pratchett speaker="Peter Pratchett" source="Interview (2: 17:15-18:02)" source-link="/items/gae110.html" %} 
 
 
 
@@ -114,7 +115,7 @@ In 1952, the first Diagnostic and Statistical Manual of Mental Disorders (DSM) w
 
 {% include essay/new-section.html %}
 
-{% include feature/blockquote.html quote="*Common forms of malpractice include failure to obtain informed consent, breach of confidentiality, abandonment, improper or negligent diagnosis, negligent use of somatic therapy, physical contact and sexual relations with patients, and negligent supervision or referral.*" source="Malpractice Arising From Negligent Psychotherapy: Ethical, Legal, and Clinical Implications of Osheroff v. Chestnut Lodge" source-link="/items/gae111" %}
+{% include feature/blockquote.html quote="*Common forms of malpractice include failure to obtain informed consent, breach of confidentiality, abandonment, improper or negligent diagnosis, negligent use of somatic therapy, physical contact and sexual relations with patients, and negligent supervision or referral.*" source="Malpractice Arising From Negligent Psychotherapy: Ethical, Legal, and Clinical Implications of Osheroff v. Chestnut Lodge" source-link="/items/gae111.html" %}
 
 
 
@@ -129,7 +130,7 @@ In 1952, the first Diagnostic and Statistical Manual of Mental Disorders (DSM) w
 
 Dr. Ray Osheroff was treated for depression at Chestnut Lodge for a year, before being transferred to another facility that supported the use of antidepressants, the use of which marked a distinct improvement in Osheroff’s mental health.  
 
-In an article for *The Guardian*, Rachel Aviv describes his circumstances: “After half a year, Ray’s mother visited him at the Lodge and was alarmed by his deterioration. His hair had grown to his shoulders. He was using the belt of his bathrobe to hold up his trousers, because he had lost 18kg (almost three stone). Ray had once been a prodigious reader, but he had completely stopped. He was also a musician, and, although he had packed sheets of music in the suitcase he brought to the Lodge, he almost never looked at the pages. When a nurse called him Dr Osheroff, he corrected her: “*Mr* Osheroff.”  
+In an <a href="https://www.theguardian.com/society/2022/oct/11/psychiatry-wars-psychoanalysis-antidepressants-rachel-aviv" target="_blank">article for <em>The Guardian</em></a>, Rachel Aviv describes his circumstances: “After half a year, Ray’s mother visited him at the Lodge and was alarmed by his deterioration. His hair had grown to his shoulders. He was using the belt of his bathrobe to hold up his trousers, because he had lost 18kg (almost three stone). Ray had once been a prodigious reader, but he had completely stopped. He was also a musician, and, although he had packed sheets of music in the suitcase he brought to the Lodge, he almost never looked at the pages. When a nurse called him Dr Osheroff, he corrected her: “*Mr* Osheroff.”  
 
 Many years later, Osheroff sued (and settled with) Chestnut Lodge for negligence and malpractice. His argument was that the Lodge denied him known medical treatments for depression, opting instead to teach patients that their happiness was a matter of willpower and responsibility. Osheroff had been emboldened by the writing of Gerald Klerman. Aviv writes: “Klerman had written disparagingly of what he called “pharmacological Calvinism” – the belief that “if a drug makes you feel good, it’s either somehow morally wrong, or you’re going to pay for it with dependence, liver damage, chromosomal change, or some other form of secular theological retribution”.  
 
@@ -138,7 +139,7 @@ During his treatment at Chestnut Lodge, Osheroff asked his doctor how he might g
 
 {% include essay/new-section.html font-size="4" %}
 
-{% include feature/blockquote.html quote="The adolescent units were deliberately constructed at a remove from the “adult hospital.” Liat’s description of the “ghoulish moans” coming from the sickest adult patients made me more aware of how terrifying it must have been for the adolescents at the Lodge, worried they might end up as chronic inpatients." source="Chestnut Lodge: An Unreal Place" source-link="gae112" %}
+{% include feature/blockquote.html quote="The adolescent units were deliberately constructed at a remove from the “adult hospital.” Liat’s description of the “ghoulish moans” coming from the sickest adult patients made me more aware of how terrifying it must have been for the adolescents at the Lodge, worried they might end up as chronic inpatients." source="Chestnut Lodge: An Unreal Place" source-link="/items/gae112.html" %}
 
 
 {% include essay/new-section.html font-size="3"%}

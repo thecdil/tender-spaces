@@ -23,7 +23,7 @@ custom-foot: essay/essay-scroll-js.html
 
 {% include essay/new-section.html %}
 
-My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncles. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
+My phone rang, as I drove home through the low hills of the Hoodoo Mountain Range. Route 95 passed through the Coeur D’Alene reservation, and I had stopped in Plummer for cheap gas and a pee. I knew I was about to lose reception, but I had been waiting to hear from this man for some time, although I hadn’t been persistent in reaching out. He was a historian, a friend of my uncle's. I had contacted him in hopes that he could answer some questions about Dot, my great-grandmother, and her hospice work in Montreal.
 
 Dot’s work was a footnote, a wormhole I had gone down while writing this larger essay. I came across the word “incurable” in the name of the home where she worked. {% include feature/aside.html objectid="gae114" %} I got stuck on it, this permanent diagnosis, a term that may or may not have affected her philosophy of care. But this wasn’t the primary focus of my essay. I had begun to worry that adding another voice to the cacophony of narratives I had collected would only obscure the story I was trying to tell.
 
@@ -35,7 +35,7 @@ It was half an hour before he asked me what had led me to his research. I told h
 
 I didn’t know this man, and I made an effort to sound measured in my speculations. While there are no medical records to be found, I trust Gaëtane’s word, and letters from the time prove, at least, that she was a source of uneasiness for her otherwise decisive family. I told him: There is no knowing the labyrinth of emotion, of rationalization, that would have influenced their choice to institutionalize her. Here was a teenage girl who fell in love with women, who shaved her head and refused to wear shoes, who set animals free from their paddocks and cages. Here was a child that they couldn’t recognize, I told him. Not within the narrow frameworks of the Drummond family name – she wasn’t a dedicated student, or a glib socialite, or a public servant. She was a problem.
 
-The man on the phone hemmed and hawed. But this was the late sixties, he told me. Times were changing. He asked: Do you know about Guy Drummond? About James Ross? These men, both gay, were accepted by your family. The Drummond’s wouldn’t do that to a child. He said: they had a moral compass; they wanted to make the world better.
+The man on the phone hemmed and hawed. But this was the late sixties, he told me. Times were changing. He asked: Do you know about Guy Drummond? About James Ross? These men, both gay, were accepted by your family. The Drummonds wouldn’t do that to a child. He said: they had a moral compass; they wanted to make the world better.
 
 I’m not building a case that they were about to burn her at the stake, I told him, I’m saying they couldn’t face her, couldn’t stop trying to fix her. But he dug his heels in. No, no, I just can’t see it, he told me.
 
@@ -88,4 +88,8 @@ When I found Dot’s shoebox full of letters, most of the pages had been written
 The exchange stands out to me. It betrays Gaëtane’s uncertainty and Dot’s affection, although I don't know what language she ultimately chose in her response. Any number of things could be inferred from it, or maybe nothing should be. Gaëtane, married then, could have feared reaching the breaking point of Dot’s love.  Just as likely, she could have wanted Dot to invite her home, to express that she was wanted after she had been sent away so many times. Dot could have drafted two letters, maybe more, for fear of saying the wrong thing, pushing Gaëtane away again. 
 
 I can’t know, but I continue to reinvent it, each time I read it.  I want to wield it as proof, of both the effort and the discord, which are both worth our consideration.  Maybe I include this excerpt to say to my family: our shortcomings belong in this story – and they will not make me love you any less.
+
+
+{% include feature/video.html objectid="https://cdil.lib.uidaho.edu/tender-spaces/objects/videos/IntroVidFinal2.mp4"  %}
+
 

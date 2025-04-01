@@ -28,7 +28,9 @@ custom-foot: essay/essay-scroll-js.html
     
 {% include essay/new-section.html %} 
 
-{% include feature/video.html objectid="gae109" width="100" size="lg" %}
+{% include feature/video.html objectid="gae109" subtitles=true srclang="en" %}
+
+{% include feature/video.html objectid="gae056" subtitles=true translation=true srclang="fr" translang="en" %}
 
 {% include essay/new-section.html background-color="white" %} 
 
@@ -104,7 +106,7 @@ Later, I read a poem that Gaëtane wrote about Nell:
 {:.mt-1 .ms-4}
 *Tu me parles de responsabilité, de choses étonnantes et adultes et je voudrai t’entendre. Je ne cherche que le son de tes mots, non le sens et ne sais pas pourquoi.*  
 
-Your voice touches me, I invent reasons to speak to you, she writes. I look only for the sound in your words, not the sense and know not why.  
+"Your voice touches me, I invent reasons to speak to you," she writes. "I look only for the sound in your words, not the sense and know not why."  
 
 I think again about the way my sibling and I wanted to be close to Gaëtane and Hélène. Our interest was theoretical, but magnetic. I wondered if Gaëtane’s love for Nell felt like that, like seeing a possible future in someone else. I wondered if Nell could have been queer \- did she consider its possibility, during her solitude in the years that I knew her? \- or if Gaëtane had attached herself to her because she saw that she, too, was some kind of outsider at heart.  
 
