@@ -28,7 +28,7 @@ custom-foot: essay/essay-scroll-js.html
     
 {% include essay/new-section.html %} 
 
-{% include feature/video.html objectid="gae109" subtitles=true  srclang="en" %}
+{% include feature/video.html objectid="gae109" subtitles=false  srclang="en" %}
 
 
 

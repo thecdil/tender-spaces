@@ -9,8 +9,8 @@
         <source src="{{ page.object_location | relative_url }}">
         Your browser does not support the video tag. Please <a href="{{ page.object_location | relative_url }}">download the video file</a>.
         {% if page.transcript %}
-        <track label="{%if page.transcript contains "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{page.transcript }}" src="{{ '/assets/captions/' | append: page.objectid | append: '.vtt' }}" />{% endif %}
+        <track label="{%if page.transcript == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{page.transcript }}" src="{{ '/assets/captions/' | append: page.objectid | append: '.vtt' | relative_url }}" />{% endif %}
         {% if page.translation %}
-        <track label="English" kind="subtitles" srclang="{{page.translation }}" src="{{ '/assets/captions/' | append: page.objectid | append: '-en.vtt' }}" default />{% endif %}
+        <track label="English" kind="subtitles" srclang="{{ page.translation }}" src="{{ '/assets/captions/' | append: page.objectid | append: '-en.vtt' | relative_url }}" default />{% endif %}
     </video>
 </div>

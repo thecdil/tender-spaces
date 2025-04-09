@@ -53,7 +53,7 @@
                 {% if item.transcript %}
                 <track label="{%if item.transcript == "fr" %}French{% else %}English{% endif %}" kind="subtitles" srclang="{{item.transcript }}" src="{{ '/assets/captions/' | append: include.objectid | append: '.vtt' | relative_url }}" />{% endif %}
                 {% if item.translation %}
-                <track label="English" kind="subtitles" srclang="{{ item.translation }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' | relative_url }}" default />{% endif %}
+                <track label="English" kind="subtitles" srclang="{{ item.translation }}" src="{{ '/assets/captions/' | append: include.objectid | append: '-en.vtt' | relative_url }}" {% unless include.subtitles == false %}default{% endunless %} />{% endif %}
             </video>
             {%- endif -%}
         </div>
