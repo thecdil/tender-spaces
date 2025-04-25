@@ -34,4 +34,4 @@
 {%- endif -%}
 {% if site.noindex == true or page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex" />{% endif %}
 <!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
-<script src="/assets/js/scrollama.js"></script>
+<script src="{{ '/assets/lib/scrollama.js' | relative_url }}"></script>
