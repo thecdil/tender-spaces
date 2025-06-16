@@ -54,7 +54,6 @@ Years later, I worked for an outreach team supporting queer youth. Our clients h
 {% include essay/new-section.html  additional-content-styles="text-justify" %}
 
 
-{% include feature/blockquote.html%}
 
 {% include feature/blockquote.html quote="The subject building, facing north on West Montgomery Avenue, is the original structure and the main building of an 88-acre medical complex. Built as a summer resort hotel, the original site was approximately eight acres. The building is screened by approximately three acres of front lawn landscaped with shrubbery and mature trees, including some of remarkable size.
 <br><br>​​Chestnut Lodge shows traits common to high-style Second Empire structures: symmetry, central facade towers, mansard roof, wrought iron cresting, windows and doors emphasized by pedimented and architraved entablatures, as well as the pattern variations in its slate roofing and brickwork, turned columns, and incised decoration shared with Eastlake-influenced Queen Anne structures of the time. " source="Montgomery County Archives" size="sm" %}

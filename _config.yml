@@ -78,22 +78,13 @@ collections:
   essay:
     sort_by: order
     output: true
-  gay-gardens:
-    sort_by: order
-    output: true
+
 
 defaults:
   - 
     scope: 
       path: "" 
       type: "essay"
-    values:
-      layout: "essay-content"
-      permalink: /essay/:slug:output_ext
-  - 
-    scope: 
-      path: "" 
-      type: "gay-gardens"
     values:
       layout: "essay-content"
       permalink: /essay/:slug:output_ext
